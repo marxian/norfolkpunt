@@ -3264,7 +3264,7 @@ eslint-config-react@1.1.7:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/eslint-config-react/-/eslint-config-react-1.1.7.tgz#a0918d0fc47d0e9bd161a47308021da85d2585b3"
 
-eslint-plugin-react@^7.11.1:
+eslint-plugin-react@7.11.1:
   version "7.11.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.11.1.tgz#c01a7af6f17519457d6116aa94fc6d2ccad5443c"
   dependencies:
@@ -4231,9 +4231,9 @@ gatsby-transformer-yaml@1.5.18:
     lodash "^4.17.4"
     unist-util-select "^1.5.0"
 
-gatsby@1.9.277:
-  version "1.9.277"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.277.tgz#d2f5a6206fc66ed46fcf57985d4b1e2b491e9559"
+gatsby@1.9.279:
+  version "1.9.279"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.279.tgz#e035bcac78b8280e12d42a3d068af4dcda5fcfd6"
   dependencies:
     async "^2.1.2"
     babel-code-frame "^6.22.0"
