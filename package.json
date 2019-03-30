@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "babel-eslint": "9.0.0",
-    "eslint": "5.5.0",
+    "eslint": "5.16.0",
     "eslint-config-react": "1.1.7",
     "eslint-plugin-react": "7.11.1",
     "gh-pages": "1.2.0",
