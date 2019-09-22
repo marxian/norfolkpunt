@@ -20,7 +20,7 @@
     "gatsby-transformer-yaml": "2.2.4",
     "grid-styled": "5.0.2",
     "js-yaml": "3.13.1",
-    "luxon": "1.17.2",
+    "luxon": "1.19.2",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "react-helmet": "5.2.1",
