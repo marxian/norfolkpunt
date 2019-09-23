@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Rupert Redington <rupert@neontribe.co.uk>",
   "dependencies": {
-    "@mdx-js/loader": "1.4.5",
+    "@mdx-js/loader": "1.5.0",
     "@next/mdx": "9.0.5",
     "gatsby-image": "2.2.18",
     "glob": "7.1.4",
