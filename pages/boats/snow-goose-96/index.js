@@ -3,6 +3,4 @@ import PuntDetails from '../../../components/PuntDetails'
 
 import punt from './details.json'
 
-export default () => (
-  <PuntDetails name={punt.name} sailNumber={punt.sailNumber} />
-)
+export default () => <PuntDetails {...punt} />
