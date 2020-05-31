@@ -6615,10 +6615,10 @@ next-fonts@1.0.3:
     file-loader "^2.0.0"
     url-loader "^1.1.1"
 
-next-optimized-images@2.5.5:
-  version "2.5.5"
-  resolved "https://registry.yarnpkg.com/next-optimized-images/-/next-optimized-images-2.5.5.tgz#b37d35b4f4fdd211192c9ca8d71480ee72909d7d"
-  integrity sha512-bmSBsAcc0E+TuYF/72tO7pT0zHbMMPHt/OcmoOWa7vPNZv/rwj5YZeUlok+Ux1BnGINRWPgZKHxNiix+ZSKg7A==
+next-optimized-images@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/next-optimized-images/-/next-optimized-images-2.6.1.tgz#a9cd1be937ccc2ddd69c9415f37021205f7caa20"
+  integrity sha512-P+vDuXUv9yasf8vVXoJthmSRsV1jhTxZ5mlm9Ga+iVLuM7TwwwttIGbvFBYTm7H9AulukqyI5yuA9wOFytapgw==
   dependencies:
     chalk "^2.4.2"
     figures "^3.0.0"
