@@ -15,6 +15,6 @@ owners:
     owner: "Richard Parker"
 sailNumber: 82
 yearBuilt: 1991
-coverImage: "https://res.cloudinary.com/norfolkpunt/image/upload/v1591888209/merlin-82.jpg"
+coverImage: "merlin-82.jpg"
 
 ---

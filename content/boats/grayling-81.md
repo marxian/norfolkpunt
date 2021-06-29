@@ -18,6 +18,6 @@ owners:
     owner: "Colin McDougall"
 sailNumber: 81
 yearBuilt: 1991
-coverImage: "https://res.cloudinary.com/norfolkpunt/image/upload/v1591888209/grayling-81.jpg"
+coverImage: "grayling-81.jpg"
 
 ---
