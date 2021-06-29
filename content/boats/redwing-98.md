@@ -15,6 +15,6 @@ owners:
     owner: "Arthur Thaine"
 sailNumber: 98
 yearBuilt: 2004
-coverImage: "https://res.cloudinary.com/norfolkpunt/image/upload/v1591888209/redwing-98.jpg"
+coverImage: "redwing-98.jpg"
 
 ---
