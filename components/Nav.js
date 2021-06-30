@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-export default () => (
+const Nav = () => (
   <nav className="bg-black-90 w-100 pa1 flex flex-column flex-row-l">
     <div className="tc w-50-l">
       <Link href="/">
@@ -28,3 +28,5 @@ export default () => (
     </div>
   </nav>
 )
+
+export default Nav

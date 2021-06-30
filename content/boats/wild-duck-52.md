@@ -42,6 +42,6 @@ owners:
     owner: "Dr D Vaughn"
 sailNumber: 52
 yearBuilt: 1961
-coverImage: "https://res.cloudinary.com/norfolkpunt/image/upload/v1591888209/wild-duck-52.jpg"
+coverImage: "wild-duck-52.jpg"
 
 ---

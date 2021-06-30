@@ -1,20 +1,19 @@
 import React, { useState } from 'react'
 import Lightbox from 'react-image-lightbox'
-import Image from '../../components/Image'
-import images from '../../images'
+import Image from 'next/image'
+
+import { getPage } from '../../content/fetchers'
 
 const chunk = (arr, size) =>
   Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
     arr.slice(i * size, i * size + size)
   )
 
-export default () => {
+const Pictures = (images) => {
   let [isOpen, setOpen] = useState(false)
   let [photoIndex, setPhotoIndex] = useState(0)
-  const imgs = Object.values(images)
-  const cs = Math.round(imgs.length / 3)
-  const chunks = chunk(imgs, cs)
-  const getIndex = (main) => imgs.findIndex((img) => img.main === main)
+  const cs = Math.round(images.length / 3)
+  const chunks = chunk(images, cs)
 
   return (
     <>
@@ -22,66 +21,81 @@ export default () => {
         <div className="fl w-50 w-third-ns">
           {chunks[0].map((img) => (
             <a
-              href={img.main}
+              href={img}
               className="db w-100"
-              key={img.main}
+              key={img}
               onClick={(e) => {
                 e.preventDefault()
-                setPhotoIndex(getIndex(img.main))
+                setPhotoIndex(images.indexOf(img))
                 setOpen(true)
               }}
             >
-              <Image data={img} />
+              <Image src={img} />
             </a>
           ))}
         </div>
         <div className="fl w-50 w-third-ns">
           {chunks[1].map((img) => (
             <a
-              href={img.main}
+              href={img}
               className="db w-100"
-              key={img.main}
+              key={img}
               onClick={(e) => {
                 e.preventDefault()
-                setPhotoIndex(getIndex(img.main))
+                setPhotoIndex(images.indexOf(img))
                 setOpen(true)
               }}
             >
-              <Image data={img} />
+              <Image src={img} />
             </a>
           ))}
         </div>
         <div className="fl w-50 w-third-ns">
           {chunks[2].map((img) => (
             <a
-              href={img.main}
+              href={img}
               className="db w-100"
-              key={img.main}
+              key={img}
               onClick={(e) => {
                 e.preventDefault()
-                setPhotoIndex(getIndex(img.main))
+                setPhotoIndex(images.indexOf(img))
                 setOpen(true)
               }}
             >
-              <Image data={img} />
+              <Image src={img} />
             </a>
           ))}
         </div>
       </div>
       {isOpen && (
         <Lightbox
-          mainSrc={imgs[photoIndex].main}
-          nextSrc={imgs[(photoIndex + 1) % imgs.length].main}
-          prevSrc={imgs[(photoIndex + imgs.length - 1) % imgs.length].main}
+          mainSrc={images[photoIndex]}
+          nextSrc={images[(photoIndex + 1) % images.length]}
+          prevSrc={images[(photoIndex + images.length - 1) % images.length]}
           onCloseRequest={() => setOpen(false)}
           onMovePrevRequest={() =>
-            setPhotoIndex((photoIndex + imgs.length - 1) % imgs.length)
+            setPhotoIndex((photoIndex + images.length - 1) % images.length)
           }
           onMoveNextRequest={() =>
-            setPhotoIndex((photoIndex + 1) % imgs.length)
+            setPhotoIndex((photoIndex + 1) % images.length)
           }
         />
       )}
     </>
   )
+}
+
+export default Pictures
+
+export async function getStaticProps({ params }) {
+  const page = getPage('pictures')
+  console.log(page)
+
+  const images = page.data.pictures.map((p) => require(`../../${p}`))
+
+  return {
+    props: {
+      images,
+    },
+  }
 }
