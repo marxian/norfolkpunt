@@ -10,7 +10,7 @@ const PuntCard = ({ punt, className, slug }) => {
   }
   return (
     <div className={`${className} bg-black-90 white tc grow`}>
-      <Link href={`/punts/${slug}`}>
+      <Link href={`/boats/${slug}`}>
         <a className="db link dim tc">
           {coverImage ? (
             <Image src={coverImage} placeholder="blur" alt={punt.name} />

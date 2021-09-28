@@ -9,11 +9,11 @@ const chunk = (arr, size) =>
     arr.slice(i * size, i * size + size)
   )
 
-const Pictures = (images) => {
+const Pictures = ({ pictures }) => {
   let [isOpen, setOpen] = useState(false)
   let [photoIndex, setPhotoIndex] = useState(0)
-  const cs = Math.round(images.length / 3)
-  const chunks = chunk(images, cs)
+  const cs = Math.round(pictures.length / 3)
+  const chunks = chunk(pictures, cs)
 
   return (
     <>
@@ -26,11 +26,11 @@ const Pictures = (images) => {
               key={img}
               onClick={(e) => {
                 e.preventDefault()
-                setPhotoIndex(images.indexOf(img))
+                setPhotoIndex(pictures.indexOf(img))
                 setOpen(true)
               }}
             >
-              <Image src={img} />
+              <Image src={img} width="200" height="200" />
             </a>
           ))}
         </div>
@@ -42,11 +42,11 @@ const Pictures = (images) => {
               key={img}
               onClick={(e) => {
                 e.preventDefault()
-                setPhotoIndex(images.indexOf(img))
+                setPhotoIndex(pictures.indexOf(img))
                 setOpen(true)
               }}
             >
-              <Image src={img} />
+              <Image src={img} width="200" height="200" />
             </a>
           ))}
         </div>
@@ -58,26 +58,28 @@ const Pictures = (images) => {
               key={img}
               onClick={(e) => {
                 e.preventDefault()
-                setPhotoIndex(images.indexOf(img))
+                setPhotoIndex(pictures.indexOf(img))
                 setOpen(true)
               }}
             >
-              <Image src={img} />
+              <Image src={img} width="200" height="200" />
             </a>
           ))}
         </div>
       </div>
       {isOpen && (
         <Lightbox
-          mainSrc={images[photoIndex]}
-          nextSrc={images[(photoIndex + 1) % images.length]}
-          prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+          mainSrc={pictures[photoIndex]}
+          nextSrc={pictures[(photoIndex + 1) % pictures.length]}
+          prevSrc={
+            pictures[(photoIndex + pictures.length - 1) % pictures.length]
+          }
           onCloseRequest={() => setOpen(false)}
           onMovePrevRequest={() =>
-            setPhotoIndex((photoIndex + images.length - 1) % images.length)
+            setPhotoIndex((photoIndex + pictures.length - 1) % pictures.length)
           }
           onMoveNextRequest={() =>
-            setPhotoIndex((photoIndex + 1) % images.length)
+            setPhotoIndex((photoIndex + 1) % pictures.length)
           }
         />
       )}
@@ -89,13 +91,12 @@ export default Pictures
 
 export async function getStaticProps({ params }) {
   const page = getPage('pictures')
-  console.log(page)
 
-  const images = page.data.pictures.map((p) => require(`../../${p}`))
+  const pictures = page.data.pictures
 
   return {
     props: {
-      images,
+      pictures,
     },
   }
 }

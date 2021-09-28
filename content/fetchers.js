@@ -2,7 +2,7 @@ import fs from 'fs'
 import { join } from 'path'
 import matter from 'gray-matter'
 
-import remark from 'remark'
+import { remark } from 'remark'
 import html from 'remark-html'
 
 export async function markdownToHtml(markdown) {
@@ -34,7 +34,7 @@ export function getBoats() {
   }))
 }
 
-const pagesDirectory = join(process.cwd(), 'content')
+const pagesDirectory = join(process.cwd(), 'content', 'pages')
 
 export function getPage(name) {
   const fullPath = join(pagesDirectory, `${name}.md`)
