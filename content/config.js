@@ -1,4 +1,4 @@
-export default {
+const config = {
   cms_manual_init: true,
   backend: {
     name: 'github',
@@ -17,8 +17,8 @@ export default {
   local_backend: true,
   site_url: 'https://www.norfolkpunt.org',
   logo_url: 'https://www.norfolkpunt.org/logo.png',
-  media_folder: 'images',
-  public_folder: 'images',
+  media_folder: '/public/images',
+  public_folder: '/public/images',
   collections: [
     {
       name: 'pages',
@@ -27,7 +27,7 @@ export default {
         {
           label: 'Pictures',
           name: 'pictures',
-          file: 'content/pictures.md',
+          file: 'content/pages/pictures.md',
           fields: [
             {
               label: 'Pictures',
@@ -47,7 +47,7 @@ export default {
       label: 'Boats',
       label_singular: 'Boat',
       folder: 'content/boats',
-      preview_path: 'punts/{{slug}}',
+      preview_path: 'boats/{{slug}}',
       create: true,
       preview: false,
       slug: '{{name}}-{{fields.sailNumber}',
@@ -137,3 +137,5 @@ export default {
     },
   ],
 }
+
+export default config
