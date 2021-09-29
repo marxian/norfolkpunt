@@ -1,5 +1,7 @@
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import { ColorModeScript } from '@chakra-ui/react'
+import theme from '../theme'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -10,13 +12,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en-GB">
-        <Head>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Vollkorn&display=optional"
-            rel="stylesheet"
-          />
-        </Head>
+        <Head />
         <body>
+          <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           <Main />
           <NextScript />
         </body>

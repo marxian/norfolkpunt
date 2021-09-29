@@ -4,10 +4,14 @@
   "version": "1.0.0",
   "author": "Rupert Redington <rupert@neontribe.co.uk>",
   "dependencies": {
+    "@chakra-ui/react": "1.6.8",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@fontsource/vollkorn": "4.5.0",
+    "framer-motion": "^4",
     "glob": "7.2.0",
     "gray-matter": "4.0.3",
-    "image-size": "1.0.0",
-    "netlify-cms-app": "2.15.44",
+    "netlify-cms-app": "2.15.45",
     "netlify-cms-oauth-provider-node": "2.0.0",
     "next": "11.1.2",
     "react": "17",
@@ -15,8 +19,7 @@
     "react-image-lightbox": "5.1.4",
     "remark": "14.0.1",
     "remark-html": "14.0.1",
-    "responsive-loader": "2.3.0",
-    "tachyons": "4.12.0"
+    "responsive-loader": "2.3.0"
   },
   "keywords": [
     "Norfolk Punt"
