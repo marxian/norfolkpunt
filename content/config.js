@@ -1,5 +1,6 @@
 const config = {
   cms_manual_init: true,
+  load_config_file: false,
   backend: {
     name: 'github',
     repo: 'marxian/norfolkpunt',
@@ -17,8 +18,8 @@ const config = {
   local_backend: true,
   site_url: 'https://www.norfolkpunt.org',
   logo_url: 'https://www.norfolkpunt.org/logo.png',
-  media_folder: '/public/images',
-  public_folder: '/public/images',
+  media_folder: '/content/images',
+  public_folder: '/content/images',
   collections: [
     {
       name: 'pages',

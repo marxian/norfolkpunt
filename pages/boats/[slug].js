@@ -1,6 +1,4 @@
-import React from 'react'
-import Nav from '../../components/Nav'
-import Footer from '../../components/Footer'
+import Layout from '../../components/Layout'
 
 import {
   getBoatBySlug,
@@ -10,17 +8,15 @@ import {
 
 import PuntDetails from '../../components/PuntDetails'
 
-export default function Boat({ data, content }) {
-  return (
-    <>
-      <Nav />
-      <main>
-        <PuntDetails name={data.name} sailNumber={data.sailNumber} />
-      </main>
-      <Footer />
-    </>
-  )
+const Boat = ({ data, content }) => (
+  <PuntDetails name={data.name} sailNumber={data.sailNumber} />
+)
+
+Boat.getLayout = function getLayout(page) {
+  return <Layout>{page}</Layout>
 }
+
+export default Boat
 
 export async function getStaticProps({ params }) {
   const { data, content: markdown = '' } = getBoatBySlug(params.slug)

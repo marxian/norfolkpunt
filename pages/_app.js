@@ -1,11 +1,15 @@
 import React from 'react'
 import Head from 'next/head'
+import { ChakraProvider } from '@chakra-ui/react'
 
-import '../styles/index.css'
+import '@fontsource/vollkorn/400.css'
 import 'react-image-lightbox/style.css'
+
+import theme from '../theme'
 
 const MyApp = (props) => {
   const { Component, pageProps } = props
+  const getLayout = Component.getLayout || ((page) => page)
   return (
     <>
       <Head>
@@ -33,7 +37,9 @@ const MyApp = (props) => {
         />
         <link rel="manifest" href="/manifest.json" />
       </Head>
-      <Component {...pageProps} />
+      <ChakraProvider theme={theme}>
+        {getLayout(<Component {...pageProps} />)}
+      </ChakraProvider>
     </>
   )
 }

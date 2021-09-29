@@ -1,34 +1,29 @@
-import React from 'react'
-import Nav from '../../components/Nav'
-import Footer from '../../components/Footer'
+import { SimpleGrid } from '@chakra-ui/layout'
 
 import { getBoats } from '../../content/fetchers'
 import PuntCard from '../../components/PuntCard'
+import Layout from '../../components/Layout'
 
-const Index = ({ punts }) => {
+const Boats = ({ punts }) => {
   //sort punts by number descending
   let boats = Object.values(punts).sort(
     (a, b) => b.data.sailNumber - a.data.sailNumber
   )
 
   return (
-    <>
-      <Nav />
-      <main>
-        <div className="cf ma2-l">
-          {boats.map(({ data, slug }) => (
-            <div className="fl w-100 w-third-m w-25-l pa2" key={slug}>
-              <PuntCard punt={data} slug={slug} />
-            </div>
-          ))}
-        </div>
-      </main>
-      <Footer />
-    </>
+    <SimpleGrid m="20px" columns={[1, 2, 3]} spacing="20px">
+      {boats.map(({ data, slug }) => (
+        <PuntCard key={slug} punt={data} slug={slug} />
+      ))}
+    </SimpleGrid>
   )
 }
 
-export default Index
+Boats.getLayout = function getLayout(page) {
+  return <Layout>{page}</Layout>
+}
+
+export default Boats
 
 export async function getStaticProps({ params }) {
   const punts = getBoats()
