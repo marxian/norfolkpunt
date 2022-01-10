@@ -1,6 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
-import { Box, Flex, HStack, Link as ChakraLink } from '@chakra-ui/react'
+import {
+  Box,
+  Flex,
+  HStack,
+  Link as ChakraLink,
+  Heading,
+} from '@chakra-ui/react'
 
 const NavLink = ({ href, children }) => (
   <Link href={href} passHref>
@@ -10,8 +16,11 @@ const NavLink = ({ href, children }) => (
       rounded={'md'}
       _hover={{
         textDecoration: 'none',
-        bg: 'gray.200',
+        bg: 'white',
+        color: 'black',
       }}
+      color={'white'}
+      fontSize={'xl'}
     >
       {children}
     </ChakraLink>
@@ -19,14 +28,15 @@ const NavLink = ({ href, children }) => (
 )
 
 const Nav = () => (
-  <Box bg={'gray.100'} px={4}>
+  <Box bg={'black'} px={4}>
     <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
       <Box>
-        <NavLink href="/">Norfolk Punt Owners Association</NavLink>
+        <Heading color={'white'} as="h1">
+          <Link href="/">Norfolk Punt Owners Association</Link>
+        </Heading>
       </Box>
       <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
         <NavLink href="/boats">Boats</NavLink>
-        <NavLink href="/pictures">Pictures</NavLink>
         <NavLink href="/technicalities">Technicalities</NavLink>
       </HStack>
     </Flex>

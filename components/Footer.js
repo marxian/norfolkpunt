@@ -1,28 +1,24 @@
 import React from 'react'
+import { Box, Flex, HStack, Link, Text } from '@chakra-ui/react'
 
 const Footer = () => (
-  <footer className="cf bg-black-90 white f6 pv3 pv4-l ph4">
-    <p className="fr f4">
-      <a
-        className="link white underline-hover"
-        href="mailto:norfolkpunt@gmail.com"
-      >
+  <Box color="white" bg={'black'} px={4}>
+    <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+      <Link href={'mailto:norfolkpunt@gmail.com'} color={'white'}>
         Contact
-      </a>
-    </p>
-    <p>
-      &copy;{new Date().getFullYear()} Norfolk&nbsp;Punt Owners&nbsp;Association
-    </p>
-    <p>
-      Most photographs by kind permission &copy;&nbsp;
-      <a
-        className="link white underline-hover"
-        href="https://www.myerscoughpictures.org.uk"
-      >
-        Robin&nbsp;Myerscough
-      </a>
-    </p>
-  </footer>
+      </Link>
+      <Text>
+        &copy;{new Date().getFullYear()} Norfolk&nbsp;Punt
+        Owners&nbsp;Association
+      </Text>
+      <Text>
+        Most photographs by kind permission &copy;&nbsp;
+        <Link href="https://www.myerscoughpictures.org.uk">
+          Robin&nbsp;Myerscough
+        </Link>
+      </Text>
+    </Flex>
+  </Box>
 )
 
 export default Footer
