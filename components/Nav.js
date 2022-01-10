@@ -21,7 +21,9 @@ const NavLink = ({ href, children }) => (
 const Nav = () => (
   <Box bg={'gray.100'} px={4}>
     <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-      <Box>Norfolk Punt Owners Association</Box>
+      <Box>
+        <NavLink href="/">Norfolk Punt Owners Association</NavLink>
+      </Box>
       <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
         <NavLink href="/boats">Boats</NavLink>
         <NavLink href="/pictures">Pictures</NavLink>
