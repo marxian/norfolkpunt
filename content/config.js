@@ -53,7 +53,7 @@ const config = {
       preview: false,
       slug: '{{name}}-{{fields.sailNumber}',
       summary: '{{name}} {{sailNumber}} - {{design}}',
-      sortableFields: ['name', 'sailNumber', 'yearBuilt', 'design'],
+      sortable_fields: ['name', 'sailNumber', 'yearBuilt', 'design'],
       extension: 'md',
       identifier_field: 'name',
       fields: [
