@@ -14,9 +14,6 @@ import {
   Stat,
   StatLabel,
   StatNumber,
-  StatHelpText,
-  StatArrow,
-  StatGroup,
 } from '@chakra-ui/react'
 
 import Image from '../components/Image'
@@ -26,7 +23,6 @@ function PuntDetails({ punt, content }) {
   let coverImage
   if (punt.coverImage) {
     coverImage = require(`../content/images/${punt.coverImage}`)
-    console.log(coverImage)
   }
 
   return (
