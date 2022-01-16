@@ -1,9 +1,151 @@
-import React from 'react'
+import {
+  Box,
+  Container,
+  Stack,
+  Text,
+  Flex,
+  VStack,
+  Heading,
+  SimpleGrid,
+  StackDivider,
+  useColorModeValue,
+  List,
+  ListItem,
+  Stat,
+  StatLabel,
+  StatNumber,
+  StatHelpText,
+  StatArrow,
+  StatGroup,
+} from '@chakra-ui/react'
 
-const PuntDetails = ({ name, sailNumber, handicap }) => (
-  <h2>
-    {name} &hellip; {sailNumber}
-  </h2>
-)
+import Image from '../components/Image'
+import wanted from '../content/images/photograph-wanted.png'
+
+function PuntDetails({ punt, content }) {
+  let coverImage
+  if (punt.coverImage) {
+    coverImage = require(`../content/images/${punt.coverImage}`)
+    console.log(coverImage)
+  }
+
+  return (
+    <Container maxW={'7xl'}>
+      <SimpleGrid
+        columns={{ base: 1, lg: 2 }}
+        spacing={{ base: 8, md: 10 }}
+        py={{ base: 18, md: 24 }}
+      >
+        <Flex display={'block'}>
+          <Image
+            rounded={'md'}
+            src={coverImage || wanted}
+            placeholder="blur"
+            alt={coverImage ? punt.name : ''}
+            layout="responsive"
+            align={'center'}
+          />
+        </Flex>
+        <Stack spacing={{ base: 6, md: 10 }}>
+          <Box as={'header'}>
+            <Heading
+              lineHeight={1.1}
+              fontWeight={600}
+              fontSize={{ base: '2xl', sm: '4xl', lg: '5xl' }}
+            >
+              {punt.name}
+            </Heading>
+          </Box>
+
+          <Stack
+            spacing={{ base: 4, sm: 6 }}
+            direction={'column'}
+            divider={
+              <StackDivider
+                borderColor={useColorModeValue('gray.200', 'gray.600')}
+              />
+            }
+          >
+            <Box>
+              <Text
+                fontSize={{ base: '16px', lg: '18px' }}
+                color={useColorModeValue('yellow.500', 'yellow.300')}
+                fontWeight={'500'}
+                textTransform={'uppercase'}
+                mb={'4'}
+              >
+                Details
+              </Text>
+
+              <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+                <Stat>
+                  <StatLabel>Sail Number</StatLabel>
+                  <StatNumber>{punt.sailNumber}</StatNumber>
+                </Stat>
+                <Stat>
+                  <StatLabel>Year Built</StatLabel>
+                  <StatNumber>{punt.yearBuilt}</StatNumber>
+                </Stat>
+                <Stat>
+                  <StatLabel>Handicap</StatLabel>
+                  <StatNumber>{punt.handicap}</StatNumber>
+                </Stat>
+                <Stat>
+                  <StatLabel>Design</StatLabel>
+                  <StatNumber>{punt.design}</StatNumber>
+                </Stat>
+                <Stat>
+                  <StatLabel>Designer</StatLabel>
+                  <StatNumber>{punt.designer}</StatNumber>
+                </Stat>
+                <Stat>
+                  <StatLabel>Builder</StatLabel>
+                  <StatNumber>{punt.builder}</StatNumber>
+                </Stat>
+                <Stat>
+                  <StatLabel>Construction</StatLabel>
+                  <StatNumber>{punt.construction}</StatNumber>
+                </Stat>
+                <Stat>
+                  <StatLabel>Length</StatLabel>
+                  <StatNumber>{punt.loa} ft</StatNumber>
+                </Stat>
+              </SimpleGrid>
+            </Box>
+            {content && (
+              <VStack spacing={{ base: 4, sm: 6 }}>
+                <Text fontSize={'lg'}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                  aliquid amet at delectus doloribus dolorum expedita hic, ipsum
+                  maxime modi nam officiis porro, quae, quisquam quos
+                  reprehenderit velit? Natus, totam.
+                </Text>
+              </VStack>
+            )}
+            <Box>
+              <Text
+                fontSize={{ base: '16px', lg: '18px' }}
+                color={useColorModeValue('yellow.500', 'yellow.300')}
+                fontWeight={'500'}
+                textTransform={'uppercase'}
+                mb={'4'}
+              >
+                Ownership History
+              </Text>
+
+              <List spacing={2}>
+                {punt.owners.map(({ from, to, owner }, i) => (
+                  <ListItem key={`${owner}${i}`}>
+                    {from} - {to || 'present'} {owner}
+                  </ListItem>
+                ))}
+              </List>
+            </Box>
+          </Stack>
+        </Stack>
+      </SimpleGrid>
+    </Container>
+  )
+}
 
 export default PuntDetails

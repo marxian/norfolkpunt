@@ -9,7 +9,7 @@ import {
 import PuntDetails from '../../components/PuntDetails'
 
 const Boat = ({ data, content }) => (
-  <PuntDetails name={data.name} sailNumber={data.sailNumber} />
+  <PuntDetails punt={data} content={content} />
 )
 
 Boat.getLayout = function getLayout(page) {
