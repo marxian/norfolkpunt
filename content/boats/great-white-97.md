@@ -1,29 +1,28 @@
 ---
-name: "Great White"
+name: 'Great White'
 loa: 22
 handicap: 880
-builder: "Richard Parker"
-construction: "Cold-moulded Plywood"
-design: "Morrison"
-designer: "Phil Morrison"
+builder: 'Richard Parker'
+construction: 'Cold-moulded Plywood'
+design: 'Morrison'
+designer: 'Phil Morrison'
 owners:
   - from: 2017
     to: null
-    owner: "John Parker"
+    owner: 'John Parker'
   - from: 2012
     to: 2017
-    owner: "James Clarke"
+    owner: 'James Clarke'
   - from: 2009
     to: 2012
-    owner: "John Parker"
+    owner: 'John Parker'
   - from: 2009
     to: 2012
-    owner: "Jane Pye"
+    owner: 'Jane Pye'
   - from: 2003
     to: 2009
-    owner: "Richard Parker"
+    owner: 'Richard Parker'
 sailNumber: 97
 yearBuilt: 2003
-coverImage: "great-white-97.jpg"
-
+coverImage: 'great-white-97.jpg'
 ---

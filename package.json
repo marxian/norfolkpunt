@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Rupert Redington <rupert@neontribe.co.uk>",
   "dependencies": {
+    "@chakra-ui/icons": "1.1.1",
     "@chakra-ui/react": "1.7.4",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -38,7 +39,7 @@
     "prebuild": "node ./content/buildRegister.js",
     "build": "next build",
     "start": "next start",
-    "format": "prettier --write '{*/**,.}/*.{js,json}'",
+    "format": "prettier --write .",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "localcms": "netlify-cms-proxy-server",

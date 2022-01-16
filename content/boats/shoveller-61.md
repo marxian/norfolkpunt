@@ -1,32 +1,31 @@
 ---
-name: "Shoveller"
+name: 'Shoveller'
 loa: 22
 handicap: 908
-builder: "Derek Gibbs"
-construction: "Plywood"
-design: "Hardchine"
-designer: "Wyche and Coppock"
+builder: 'Derek Gibbs'
+construction: 'Plywood'
+design: 'Hardchine'
+designer: 'Wyche and Coppock'
 owners:
   - from: 2009
     to: null
-    owner: "Brian Wilkins"
+    owner: 'Brian Wilkins'
   - from: 1999
     to: 2009
-    owner: "Paul Wren"
+    owner: 'Paul Wren'
   - from: 1999
     to: 2007
-    owner: "Robin Slatter"
+    owner: 'Robin Slatter'
   - from: 1992
     to: 1999
-    owner: "K (C) Roll"
+    owner: 'K (C) Roll'
   - from: 1988
     to: 1992
-    owner: "Dr J S L Fowler"
+    owner: 'Dr J S L Fowler'
   - from: 1975
     to: 1988
-    owner: "Derek Gibbs"
+    owner: 'Derek Gibbs'
 sailNumber: 61
 yearBuilt: 1975
-coverImage: "shoveller-61.jpg"
-
+coverImage: 'shoveller-61.jpg'
 ---

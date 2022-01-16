@@ -1,20 +1,19 @@
 ---
-name: "Jackdaw"
+name: 'Jackdaw'
 loa: 22
 handicap: 880
-builder: "Mark Critchley"
-construction: "Unknown"
-design: "Morrison"
-designer: "Phil Morrison"
+builder: 'Mark Critchley'
+construction: 'Unknown'
+design: 'Morrison'
+designer: 'Phil Morrison'
 owners:
   - from: 2013
     to: null
-    owner: "Max Dixey & Felix Dixet"
+    owner: 'Max Dixey & Felix Dixet'
   - from: 2004
     to: 2013
-    owner: "Mark Critchley"
+    owner: 'Mark Critchley'
 sailNumber: 100
 yearBuilt: 2004
-coverImage: "jackdaw-100.jpg"
-
+coverImage: 'jackdaw-100.jpg'
 ---
