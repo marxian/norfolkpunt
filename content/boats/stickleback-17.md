@@ -1,26 +1,25 @@
 ---
-name: "Stickleback"
+name: 'Stickleback'
 loa: 20
 handicap: 1059
-builder: "Peter Arnold"
-construction: "Wood (Carvel)"
-design: "Traditional"
-designer: "Herbert Woods"
+builder: 'Peter Arnold'
+construction: 'Wood (Carvel)'
+design: 'Traditional'
+designer: 'Herbert Woods'
 owners:
   - from: 1992
     to: null
-    owner: "A G Thaine"
+    owner: 'A G Thaine'
   - from: 1962
     to: 1993
-    owner: "J Thaine"
+    owner: 'J Thaine'
   - from: 1956
     to: 1962
-    owner: "Peter Brandish"
+    owner: 'Peter Brandish'
   - from: 1929
     to: 1956
-    owner: "Peter Arnold"
+    owner: 'Peter Arnold'
 sailNumber: 17
 yearBuilt: 1929
-coverImage: "stickleback-17.jpg"
-
+coverImage: 'stickleback-17.jpg'
 ---

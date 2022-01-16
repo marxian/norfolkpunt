@@ -1,17 +1,16 @@
 ---
-name: "Saker"
+name: 'Saker'
 loa: 22
 handicap: 880
-builder: "Mike and Thomas Virden"
-construction: "Cold-moulded Plywood"
-design: "Morrison"
-designer: "Phil Morrison"
+builder: 'Mike and Thomas Virden'
+construction: 'Cold-moulded Plywood'
+design: 'Morrison'
+designer: 'Phil Morrison'
 owners:
   - from: 1995
     to: null
-    owner: "Mike Virden & Thomas Virden"
+    owner: 'Mike Virden & Thomas Virden'
 sailNumber: 90
 yearBuilt: 1995
-coverImage: "saker-90.jpg"
-
+coverImage: 'saker-90.jpg'
 ---

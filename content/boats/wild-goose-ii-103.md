@@ -1,17 +1,16 @@
 ---
-name: "Wild Goose II"
+name: 'Wild Goose II'
 loa: 22
 handicap: 908
-builder: "James Jarvey"
-construction: "Foam sandwich composite"
-design: "Hardchine"
-designer: "Wyche and Coppock"
+builder: 'James Jarvey'
+construction: 'Foam sandwich composite'
+design: 'Hardchine'
+designer: 'Wyche and Coppock'
 owners:
   - from: 2016
     to: null
-    owner: "John Parker"
+    owner: 'John Parker'
 sailNumber: 103
 yearBuilt: 2016
-coverImage: "wild-goose-ii-103.jpg"
-
+coverImage: 'wild-goose-ii-103.jpg'
 ---

@@ -1,20 +1,19 @@
 ---
-name: "Emperor Goose"
+name: 'Emperor Goose'
 loa: 22
 handicap: 908
-builder: "Jeff Green"
-construction: "Foam sandwich composite"
-design: "Hardchine"
-designer: "Wyche and Coppock"
+builder: 'Jeff Green'
+construction: 'Foam sandwich composite'
+design: 'Hardchine'
+designer: 'Wyche and Coppock'
 owners:
   - from: 2014
     to: null
-    owner: "David Long"
+    owner: 'David Long'
   - from: 2004
     to: 2014
-    owner: "John Parker"
+    owner: 'John Parker'
 sailNumber: 101
 yearBuilt: 2004
-coverImage: "emperor-goose-101.jpg"
-
+coverImage: 'emperor-goose-101.jpg'
 ---

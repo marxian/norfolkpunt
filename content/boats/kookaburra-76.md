@@ -1,26 +1,25 @@
 ---
-name: "Kookaburra"
+name: 'Kookaburra'
 loa: 22
 handicap: 908
-builder: "M Hardy"
-construction: "Fibreglass"
-design: "Hardchine"
-designer: "Wyche and Coppock"
+builder: 'M Hardy'
+construction: 'Fibreglass'
+design: 'Hardchine'
+designer: 'Wyche and Coppock'
 owners:
   - from: 2011
     to: null
-    owner: "Charles Hare-Winton & David Lennard Jones"
+    owner: 'Charles Hare-Winton & David Lennard Jones'
   - from: 2000
     to: 2011
-    owner: "Chris Bunn"
+    owner: 'Chris Bunn'
   - from: 1995
     to: 2000
-    owner: "Mr and Mrs T Lake"
+    owner: 'Mr and Mrs T Lake'
   - from: 1989
     to: 1995
-    owner: "M Hardy"
+    owner: 'M Hardy'
 sailNumber: 76
 yearBuilt: 1989
-coverImage: "kookaburra-76.jpg"
-
+coverImage: 'kookaburra-76.jpg'
 ---

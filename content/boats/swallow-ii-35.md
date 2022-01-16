@@ -1,44 +1,43 @@
 ---
-name: "Swallow II"
+name: 'Swallow II'
 loa: 22
 handicap: 936
-builder: "Herbert Woods of Potter Heigham"
-construction: "Wood (Carvel)"
-design: "Traditional"
-designer: "Herbert Woods"
+builder: 'Herbert Woods of Potter Heigham'
+construction: 'Wood (Carvel)'
+design: 'Traditional'
+designer: 'Herbert Woods'
 owners:
   - from: 2001
     to: null
-    owner: "William Daniels"
+    owner: 'William Daniels'
   - from: 1982
     to: 2001
-    owner: "J M Evans"
+    owner: 'J M Evans'
   - from: 1979
     to: 1982
-    owner: "S Cooper"
+    owner: 'S Cooper'
   - from: 1979
     to: 1982
-    owner: "W Clarke"
+    owner: 'W Clarke'
   - from: 1975
     to: 1979
-    owner: "M J Moore"
+    owner: 'M J Moore'
   - from: 1970
     to: 1979
-    owner: "T W Moore"
+    owner: 'T W Moore'
   - from: 1967
     to: 1970
-    owner: "T S M Daniels"
+    owner: 'T S M Daniels'
   - from: 1960
     to: 1967
-    owner: "Lt Col M R Braithwaite"
+    owner: 'Lt Col M R Braithwaite'
   - from: 1936
     to: 1960
-    owner: "A T Chittock"
+    owner: 'A T Chittock'
   - from: 1936
     to: 1960
-    owner: "G S Sturgess"
+    owner: 'G S Sturgess'
 sailNumber: 35
 yearBuilt: 1936
-coverImage: "swallow-ii-35.jpg"
-
+coverImage: 'swallow-ii-35.jpg'
 ---
