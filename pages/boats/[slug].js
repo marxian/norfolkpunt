@@ -7,9 +7,10 @@ import {
 } from '../../content/fetchers'
 
 import PuntDetails from '../../components/PuntDetails'
+import { getPlaiceholder } from 'plaiceholder'
 
-const Boat = ({ data, content }) => (
-  <PuntDetails punt={data} content={content} />
+const Boat = ({ data, content, image }) => (
+  <PuntDetails punt={data} content={content} image={image} />
 )
 
 Boat.getLayout = function getLayout(page) {
@@ -21,9 +22,13 @@ export default Boat
 export async function getStaticProps({ params }) {
   const { data, content: markdown = '' } = getBoatBySlug(params.slug)
   const content = await markdownToHtml(markdown)
+  const image = await getPlaiceholder(
+    `/images/${data.coverImage || 'photograph-wanted.png'}`
+  )
   return {
     props: {
       data,
+      image,
       content,
     },
   }

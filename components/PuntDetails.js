@@ -17,14 +17,8 @@ import {
 } from '@chakra-ui/react'
 
 import Image from '../components/Image'
-import wanted from '../content/images/photograph-wanted.png'
 
-function PuntDetails({ punt, content }) {
-  let coverImage
-  if (punt.coverImage) {
-    coverImage = require(`../content/images/${punt.coverImage}`)
-  }
-
+function PuntDetails({ punt, content, image }) {
   return (
     <Container maxW={'7xl'}>
       <SimpleGrid
@@ -35,9 +29,10 @@ function PuntDetails({ punt, content }) {
         <Flex display={'block'}>
           <Image
             rounded={'md'}
-            src={coverImage || wanted}
+            {...image.img}
             placeholder="blur"
-            alt={coverImage ? punt.name : ''}
+            blurDataURL={image.base64}
+            alt={punt.name}
             layout="responsive"
             align={'center'}
           />

@@ -1,5 +1,5 @@
 import { SimpleGrid } from '@chakra-ui/layout'
-
+import { getPlaiceholder } from 'plaiceholder'
 import { getBoats } from '../../content/fetchers'
 import PuntCard from '../../components/PuntCard'
 import Layout from '../../components/Layout'
@@ -12,8 +12,8 @@ const Boats = ({ punts }) => {
 
   return (
     <SimpleGrid m="20px" columns={[1, 2, 3]} spacing="20px">
-      {boats.map(({ data, slug }) => (
-        <PuntCard key={slug} punt={data} slug={slug} />
+      {boats.map(({ data, slug, image }) => (
+        <PuntCard key={slug} punt={data} slug={slug} image={image} />
       ))}
     </SimpleGrid>
   )
@@ -28,9 +28,17 @@ export default Boats
 export async function getStaticProps({ params }) {
   const punts = getBoats()
 
+  const withImages = []
+  for (const punt of punts) {
+    let image = await getPlaiceholder(
+      `/images/${punt.data.coverImage || 'photograph-wanted.png'}`
+    )
+    withImages.push({ ...punt, image })
+  }
+
   return {
     props: {
-      punts,
+      punts: withImages,
     },
   }
 }

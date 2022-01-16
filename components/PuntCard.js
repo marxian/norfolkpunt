@@ -3,13 +3,8 @@ import { Flex, Box, Heading } from '@chakra-ui/layout'
 import { useColorModeValue } from '@chakra-ui/color-mode'
 import Image from '../components/Image'
 import Link from 'next/link'
-import wanted from '../content/images/photograph-wanted.png'
 
-const PuntCard = ({ punt, slug }) => {
-  let coverImage
-  if (punt.coverImage) {
-    coverImage = require(`../content/images/${punt.coverImage}`)
-  }
+const PuntCard = ({ punt, slug, image }) => {
   return (
     <Flex
       bg={useColorModeValue('#F9FAFB', 'gray.600')}
@@ -29,12 +24,13 @@ const PuntCard = ({ punt, slug }) => {
             mx="auto"
           >
             <Image
+              {...image.img}
               w="full"
               h={56}
               fit="cover"
-              src={coverImage || wanted}
               placeholder="blur"
-              alt={coverImage ? punt.name : ''}
+              blurDataURL={image.base64}
+              alt={punt.name}
             />
 
             <Box py={5} textAlign="center">
