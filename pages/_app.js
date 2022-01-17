@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import { ChakraProvider } from '@chakra-ui/react'
+import PlausibleProvider from 'next-plausible'
 
 import '@fontsource/vollkorn/400.css'
 import 'react-image-lightbox/style.css'
@@ -11,7 +12,7 @@ const MyApp = (props) => {
   const { Component, pageProps } = props
   const getLayout = Component.getLayout || ((page) => page)
   return (
-    <>
+    <PlausibleProvider domain="norfolkpunt.org">
       <Head>
         <title>{`Norfolk Punt Owners Association`}</title>
         <meta
@@ -40,7 +41,7 @@ const MyApp = (props) => {
       <ChakraProvider theme={theme}>
         {getLayout(<Component {...pageProps} />)}
       </ChakraProvider>
-    </>
+    </PlausibleProvider>
   )
 }
 
