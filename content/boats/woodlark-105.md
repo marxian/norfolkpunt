@@ -10,9 +10,9 @@ construction: Clinker ply
 design: Singlehander
 designer: Chris Wood
 owners:
+  - from: 2021
+    owner: Jim Rosser
   - from: 2019
     to: 2021
     owner: Chris Wood
-  - from: 2021
-    owner: Jim Rosser
 ---
