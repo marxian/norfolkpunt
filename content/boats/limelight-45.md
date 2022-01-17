@@ -55,5 +55,5 @@ owners:
 sailNumber: 45
 yearBuilt: 1939
 previousNames: 'Whimbrel (1974 - ?)'
-coverImage: '/images/limelight-45.jpg'
+coverImage: '/images/boats/limelight-45.jpg'
 ---

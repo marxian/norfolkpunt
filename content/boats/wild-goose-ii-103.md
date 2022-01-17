@@ -12,5 +12,5 @@ owners:
     owner: 'John Parker'
 sailNumber: 103
 yearBuilt: 2016
-coverImage: '/images/wild-goose-ii-103.jpg'
+coverImage: '/images/boats/wild-goose-ii-103.jpg'
 ---

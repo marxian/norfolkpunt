@@ -1,7 +1,7 @@
 ---
 name: Jackdaw
 sailNumber: 100
-coverImage: jackdaw-100.jpg
+coverImage: '/images/boats/jackdaw-100.jpg'
 yearBuilt: 2004
 loa: 22
 handicap: 880

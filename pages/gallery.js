@@ -3,11 +3,11 @@ import { Box, Link } from '@chakra-ui/layout'
 import { getPlaiceholder } from 'plaiceholder'
 import Lightbox from 'react-image-lightbox'
 
-import Image from '../../components/Image'
-import Layout from '../../components/Layout'
-import { getPage } from '../../content/fetchers'
+import Image from '../components/Image'
+import Layout from '../components/Layout'
+import { getPage } from '../content/fetchers'
 
-const Pictures = ({ pictures }) => {
+const Gallery = ({ images }) => {
   let [isOpen, setOpen] = useState(false)
   let [photoIndex, setPhotoIndex] = useState(0)
 
@@ -20,13 +20,13 @@ const Pictures = ({ pictures }) => {
         mx="auto"
         sx={{ columnCount: [1, 2, 3, 4], columnGap: '8px' }}
       >
-        {pictures.map((pic, i) => (
+        {images.map((pic, i) => (
           <Link
             href={pic.img.src}
             key={`${pic.url}${i}`}
             onClick={(e) => {
               e.preventDefault()
-              setPhotoIndex(pictures.indexOf(pic))
+              setPhotoIndex(images.indexOf(pic))
               setOpen(true)
             }}
           >
@@ -42,18 +42,17 @@ const Pictures = ({ pictures }) => {
       </Box>
       {isOpen && (
         <Lightbox
-          mainSrc={pictures[photoIndex]?.img.src}
-          nextSrc={pictures[(photoIndex + 1) % pictures.length]?.img.src}
+          mainSrc={images[photoIndex]?.img.src}
+          nextSrc={images[(photoIndex + 1) % images.length]?.img.src}
           prevSrc={
-            pictures[(photoIndex + pictures.length - 1) % pictures.length]?.img
-              .src
+            images[(photoIndex + images.length - 1) % images.length]?.img.src
           }
           onCloseRequest={() => setOpen(false)}
           onMovePrevRequest={() =>
-            setPhotoIndex((photoIndex + pictures.length - 1) % pictures.length)
+            setPhotoIndex((photoIndex + images.length - 1) % images.length)
           }
           onMoveNextRequest={() =>
-            setPhotoIndex((photoIndex + 1) % pictures.length)
+            setPhotoIndex((photoIndex + 1) % images.length)
           }
         />
       )}
@@ -62,23 +61,23 @@ const Pictures = ({ pictures }) => {
 }
 
 export async function getStaticProps({ params }) {
-  const page = getPage('pictures')
+  const page = getPage('gallery')
 
-  const pictures = []
-  for (const pic of page.data.pictures) {
+  const images = []
+  for (const pic of page.data.images) {
     let image = await getPlaiceholder(pic)
-    pictures.push(image)
+    images.push(image)
   }
 
   return {
     props: {
-      pictures,
+      images,
     },
   }
 }
 
-Pictures.getLayout = function getLayout(page) {
+Gallery.getLayout = function getLayout(page) {
   return <Layout>{page}</Layout>
 }
 
-export default Pictures
+export default Gallery

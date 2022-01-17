@@ -21,5 +21,5 @@ owners:
     owner: 'P J K Sadler'
 sailNumber: 74
 yearBuilt: 1989
-coverImage: '/images/blackbird-74.jpg'
+coverImage: '/images/boats/blackbird-74.jpg'
 ---

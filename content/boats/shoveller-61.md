@@ -27,5 +27,5 @@ owners:
     owner: 'Derek Gibbs'
 sailNumber: 61
 yearBuilt: 1975
-coverImage: '/images/shoveller-61.jpg'
+coverImage: '/images/boats/shoveller-61.jpg'
 ---

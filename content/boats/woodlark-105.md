@@ -1,7 +1,7 @@
 ---
 name: Woodlark
 sailNumber: 105
-coverImage: _rpc5490.jpg
+coverImage: '/images/boats/woodlark-105.jpg'
 yearBuilt: 2019
 loa: 18
 handicap: 875

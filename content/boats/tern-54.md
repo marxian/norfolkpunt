@@ -36,5 +36,5 @@ owners:
     owner: 'Dr and Mrs J A Eddy'
 sailNumber: 54
 yearBuilt: 1963
-coverImage: '/images/tern-54.jpg'
+coverImage: '/images/boats/tern-54.jpg'
 ---

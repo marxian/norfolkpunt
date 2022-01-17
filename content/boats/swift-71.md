@@ -13,5 +13,5 @@ owners:
     owner: 'S J P Cooper'
 sailNumber: 71
 yearBuilt: 1980
-coverImage: '/images/swift-71.jpg'
+coverImage: '/images/boats/swift-71.jpg'
 ---

@@ -31,7 +31,7 @@ export async function getStaticProps({ params }) {
   const withImages = []
   for (const punt of punts) {
     let image = await getPlaiceholder(
-      punt.data.coverImage || '/images/photograph-wanted.png'
+      punt.data.coverImage || '/images/site/photograph-wanted.png'
     )
     withImages.push({ ...punt, image })
   }

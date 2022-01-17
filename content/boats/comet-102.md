@@ -12,5 +12,5 @@ owners:
     owner: 'Richard Whitefoot'
 sailNumber: 102
 yearBuilt: 2008
-coverImage: '/images/comet-102.jpg'
+coverImage: '/images/boats/comet-102.jpg'
 ---

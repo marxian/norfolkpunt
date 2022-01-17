@@ -3,8 +3,8 @@ import { Text, Center, Container, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/Layout'
 import Image from '../components/Image'
 
-import header from '../public/images/line.jpg'
-import twos from '../public/images/twos.jpg'
+import header from '../public/images/site/line.jpg'
+import twos from '../public/images/site/twos.jpg'
 
 const Home = () => (
   <>

@@ -42,5 +42,5 @@ owners:
     owner: 'T Mase'
 sailNumber: 28
 yearBuilt: 1931
-coverImage: '/images/shuck-28.jpg'
+coverImage: '/images/boats/shuck-28.jpg'
 ---

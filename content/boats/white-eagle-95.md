@@ -12,5 +12,5 @@ owners:
     owner: 'D H Adler'
 sailNumber: 95
 yearBuilt: 2002
-coverImage: '/images/white-eagle-95.jpg'
+coverImage: '/images/boats/white-eagle-95.jpg'
 ---

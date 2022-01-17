@@ -18,5 +18,5 @@ owners:
     owner: 'M Morrison'
 sailNumber: 88
 yearBuilt: 1993
-coverImage: '/images/cormorant-88.jpg'
+coverImage: '/images/boats/cormorant-88.jpg'
 ---

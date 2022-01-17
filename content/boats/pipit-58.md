@@ -31,5 +31,5 @@ owners:
 sailNumber: 58
 yearBuilt: 1972
 previousNames: 'WILLOW (1980 - 2014), ANAS ACUTA (1978 - 1980)'
-coverImage: '/images/pipit-58.jpg'
+coverImage: '/images/boats/pipit-58.jpg'
 ---

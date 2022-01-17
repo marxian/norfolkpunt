@@ -12,5 +12,5 @@ owners:
     owner: 'Mike Virden & Thomas Virden'
 sailNumber: 90
 yearBuilt: 1995
-coverImage: '/images/saker-90.jpg'
+coverImage: '/images/boats/saker-90.jpg'
 ---

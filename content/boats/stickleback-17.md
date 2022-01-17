@@ -21,5 +21,5 @@ owners:
     owner: 'Peter Arnold'
 sailNumber: 17
 yearBuilt: 1929
-coverImage: '/images/stickleback-17.jpg'
+coverImage: '/images/boats/stickleback-17.jpg'
 ---

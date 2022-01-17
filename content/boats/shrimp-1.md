@@ -27,5 +27,5 @@ owners:
     owner: 'H A Morris'
 sailNumber: 1
 yearBuilt: 1916
-coverImage: '/images/shrimp-1.jpg'
+coverImage: '/images/boats/shrimp-1.jpg'
 ---

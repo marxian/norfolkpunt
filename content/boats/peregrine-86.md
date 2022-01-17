@@ -21,5 +21,5 @@ owners:
     owner: 'Richard Parker & Robert Snelling'
 sailNumber: 86
 yearBuilt: 1993
-coverImage: '/images/peregrine-86.jpg'
+coverImage: '/images/boats/peregrine-86.jpg'
 ---

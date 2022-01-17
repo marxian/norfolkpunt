@@ -21,16 +21,17 @@ collections:
   - name: pages
     label: Pages
     files:
-      - label: Pictures
-        name: pictures
-        file: content/pages/pictures.md
+      - label: Gallery
+        name: gallery
+        file: content/pages/gallery.md
         fields:
-          - label: Pictures
-            name: pictures
+          - label: Images
+            name: images
             widget: list
             field:
               name: Image
               widget: image
+              media_folder: '/public/images/gallery'
   - name: boats
     label: Boats
     label_singular: Boat
@@ -58,6 +59,7 @@ collections:
         name: coverImage
         widget: image
         required: false
+        media_folder: '/public/images/boats'
         tagname: ''
       - label: Year Built
         name: yearBuilt
