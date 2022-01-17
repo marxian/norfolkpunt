@@ -1,5 +1,8 @@
 const { withPlaiceholder } = require('@plaiceholder/next')
+const { withPlausibleProxy } = require('next-plausible')
 
-module.exports = withPlaiceholder({
+const plaiceholder = withPlaiceholder({
   // your Next.js config
 })
+
+module.exports = withPlausibleProxy(plaiceholder)

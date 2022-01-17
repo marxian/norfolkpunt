@@ -12,7 +12,7 @@ const MyApp = (props) => {
   const { Component, pageProps } = props
   const getLayout = Component.getLayout || ((page) => page)
   return (
-    <PlausibleProvider domain="norfolkpunt.org">
+    <PlausibleProvider domain="norfolkpunt.org" integrity={true}>
       <Head>
         <title>{`Norfolk Punt Owners Association`}</title>
         <meta
