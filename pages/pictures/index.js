@@ -1,78 +1,52 @@
 import React, { useState } from 'react'
+import { Box, Link } from '@chakra-ui/layout'
+import { getPlaiceholder } from 'plaiceholder'
 import Lightbox from 'react-image-lightbox'
-import Image from 'next/image'
 
+import Image from '../../components/Image'
+import Layout from '../../components/Layout'
 import { getPage } from '../../content/fetchers'
-
-const chunk = (arr, size) =>
-  Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
-    arr.slice(i * size, i * size + size)
-  )
 
 const Pictures = ({ pictures }) => {
   let [isOpen, setOpen] = useState(false)
   let [photoIndex, setPhotoIndex] = useState(0)
-  const cs = Math.round(pictures.length / 3)
-  const chunks = chunk(pictures, cs)
 
   return (
     <>
-      <div className="cf">
-        <div className="fl w-50 w-third-ns">
-          {chunks[0].map((img) => (
-            <a
-              href={img}
-              className="db w-100"
-              key={img}
-              onClick={(e) => {
-                e.preventDefault()
-                setPhotoIndex(pictures.indexOf(img))
-                setOpen(true)
-              }}
-            >
-              <Image src={img} width="200" height="200" />
-            </a>
-          ))}
-        </div>
-        <div className="fl w-50 w-third-ns">
-          {chunks[1].map((img) => (
-            <a
-              href={img}
-              className="db w-100"
-              key={img}
-              onClick={(e) => {
-                e.preventDefault()
-                setPhotoIndex(pictures.indexOf(img))
-                setOpen(true)
-              }}
-            >
-              <Image src={img} width="200" height="200" />
-            </a>
-          ))}
-        </div>
-        <div className="fl w-50 w-third-ns">
-          {chunks[2].map((img) => (
-            <a
-              href={img}
-              className="db w-100"
-              key={img}
-              onClick={(e) => {
-                e.preventDefault()
-                setPhotoIndex(pictures.indexOf(img))
-                setOpen(true)
-              }}
-            >
-              <Image src={img} width="200" height="200" />
-            </a>
-          ))}
-        </div>
-      </div>
+      <Box
+        padding={4}
+        w="100%"
+        maxW="1200px"
+        mx="auto"
+        sx={{ columnCount: [1, 2, 3, 4], columnGap: '8px' }}
+      >
+        {pictures.map((pic, i) => (
+          <Link
+            href={pic.img.src}
+            key={`${pic.url}${i}`}
+            onClick={(e) => {
+              e.preventDefault()
+              setPhotoIndex(pictures.indexOf(pic))
+              setOpen(true)
+            }}
+          >
+            <Image
+              {...pic.img}
+              blurDataURL={pic.base64}
+              alt={pic.caption || ''}
+              placeholder="blur"
+              borderRadius="xl"
+            />
+          </Link>
+        ))}
+      </Box>
       {isOpen && (
         <Lightbox
-          mainSrc={pictures[photoIndex]}
-          nextSrc={pictures[(photoIndex + 1) % pictures.length]}
+          mainSrc={pictures[photoIndex]?.img.src}
+          nextSrc={pictures[(photoIndex + 1) % pictures.length]?.img.src}
           prevSrc={
-            pictures[(photoIndex + pictures.length - 1) % pictures.length]
+            pictures[(photoIndex + pictures.length - 1) % pictures.length]?.img
+              .src
           }
           onCloseRequest={() => setOpen(false)}
           onMovePrevRequest={() =>
@@ -87,12 +61,14 @@ const Pictures = ({ pictures }) => {
   )
 }
 
-export default Pictures
-
 export async function getStaticProps({ params }) {
   const page = getPage('pictures')
 
-  const pictures = page.data.pictures
+  const pictures = []
+  for (const pic of page.data.pictures) {
+    let image = await getPlaiceholder(pic)
+    pictures.push(image)
+  }
 
   return {
     props: {
@@ -100,3 +76,9 @@ export async function getStaticProps({ params }) {
     },
   }
 }
+
+Pictures.getLayout = function getLayout(page) {
+  return <Layout>{page}</Layout>
+}
+
+export default Pictures
