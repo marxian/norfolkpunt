@@ -23,7 +23,7 @@ export async function getStaticProps({ params }) {
   const { data, content: markdown = '' } = getBoatBySlug(params.slug)
   const content = await markdownToHtml(markdown)
   const image = await getPlaiceholder(
-    `/images/${data.coverImage || 'photograph-wanted.png'}`
+    data.coverImage || '/images/photograph-wanted.png'
   )
   return {
     props: {

@@ -15,5 +15,5 @@ owners:
     owner: 'Richard Parker'
 sailNumber: 82
 yearBuilt: 1991
-coverImage: 'merlin-82.jpg'
+coverImage: '/images/merlin-82.jpg'
 ---

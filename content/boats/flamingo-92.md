@@ -18,5 +18,5 @@ owners:
     owner: 'Alex Tibbenham'
 sailNumber: 92
 yearBuilt: 1999
-coverImage: 'flamingo-92.jpg'
+coverImage: '/images/flamingo-92.jpg'
 ---

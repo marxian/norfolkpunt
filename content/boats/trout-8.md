@@ -21,5 +21,5 @@ owners:
     owner: 'Bishop'
 sailNumber: 8
 yearBuilt: 1926
-coverImage: 'trout-8.jpg'
+coverImage: '/images/trout-8.jpg'
 ---

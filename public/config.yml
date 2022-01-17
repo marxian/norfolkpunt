@@ -16,7 +16,7 @@ local_backend: true
 site_url: 'https://www.norfolkpunt.org'
 logo_url: 'https://www.norfolkpunt.org/logo.png'
 media_folder: /public/images
-public_folder: /public/images
+public_folder: /images
 collections:
   - name: pages
     label: Pages

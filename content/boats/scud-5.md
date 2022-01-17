@@ -16,5 +16,5 @@ owners:
     owner: 'H Bolingbroke'
 sailNumber: 5
 yearBuilt: 1927
-coverImage: 'scud-5.jpg'
+coverImage: '/images/scud-5.jpg'
 ---

@@ -27,5 +27,5 @@ owners:
     owner: 'C Cator'
 sailNumber: 79
 yearBuilt: 1990
-coverImage: 'hushwing-79.jpg'
+coverImage: '/images/hushwing-79.jpg'
 ---

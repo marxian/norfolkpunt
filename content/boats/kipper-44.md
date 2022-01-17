@@ -39,5 +39,5 @@ owners:
     owner: 'Frank Beeching'
 sailNumber: 44
 yearBuilt: 1939
-coverImage: 'kipper-44.jpg'
+coverImage: '/images/kipper-44.jpg'
 ---

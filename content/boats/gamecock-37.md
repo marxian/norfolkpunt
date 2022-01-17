@@ -33,5 +33,5 @@ owners:
     owner: 'Mr & Mrs Peter Cator'
 sailNumber: 37
 yearBuilt: 1936
-coverImage: 'gamecock-37.jpg'
+coverImage: '/images/gamecock-37.jpg'
 ---

@@ -12,5 +12,5 @@ owners:
     owner: 'James Gill'
 sailNumber: 87
 yearBuilt: 1993
-coverImage: 'shag-87.jpg'
+coverImage: '/images/shag-87.jpg'
 ---

@@ -49,5 +49,5 @@ owners:
 sailNumber: 59
 yearBuilt: 1972
 previousNames: 'Flounder (1972 - 1987)'
-coverImage: 'firefly-59.jpg'
+coverImage: '/images/firefly-59.jpg'
 ---

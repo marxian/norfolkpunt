@@ -18,5 +18,5 @@ owners:
     owner: 'Peter Bainbridge'
 sailNumber: 94
 yearBuilt: 2000
-coverImage: 'whooper-94.jpg'
+coverImage: '/images/whooper-94.jpg'
 ---

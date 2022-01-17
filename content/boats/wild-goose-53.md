@@ -24,5 +24,5 @@ owners:
     owner: 'Dr and Mrs B M Tracey'
 sailNumber: 53
 yearBuilt: 1962
-coverImage: 'wild-goose-53.jpg'
+coverImage: '/images/wild-goose-53.jpg'
 ---

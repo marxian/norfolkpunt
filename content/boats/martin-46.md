@@ -36,5 +36,5 @@ owners:
     owner: 'Dr and Mrs B M Tracey'
 sailNumber: 46
 yearBuilt: 1947
-coverImage: 'martin-46.jpg'
+coverImage: '/images/martin-46.jpg'
 ---

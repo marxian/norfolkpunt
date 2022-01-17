@@ -15,5 +15,5 @@ owners:
     owner: 'Arthur Thaine'
 sailNumber: 98
 yearBuilt: 2004
-coverImage: 'redwing-98.jpg'
+coverImage: '/images/redwing-98.jpg'
 ---

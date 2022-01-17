@@ -39,5 +39,5 @@ owners:
     owner: 'G Dunthorne'
 sailNumber: 66
 yearBuilt: 1978
-coverImage: 'grebe-66.jpg'
+coverImage: '/images/grebe-66.jpg'
 ---

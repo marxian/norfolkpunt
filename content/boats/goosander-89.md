@@ -24,5 +24,5 @@ owners:
     owner: 'Dr R A Bayles'
 sailNumber: 89
 yearBuilt: 1994
-coverImage: 'goosander-89.jpg'
+coverImage: '/images/goosander-89.jpg'
 ---
