@@ -10,7 +10,8 @@ import {
   Stack,
   HStack,
   VStack,
-  Link,
+  OrderedList,
+  ListItem,
   Divider,
   LinkBox,
   LinkOverlay,
@@ -281,11 +282,15 @@ function PuntClub() {
         </Text>
       </Stack>
 
-      <Container maxW={'6xl'} mt={10}>
-        <h5>SECTION 9 - PUNT OWNER&apos;S ASSOCIATION</h5>
-        <ol start="65">
-          <li>
-            <h6>Punt Owners&apos; Association Committee</h6>
+      <Container maxW={'3xl'} mt={10} bg={'gray.100'} p={5} rounded={'md'}>
+        <Heading fontSize={'2xl'}>
+          SECTION 9 - PUNT OWNER&apos;S ASSOCIATION
+        </Heading>
+        <OrderedList start="65">
+          <ListItem>
+            <Heading fontSize={'xl'}>
+              Punt Owners&apos; Association Committee
+            </Heading>
             <p>
               a)The Punt Owners&apos; Association Committee (POA) shall be
               deemed to be a sub committee of the Club and its purpose shall be
@@ -302,17 +307,17 @@ function PuntClub() {
               shall be notified forthwith of any change in the NPOA Rules.
               (included as Annex A below)
             </p>
-          </li>
-          <li>
-            <h6>Punt Owner</h6>
+          </ListItem>
+          <ListItem>
+            <Heading fontSize={'xl'}>Punt Owner</Heading>
             <p>
               A Punt Owner is defined as any person owning or part owning a
               Norfolk Punt (hereinafter called a Punt) recognised to be a boat
               within the class of Norfolk Punts as defined by the POA Rules
             </p>
-          </li>
-          <li>
-            <h6>POA Committee</h6>
+          </ListItem>
+          <ListItem>
+            <Heading fontSize={'xl'}>POA Committee</Heading>
             <p>
               The POA committee shall consist of the POA Chair, the POA
               Secretary (who during the period of tenure shall be an ex officio
@@ -321,9 +326,9 @@ function PuntClub() {
               persons together shall be known as the POA Committee and shall
               take office from 1st January next following for one year.
             </p>
-          </li>
-          <li>
-            <h6>Membership</h6>
+          </ListItem>
+          <ListItem>
+            <Heading fontSize={'xl'}>Membership</Heading>
             <p>
               Any members of the POA Committee or any sub committee thereto who
               are not Full Members or adult Family Members of the Club shall for
@@ -335,9 +340,9 @@ function PuntClub() {
               of Club membership and for the avoidance of doubt they shall have
               no voting rights in Club meetings.
             </p>
-          </li>
-          <li>
-            <h6>Meetings.</h6>
+          </ListItem>
+          <ListItem>
+            <Heading fontSize={'xl'}>Meetings.</Heading>
             <p>
               The Punt Owners Association Secretary, or, if none, the NPC
               Honorary Secretary, shall convene Meetings of Punt Owners (POA
@@ -357,9 +362,11 @@ function PuntClub() {
               accordance with the Club provisions therein save that at POA
               meetings ten owners shall form a quorum.
             </p>
-          </li>
-          <li>
-            <h6>Handicap and Technical Sub Committee</h6>
+          </ListItem>
+          <ListItem>
+            <Heading fontSize={'xl'}>
+              Handicap and Technical Sub Committee
+            </Heading>
             <p>
               a)A Handicap and Technical Sub Committee (HTC) shall be formed at
               the direction of the POA Committee to examine Punt handicaps,
@@ -378,8 +385,8 @@ function PuntClub() {
               the RYA (20 January 2012) but has been amended to meet the
               specific requirements of the Norfolk Punt Club.
             </p>
-          </li>
-        </ol>
+          </ListItem>
+        </OrderedList>
       </Container>
     </Box>
   )
