@@ -47,7 +47,7 @@ const Nav = () => (
       </LinkBox>
       <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
         <NavLink href="/boats">Boats</NavLink>
-        <NavLink href="/boats">Gallery</NavLink>
+        <NavLink href="/gallery">Gallery</NavLink>
         <NavLink href="/technicalities">Technicalities</NavLink>
       </HStack>
     </Flex>
