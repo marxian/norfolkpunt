@@ -32,6 +32,7 @@ collections:
               name: Image
               widget: image
               media_folder: '/public/images/gallery'
+              public_folder: '/images/gallery'
   - name: boats
     label: Boats
     label_singular: Boat
@@ -60,6 +61,7 @@ collections:
         widget: image
         required: false
         media_folder: '/public/images/boats'
+        public_folder: '/images/boats'
         tagname: ''
       - label: Year Built
         name: yearBuilt
