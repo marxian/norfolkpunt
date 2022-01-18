@@ -10,6 +10,8 @@ construction: Cold-moulded Plywood
 design: Horne
 designer: David Horne
 owners:
+  - from: 2021
+    owner: Leanne Murray
   - from: 2018
     to: 2021
     owner: Colin Murray & Oliver Murray
@@ -19,6 +21,4 @@ owners:
   - from: 1999
     to: 2012
     owner: Alex Tibbenham
-  - from: 2021
-    owner: Leanne Murray
 ---
