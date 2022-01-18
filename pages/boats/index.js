@@ -11,7 +11,7 @@ const Boats = ({ punts }) => {
   )
 
   return (
-    <SimpleGrid m="20px" columns={[1, 2, 3, 4]} spacing="20px">
+    <SimpleGrid m="20px" columns={[1, 2, 3]} spacing="20px">
       {boats.map(({ data, slug, image }) => (
         <PuntCard key={slug} punt={data} slug={slug} image={image} />
       ))}
