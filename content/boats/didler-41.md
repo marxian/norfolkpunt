@@ -1,7 +1,7 @@
 ---
 name: Didler
 sailNumber: 41
-coverImage: /public/images/boats/didler-41.jpg
+coverImage: /images/boats/didler-41.jpg
 yearBuilt: 1937
 loa: 22
 handicap: 1023
