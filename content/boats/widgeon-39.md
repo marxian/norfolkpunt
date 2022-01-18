@@ -1,7 +1,7 @@
 ---
 name: Widgeon
 sailNumber: 39
-coverImage: /public/images/boats/widgeon-39.jpg
+coverImage: /images/boats/widgeon-39.jpg
 yearBuilt: 1937
 loa: 22
 handicap: 1024
