@@ -10,6 +10,11 @@ construction: Wood (Carvel)
 design: Traditional
 designer: Herbert Woods
 owners:
+  - from: 2021
+    owner: Lewis Murray
+  - from: 2019
+    to: 2021
+    owner: Colin Murray
   - from: 1992
     to: 2019
     owner: A G Thaine
@@ -22,9 +27,4 @@ owners:
   - from: 1929
     to: 1956
     owner: Peter Arnold
-  - from: 2019
-    to: 2021
-    owner: Colin Murray
-  - from: 2021
-    owner: Lewis Murray
 ---
