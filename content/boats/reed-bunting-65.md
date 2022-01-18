@@ -1,7 +1,7 @@
 ---
 name: Reed Bunting
 sailNumber: 65
-coverImage: /public/images/boats/reed-bunting-65.jpg
+coverImage: /images/boats/reed-bunting-65.jpg
 yearBuilt: 1978
 loa: 22
 handicap: 908
