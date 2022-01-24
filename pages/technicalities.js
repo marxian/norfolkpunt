@@ -233,7 +233,7 @@ function Rules() {
               <VStack align={'start'}>
                 <LinkOverlay
                   target="_blank"
-                  href="//norfolk-punt-hull-measurement-form.xlsx"
+                  href="/norfolk-punt-hull-measurement-form.xlsx"
                 >
                   <Text fontWeight={600}>Hull Measurement Form</Text>
                 </LinkOverlay>
