@@ -7,6 +7,7 @@ import 'react-image-lightbox/style.css'
 import Image from '../components/Image'
 import Layout from '../components/Layout'
 import { getPage } from '../content/fetchers'
+import Head from 'next/head'
 
 const Gallery = ({ images }) => {
   let [isOpen, setOpen] = useState(false)
@@ -14,6 +15,9 @@ const Gallery = ({ images }) => {
 
   return (
     <>
+      <Head>
+        <style>{'.ril__outer { background-color: rgba(0, 0, 0, 1) }'}</style>
+      </Head>
       <Box
         padding={4}
         w="100%"
