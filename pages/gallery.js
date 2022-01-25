@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Box, Link } from '@chakra-ui/layout'
 import { getPlaiceholder } from 'plaiceholder'
 import Lightbox from 'react-image-lightbox'
+import 'react-image-lightbox/style.css'
 
 import Image from '../components/Image'
 import Layout from '../components/Layout'

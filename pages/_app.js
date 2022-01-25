@@ -4,7 +4,6 @@ import { ChakraProvider } from '@chakra-ui/react'
 import PlausibleProvider from 'next-plausible'
 
 import '@fontsource/vollkorn/400.css'
-import 'react-image-lightbox/style.css'
 
 import theme from '../theme'
 
