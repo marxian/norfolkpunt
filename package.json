@@ -8,7 +8,7 @@
     "@chakra-ui/react": "1.7.4",
     "@emotion/react": "11.7.1",
     "@emotion/styled": "11.6.0",
-    "@fontsource/vollkorn": "4.5.1",
+    "@fontsource/vollkorn": "4.5.4",
     "@plaiceholder/next": "2.2.0",
     "framer-motion": "6.2.3",
     "glob": "7.2.0",
