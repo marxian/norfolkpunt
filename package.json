@@ -10,7 +10,7 @@
     "@emotion/styled": "11.6.0",
     "@fontsource/vollkorn": "4.5.1",
     "@plaiceholder/next": "2.2.0",
-    "framer-motion": "6.2.3",
+    "framer-motion": "6.2.8",
     "glob": "7.2.0",
     "gray-matter": "4.0.3",
     "netlify-cms-app": "2.15.65",
