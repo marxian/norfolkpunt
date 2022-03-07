@@ -24,22 +24,37 @@ collections:
       - label: Gallery
         name: gallery
         file: content/pages/gallery.md
+        editor:
+          preview: false
         fields:
-          - label: Images
-            name: images
-            widget: list
-            field:
-              name: Image
+        - label: Images
+          name: images
+          widget: list
+          summary: '{{fields.image}}'
+          collapsed: false
+          add_to_top: true
+          fields:
+            - label: Image
+              name: src
               widget: image
               media_folder: '/public/images/gallery'
               public_folder: '/images/gallery'
+              required: true
+            - label: Caption
+              widget: string
+              name: caption
+              required: true
+            - label: Attribution
+              name: attribution
+              widget: string
   - name: boats
     label: Boats
     label_singular: Boat
     folder: content/boats
+    editor:
+      preview: false
     preview_path: 'boats/{{slug}}'
     create: true
-    preview: false
     slug: '{{name}}-{{fields.sailNumber}'
     summary: '{{name}} {{sailNumber}} - {{design}}'
     sortable_fields:

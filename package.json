@@ -13,7 +13,6 @@
     "framer-motion": "6.2.8",
     "glob": "7.2.0",
     "gray-matter": "4.0.3",
-    "netlify-cms-app": "2.15.67",
     "netlify-cms-oauth-provider-node": "2.0.0",
     "next": "12.1.0",
     "next-plausible": "3.1.5",
@@ -23,7 +22,6 @@
     "react-image-lightbox": "5.1.4",
     "remark": "14.0.2",
     "remark-html": "15.0.1",
-    "responsive-loader": "2.3.0",
     "sharp": "0.29.3"
   },
   "keywords": [
@@ -44,13 +42,12 @@
     "build": "next build",
     "start": "next start",
     "format": "prettier --write .",
-    "lint": "eslint .",
+    "lint": "next lint",
     "test": "echo \"Error: no test specified\" && exit 1",
     "localcms": "netlify-cms-proxy-server",
     "prepare": "husky install"
   },
   "devDependencies": {
-    "babel-eslint": "10.1.0",
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0",
     "husky": "7.0.4",
