@@ -1,5 +1,16 @@
 import React from 'react'
-import { Text, Center, Container, SimpleGrid } from '@chakra-ui/react'
+import {
+  Text,
+  Center,
+  Container,
+  FormControl,
+  Input,
+  FormLabel,
+  Button,
+  Flex,
+  Heading,
+  Link,
+} from '@chakra-ui/react'
 import Layout from '../components/Layout'
 import Image from '../components/Image'
 
@@ -40,6 +51,51 @@ const Home = () => (
       carry a basic mast and sail for travelling with the wind. It is from these
       humble beginnings that one of the country&apos;s most exciting and
       powerful racing dinghy classes was born.
+    </Container>
+
+    <Container
+      mt="2em"
+      mb="2em"
+      border={'1px solid black'}
+      borderRadius={'lg'}
+      px={'1.5em'}
+      py={'1.5em'}
+    >
+      <Center>
+        <Heading size={'lg'} as="h2">
+          Norfolk Punt Newsletter
+        </Heading>
+      </Center>
+      <Text>
+        Subscribe to recieve occasional emails containing relevant news and
+        announcements.
+      </Text>
+      <form
+        action="https://tinyletter.com/norfolkpuntownersassociation"
+        method="post"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Flex mt="5">
+          <FormControl variant="floating">
+            <Input id="email" name="email" type="email" placeholder="  " />
+            <FormLabel htmlFor="email">Email address</FormLabel>
+          </FormControl>
+          <input type="hidden" value="1" name="embed" />
+          <Button type="submit">Subscribe</Button>
+        </Flex>
+      </form>
+      <Center mt="5">
+        <Text as="em">
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://tinyletter.com/norfolkpuntownersassociation/archive"
+          >
+            view the archive
+          </Link>
+        </Text>
+      </Center>
     </Container>
   </>
 )
