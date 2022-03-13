@@ -11,7 +11,7 @@ const Footer = () => (
           </Link>
         </WrapItem>
         <WrapItem>
-          <Link href={'/admin.html'} color={'white'}>
+          <Link href={'/admin.html'} color={'white'} target="_blank">
             Log In
           </Link>
         </WrapItem>
