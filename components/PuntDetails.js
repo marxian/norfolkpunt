@@ -4,11 +4,9 @@ import {
   Stack,
   Text,
   Flex,
-  VStack,
   Heading,
   SimpleGrid,
   StackDivider,
-  useColorModeValue,
   List,
   ListItem,
   Stat,
@@ -17,9 +15,10 @@ import {
   Link,
 } from '@chakra-ui/react'
 
+import Story from '../components/Story'
 import Image from '../components/Image'
 
-function PuntDetails({ punt, content, image }) {
+function PuntDetails({ punt, image }) {
   return (
     <Container maxW={'7xl'}>
       <SimpleGrid
@@ -52,16 +51,12 @@ function PuntDetails({ punt, content, image }) {
           <Stack
             spacing={{ base: 4, sm: 6 }}
             direction={'column'}
-            divider={
-              <StackDivider
-                borderColor={useColorModeValue('gray.200', 'gray.600')}
-              />
-            }
+            divider={<StackDivider borderColor={'gray.200'} />}
           >
             <Box>
               <Text
                 fontSize={{ base: '16px', lg: '18px' }}
-                color={useColorModeValue('yellow.500', 'yellow.300')}
+                color={'yellow.500'}
                 fontWeight={'500'}
                 textTransform={'uppercase'}
                 mb={'4'}
@@ -104,21 +99,32 @@ function PuntDetails({ punt, content, image }) {
                 </Stat>
               </SimpleGrid>
             </Box>
-            {content && (
-              <VStack spacing={{ base: 4, sm: 6 }}>
-                <Text fontSize={'lg'}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
-                  aliquid amet at delectus doloribus dolorum expedita hic, ipsum
-                  maxime modi nam officiis porro, quae, quisquam quos
-                  reprehenderit velit? Natus, totam.
+            {punt.stories && (
+              <Box>
+                <Text
+                  fontSize={{ base: '16px', lg: '18px' }}
+                  color={'yellow.500'}
+                  fontWeight={'500'}
+                  textTransform={'uppercase'}
+                  mb={'4'}
+                >
+                  Stories
                 </Text>
-              </VStack>
+
+                <List spacing={2}>
+                  {punt.stories.map(({ story, author }, i) => (
+                    <ListItem key={`${author}${i}`}>
+                      <Story story={story} author={author} />
+                    </ListItem>
+                  ))}
+                </List>
+              </Box>
             )}
             <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
               <Box>
                 <Text
                   fontSize={{ base: '16px', lg: '18px' }}
-                  color={useColorModeValue('yellow.500', 'yellow.300')}
+                  color={'yellow.500'}
                   fontWeight={'500'}
                   textTransform={'uppercase'}
                   mb={'4'}
@@ -137,7 +143,7 @@ function PuntDetails({ punt, content, image }) {
               <Box>
                 <Text
                   fontSize={{ base: '16px', lg: '18px' }}
-                  color={useColorModeValue('yellow.500', 'yellow.300')}
+                  color={'yellow.500'}
                   fontWeight={'500'}
                   textTransform={'uppercase'}
                   mb={'4'}

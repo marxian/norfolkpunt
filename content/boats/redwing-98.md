@@ -24,4 +24,10 @@ sailMeasurements:
   - date: 25/05/2018
     area: 21.99
     forms: /files/measurements/sail/redwing-25-05-18-punt-sail-measuremment-spreadsheet-03.xlsx
+stories:
+  - story: In 2014 we took Redwing to Germany for a multi-day downriver race on the
+      Rhine. We had a great time, but the wake from massive coal barges was
+      challenging and craning the boat up sheer 40 foot embankments in a sling
+      was nerve-wracking.
+    author: Rupert Redington
 ---
