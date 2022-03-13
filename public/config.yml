@@ -155,3 +155,13 @@ collections:
             required: false
             media_folder: '/public/files/measurements/sail'
             public_folder: '/files/measurements/sail'
+      - label: Stories
+        name: stories
+        widget: list
+        fields:
+          - label: Story
+            name: story
+            widget: text
+          - label: Author
+            name: author
+            widget: string
