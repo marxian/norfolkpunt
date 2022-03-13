@@ -1,19 +1,23 @@
 ---
-name: 'Woodpecker'
+name: Woodpecker
+sailNumber: 99
+coverImage: /images/boats/woodpecker-99.jpg
+yearBuilt: 2004
 loa: 22
 handicap: 908
-builder: 'Jeff Green'
-construction: 'Foam sandwich composite'
-design: 'Hardchine'
-designer: 'Wyche and Coppock'
+builder: Jeff Green
+construction: Foam sandwich composite
+design: Hardchine
+designer: Wyche and Coppock
 owners:
   - from: 2012
     to: null
-    owner: 'M Scott'
+    owner: M Scott
   - from: 2004
     to: 2012
-    owner: 'Chris Wood'
-sailNumber: 99
-yearBuilt: 2004
-coverImage: '/images/boats/woodpecker-99.jpg'
+    owner: Chris Wood
+sailMeasurements:
+  - area: 21.59
+    date: 25/06/2018
+    forms: /files/measurements/sail/woodpecker-99-sail-measurement.xlsx
 ---
