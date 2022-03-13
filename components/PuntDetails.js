@@ -14,6 +14,7 @@ import {
   Stat,
   StatLabel,
   StatNumber,
+  Link,
 } from '@chakra-ui/react'
 
 import Image from '../components/Image'
@@ -113,25 +114,69 @@ function PuntDetails({ punt, content, image }) {
                 </Text>
               </VStack>
             )}
-            <Box>
-              <Text
-                fontSize={{ base: '16px', lg: '18px' }}
-                color={useColorModeValue('yellow.500', 'yellow.300')}
-                fontWeight={'500'}
-                textTransform={'uppercase'}
-                mb={'4'}
-              >
-                Ownership History
-              </Text>
+            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+              <Box>
+                <Text
+                  fontSize={{ base: '16px', lg: '18px' }}
+                  color={useColorModeValue('yellow.500', 'yellow.300')}
+                  fontWeight={'500'}
+                  textTransform={'uppercase'}
+                  mb={'4'}
+                >
+                  Ownership History
+                </Text>
 
-              <List spacing={2}>
-                {punt.owners.map(({ from, to, owner }, i) => (
-                  <ListItem key={`${owner}${i}`}>
-                    {from} - {to || 'present'} {owner}
-                  </ListItem>
-                ))}
-              </List>
-            </Box>
+                <List spacing={2}>
+                  {punt.owners.map(({ from, to, owner }, i) => (
+                    <ListItem key={`${owner}${i}`}>
+                      {from} - {to || 'present'} {owner}
+                    </ListItem>
+                  ))}
+                </List>
+              </Box>
+              <Box>
+                <Text
+                  fontSize={{ base: '16px', lg: '18px' }}
+                  color={useColorModeValue('yellow.500', 'yellow.300')}
+                  fontWeight={'500'}
+                  textTransform={'uppercase'}
+                  mb={'4'}
+                >
+                  Measurements
+                </Text>
+
+                <List spacing={2}>
+                  {punt.hullMeasurements?.map(({ date, weight, forms }, i) => (
+                    <ListItem key={`${date}${i}`}>
+                      Hull measured {date} {weight ? `at ${weight}lbs` : null}{' '}
+                      {forms ? (
+                        <Link
+                          href={forms}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          (view details)
+                        </Link>
+                      ) : null}
+                    </ListItem>
+                  )) || <ListItem>Hull measurement awaiting evidence</ListItem>}
+                  {punt.sailMeasurements?.map(({ date, area, forms }, i) => (
+                    <ListItem key={`${date}${i}`}>
+                      Sails measured {date} {area ? `at ${area}sqm` : null}{' '}
+                      {forms ? (
+                        <Link
+                          href={forms}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          (view details)
+                        </Link>
+                      ) : null}
+                    </ListItem>
+                  )) || <ListItem>Sail measurement awaiting evidence</ListItem>}
+                </List>
+              </Box>
+            </SimpleGrid>
           </Stack>
         </Stack>
       </SimpleGrid>
