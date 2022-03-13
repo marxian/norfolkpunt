@@ -21,4 +21,8 @@ owners:
   - from: 1999
     to: 2012
     owner: Alex Tibbenham
+sailMeasurements:
+  - date: 10/10/2017
+    area: 18.93
+    forms: /files/measurements/sail/flamingo-92-sail-measurement.xlsx
 ---
