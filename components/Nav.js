@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import {
-  Box,
   Flex,
-  HStack,
+  Spacer,
+  Stack,
   Text,
   Link as ChakraLink,
   LinkBox,
@@ -31,27 +31,26 @@ const NavLink = ({ href, children }) => (
 )
 
 const Nav = () => (
-  <Box bg={'black'} p={4}>
-    <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-      <LinkBox>
-        <Link href="/" passHref>
-          <LinkOverlay>
-            <Heading color={'white'} as="h1">
-              Norfolk Punt{' '}
-              <Text as="span" color={'gray.400'} fontSize={'2xl'}>
-                Owners Association
-              </Text>
-            </Heading>
-          </LinkOverlay>
-        </Link>
-      </LinkBox>
-      <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
-        <NavLink href="/boats">Boats</NavLink>
-        <NavLink href="/gallery">Gallery</NavLink>
-        <NavLink href="/technicalities">Technicalities</NavLink>
-      </HStack>
-    </Flex>
-  </Box>
+  <Flex p="2rem" bg={'black'}>
+    <LinkBox>
+      <Link href="/" passHref>
+        <LinkOverlay>
+          <Heading color={'white'} as="h1">
+            Norfolk Punt{' '}
+            <Text as="span" color={'gray.400'} fontSize={'2xl'}>
+              Owners Association
+            </Text>
+          </Heading>
+        </LinkOverlay>
+      </Link>
+    </LinkBox>
+    <Spacer />
+    <Stack direction={['column', 'row']}>
+      <NavLink href="/boats">Boats</NavLink>
+      <NavLink href="/gallery">Gallery</NavLink>
+      <NavLink href="/technicalities">Technicalities</NavLink>
+    </Stack>
+  </Flex>
 )
 
 export default Nav
