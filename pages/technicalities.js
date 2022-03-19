@@ -28,7 +28,7 @@ function Committee() {
             The Committee is elected anually at the Owners&apos; Association
             AGM. It consists of a Chair, Secretary, the class Measurers and
             representatives of the Hardchine, One-off, and Traditional fleets,
-            along with representation fron Hickling Broad Sailing Club.
+            along with representation from Hickling Broad Sailing Club.
           </em>
         </Text>
       </Stack>
@@ -41,7 +41,7 @@ function Committee() {
             </Box>
             <VStack align={'start'}>
               <Text fontWeight={600}>Chair</Text>
-              <Text color={'gray.600'}>Neville Khambatta</Text>
+              <Text color={'gray.600'}>Rupert Redington</Text>
             </VStack>
           </HStack>
 
@@ -51,7 +51,7 @@ function Committee() {
             </Box>
             <VStack align={'start'}>
               <Text fontWeight={600}>Secretary</Text>
-              <Text color={'gray.600'}>Robin Slatter</Text>
+              <Text color={'gray.600'}>Bill Glover</Text>
             </VStack>
           </HStack>
 
@@ -81,7 +81,7 @@ function Committee() {
             </Box>
             <VStack align={'start'}>
               <Text fontWeight={600}>Traditional Representative</Text>
-              <Text color={'gray.600'}>Bill Glover</Text>
+              <Text color={'gray.600'}>Ruth Owen</Text>
             </VStack>
           </HStack>
 
@@ -100,8 +100,9 @@ function Committee() {
               <Icon as={StarIcon} />
             </Box>
             <VStack align={'start'}>
-              <Text fontWeight={600}>Hickling Representative</Text>
-              <Text color={'gray.600'}>Rupert Redington</Text>
+              <Text fontWeight={600}>One-off Representatives</Text>
+              <Text color={'gray.600'}>Colin Murray</Text>
+              <Text color={'gray.600'}>Alistair Drew</Text>
             </VStack>
           </HStack>
 
@@ -110,8 +111,8 @@ function Committee() {
               <Icon as={StarIcon} />
             </Box>
             <VStack align={'start'}>
-              <Text fontWeight={600}>One-off Representative</Text>
-              <Text color={'gray.600'}>Colin Murray</Text>
+              <Text fontWeight={600}>Hickling Representative</Text>
+              <Text color={'gray.600'}>John Parker</Text>
             </VStack>
           </HStack>
         </SimpleGrid>
@@ -183,7 +184,7 @@ function Rules() {
                   <Text fontWeight={600}>Norfolk Punt Class Register</Text>
                 </LinkOverlay>
                 <Text color={'gray.600'}>
-                  A spreaqdsheet of the class regiuster, with ownership and
+                  A spreadsheet of the class register, with ownership and
                   handicap details
                 </Text>
               </VStack>
