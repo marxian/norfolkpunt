@@ -164,12 +164,12 @@ function Rules() {
               <VStack align={'start'}>
                 <LinkOverlay
                   target="_blank"
-                  href="/norfolk-punt-rules-0.3.1.pdf"
+                  href="/norfolk-punt-rules-0.3.2.pdf"
                 >
                   <Text fontWeight={600}>Norfolk Punt Rules</Text>
                 </LinkOverlay>
                 <Text color={'gray.600'}>
-                  Full Norfolk Punt Class Rules, v0.3.1
+                  Full Norfolk Punt Class Rules, v0.3.2
                 </Text>
               </VStack>
             </HStack>
