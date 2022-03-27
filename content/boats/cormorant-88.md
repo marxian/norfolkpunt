@@ -9,7 +9,7 @@ designer: 'Phil Morrison'
 owners:
   - from: 2018
     to: null
-    owner: 'Tim Edmunds, Bart Sawyer & S Girling'
+    owner: 'Tim Edmunds & Bart Sawyer'
   - from: 2003
     to: 2018
     owner: 'J M Friend'
