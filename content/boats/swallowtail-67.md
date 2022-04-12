@@ -9,6 +9,8 @@ construction: Fibreglass
 design: Hardchine
 designer: Wyche and Coppock
 owners:
+  - from: 2022
+    owner: Gavin Smith
   - from: 2018
     to: 2022
     owner: John Parker
@@ -27,6 +29,4 @@ owners:
   - from: 1977
     to: 1982
     owner: Colin McDougall
-  - from: 2022
-    owner: Gavin Smith
 ---
