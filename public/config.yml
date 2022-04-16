@@ -89,6 +89,9 @@ collections:
         name: handicap
         widget: number
         hint: Portsmouth Yardstick
+      - label: Provisional Handicap
+        name: provisionalHandicap
+        widget: boolean
       - label: Builder
         name: builder
         widget: string

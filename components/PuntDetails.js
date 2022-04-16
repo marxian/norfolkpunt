@@ -75,7 +75,10 @@ function PuntDetails({ punt, image }) {
                 </Stat>
                 <Stat>
                   <StatLabel>Handicap</StatLabel>
-                  <StatNumber>{punt.handicap}</StatNumber>
+                  <StatNumber>
+                    {punt.handicap}
+                    {punt.provisionalHandicap && ' - provisional'}
+                  </StatNumber>
                 </Stat>
                 <Stat>
                   <StatLabel>Design</StatLabel>

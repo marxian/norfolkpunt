@@ -4,7 +4,8 @@ sailNumber: 105
 coverImage: /images/boats/woodlark-105.jpg
 yearBuilt: 2019
 loa: 18
-handicap: 875
+handicap: 1003
+provisionalHandicap: true
 builder: Chris Wood
 construction: Clinker ply
 design: Singlehander
