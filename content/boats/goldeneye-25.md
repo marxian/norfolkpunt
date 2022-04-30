@@ -56,6 +56,6 @@ stories:
 
       In 2004 Mike Evans persuaded Neville Kambatta to have her restored by Paul Bown. The inside of the boat had been painted with tar which proved tricky to remove and only her pitch pine clinker planks were retained.
 
-      After passing through a number of owners she now sports a modern international 14 rig with single trapeze and though a bit quirky to sail is remarkably quick. Current competitive focus is on getting her name on the older class and broadland trophies which never competed for when new. So far her name is now on the Athene cup, the Forbes cup, the Sundog trophy, the Barton Broad challenge cup for punts and the Barton Broad challenge cup itself.
+      After passing through a number of owners she now sports a modern international 14 rig with single trapeze and though a bit quirky to sail is remarkably quick. Current competitive focus is on getting her name on the older class and broadland trophies which she never competed for when new. So far her name is now on the Athene cup, the Forbes cup, the Sundog trophy, the Barton Broad challenge cup for punts and the Barton Broad challenge cup itself.
     author: Dick Roe
 ---
