@@ -172,7 +172,17 @@ collections:
         fields:
           - label: Story
             name: story
-            widget: text
+            widget: markdown
+            buttons:
+              - bold
+              - italic
+              - heading-four
+              - quote
+              - bulleted-list
+              - numbered-list
+            editor_components:
+              - image
+            sanitize_preview: true
           - label: Author
             name: author
             widget: string

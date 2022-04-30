@@ -102,7 +102,7 @@ function PuntDetails({ punt, image }) {
                 </Stat>
               </SimpleGrid>
             </Box>
-            {punt.stories && (
+            {punt?.stories?.length && (
               <Box>
                 <Text
                   fontSize={{ base: '16px', lg: '18px' }}
@@ -115,9 +115,9 @@ function PuntDetails({ punt, image }) {
                 </Text>
 
                 <List spacing={2}>
-                  {punt.stories.map(({ story, author }, i) => (
-                    <ListItem key={`${author}${i}`}>
-                      <Story story={story} author={author} />
+                  {punt.stories.map((s, i) => (
+                    <ListItem key={`${s.author}${i}`}>
+                      <Story {...s} />
                     </ListItem>
                   ))}
                 </List>

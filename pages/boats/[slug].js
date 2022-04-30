@@ -22,9 +22,11 @@ export default Boat
 export async function getStaticProps({ params }) {
   const { data, content: markdown = '' } = getBoatBySlug(params.slug)
   const content = await markdownToHtml(markdown)
+
   const image = await getPlaiceholder(
     data.coverImage || '/images/site/photograph-wanted.png'
   )
+
   return {
     props: {
       data,

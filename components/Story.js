@@ -1,11 +1,12 @@
 import React from 'react'
-import { Box, Flex, Wrap, WrapItem, Link, Text } from '@chakra-ui/react'
+import ChakraUIRenderer from 'chakra-ui-markdown-renderer'
+import ReactMarkdown from 'react-markdown'
 
 const Story = ({ story, author }) => (
   <figure>
-    <blockquote>
-      <Text>{story}</Text>
-    </blockquote>
+    <ReactMarkdown components={ChakraUIRenderer()} skipHtml>
+      {story}
+    </ReactMarkdown>
     <figcaption>—{author}</figcaption>
   </figure>
 )
