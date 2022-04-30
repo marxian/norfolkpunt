@@ -5,7 +5,7 @@ backend:
   repo: marxian/norfolkpunt
   branch: main
   base_url: 'https://www.norfolkpunt.org'
-  auth_endpoint: api/begin
+  auth_endpoint: api/auth
   commit_messages:
     create: 'feat: add {{collection}} {{slug}}'
     update: 'fix: update {{collection}} {{slug}}'
