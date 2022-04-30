@@ -5,7 +5,7 @@ coverImage: /images/boats/goldeneye-25.jpg
 yearBuilt: 1928
 loa: 20
 handicap: 1023
-provisionalHandicap: true
+provisionalHandicap: false
 builder: C J Broom of Brundall
 construction: Wood (Carvel)
 design: Traditional
