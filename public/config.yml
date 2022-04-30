@@ -108,6 +108,9 @@ collections:
       - label: Owners
         name: owners
         widget: list
+        add_to_top: true
+        label_singular: Owner
+        summary: '{{fields.from}} - {{fields.owner}}'
         fields:
           - label: From
             name: from
@@ -122,6 +125,8 @@ collections:
       - label: Hull Measurements
         name: hullMeasurements
         widget: list
+        summary: '{{fields.date}} - {{fields.weight}}lbs'
+        add_to_top: true
         fields:
           - label: Date
             name: date
@@ -142,6 +147,8 @@ collections:
       - label: Sail Measurements
         name: sailMeasurements
         widget: list
+        summary: '{{fields.date}} - {{fields.area}}sqm'
+        add_to_top: true
         fields:
           - label: Date
             name: date
