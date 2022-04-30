@@ -5,15 +5,12 @@ coverImage: /images/boats/goldeneye-25.jpg
 yearBuilt: 1928
 loa: 20
 handicap: 1023
-provisionalHandicap: false
+provisionalHandicap: true
 builder: C J Broom of Brundall
 construction: Wood (Carvel)
 design: Traditional
 designer: George F. Marshall
 owners:
-  - from: 2014
-    to: 2017
-    owner: R Santos
   - from: 2017
     to: null
     owner: Kate Dulieu
@@ -23,6 +20,9 @@ owners:
   - from: 2006
     to: 2012
     owner: Robin Slatter
+  - from: 2014
+    to: 2017
+    owner: R Santos
   - from: 2004
     to: 2006
     owner: Neville Khambatta
@@ -32,7 +32,9 @@ owners:
   - from: 1928
     to: 1967
     owner: Guy Danes
-hullMeasurements: []
+hullMeasurements:
+  - weight: 266
+    date: 01/12/2017
 sailMeasurements:
   - area: 14.56
     date: 10/05/2019
