@@ -7,7 +7,7 @@ loa: 20
 handicap: 1023
 provisionalHandicap: false
 builder: C J Broom of Brundall
-construction: Wood (Carvel)
+construction: Wood (Clinker)
 design: Traditional
 designer: George F. Marshall
 owners:
