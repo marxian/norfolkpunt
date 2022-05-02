@@ -51,15 +51,12 @@ stories:
       prompted the resignation of the club flag officers!
 
 
-
       The renamed Goldeneye was eventually admitted to the class in 1967 and given the vacant sail number 25, the name Scoter having been used for the first hardchine. Whether she was modified to pass measurement is uncertain her bottom had certainly been replaced with plywood prior to her restoration.
-
 
 
       She was then sailed at Coldham Hall by Chris Alston until 1994. Chris who sailed in flannels, shirt and cravat would start the morning race but rarely finished it as he had to be home for his sunday lunch. A painting of her sailing still hangs in the Coldham Hall club house.
 
-      In 2004 Mike Evans persuaded Neville Kambatta to have her restored by Paul Bown. The inside of the boat had been painted with tar which proved tricky to remove and only her pitch pine clinker planks were retained.
-
+      In 2004 Neville Kambatta bought her and had her hull rebuilt by Paul Bown. she had a hole in her bottom and the inside of the boat had been painted with tar which proved tricky to remove and only her pitch pine clinker planks were retained.
 
 
       After passing through a number of owners she now sports a modern international 14 rig with single trapeze and though a bit quirky to sail is remarkably quick. Current competitive focus is on getting her name on the older class and broadland trophies which she never competed for when new. So far her name is now on the Athene cup, the Forbes cup, the Sundog trophy, the Barton Broad challenge cup for punts and the Barton Broad challenge cup itself.
