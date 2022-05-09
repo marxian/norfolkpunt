@@ -63,7 +63,7 @@ const Home = () => (
     >
       <Center>
         <Heading size={'lg'} as="h2">
-          Norfolk Punt Newsletter
+          Punt Natters
         </Heading>
       </Center>
       <Text>
@@ -92,7 +92,7 @@ const Home = () => (
             rel="noopener noreferrer"
             href="https://tinyletter.com/norfolkpuntownersassociation/archive"
           >
-            view the archive
+            view previous editions
           </Link>
         </Text>
       </Center>
