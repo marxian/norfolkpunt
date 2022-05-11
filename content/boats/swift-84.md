@@ -1,24 +1,30 @@
 ---
-name: 'Swift'
+name: Swift
+sailNumber: 84
+coverImage: /images/boats/swift-71.jpg
+yearBuilt: 1991
 loa: 20.5
-handicap: null
-builder: 'Matthew Thwaites'
-construction: 'Unknown'
-design: 'One-off'
-designer: 'Matthew Thwaites'
+handicap: 880
+builder: Matthew Thwaites
+construction: Unknown
+design: One-off
+designer: Matthew Thwaites
 owners:
   - from: 2007
     to: null
-    owner: 'Andrew Friend'
+    owner: Andrew Friend
   - from: 1993
     to: 2007
-    owner: 'Richard Parker'
+    owner: Richard Parker
   - from: 1992
     to: 1993
-    owner: 'P Carrington'
+    owner: P Carrington
   - from: 1991
     to: 1992
-    owner: 'M Thwaites'
-sailNumber: 84
-yearBuilt: 1991
+    owner: M Thwaites
+stories:
+  - story: Swift was built using the Morrison design but with a truncated stern with
+      a transom, transom hung rudder and no foredeck. She did not measure as a
+      Norfolk Punt and was not admitted to the class.
+    author: Dick Roe
 ---
