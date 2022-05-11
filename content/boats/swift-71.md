@@ -1,17 +1,18 @@
 ---
-name: 'Swift'
-loa: 22
-handicap: null
-builder: 'Colin McDougall'
-construction: 'Fibreglass'
-design: 'Hardchine'
-designer: 'Wyche and Coppock'
-lost: true
-owners:
-  - from: 1980
-    to: 1980
-    owner: 'S J P Cooper'
+name: Swift
 sailNumber: 71
+coverImage: ""
 yearBuilt: 1980
-coverImage: '/images/boats/swift-71.jpg'
+loa: 22
+handicap: 880
+builder: N/A
+construction: N/A
+owners: []
+lost: true
+design: N/A
+designer: N/A
+stories:
+  - story: The royalty for sail number 71 was paid, the sail number issued and the
+      name Swift approved, but the boat was never built.
+    author: Dick Roe
 ---
