@@ -31,7 +31,7 @@ const NavLink = ({ href, children }) => (
 )
 
 const Nav = () => (
-  <Flex p="2rem" bg={'black'}>
+  <Flex p="1.5rem" bg={'black'}>
     <LinkBox>
       <Link href="/" passHref>
         <LinkOverlay>
@@ -48,6 +48,7 @@ const Nav = () => (
     <Stack direction={['column', 'row']}>
       <NavLink href="/boats">Boats</NavLink>
       <NavLink href="/gallery">Gallery</NavLink>
+      <NavLink href="/calendar">Calendar</NavLink>
       <NavLink href="/technicalities">Technicalities</NavLink>
     </Stack>
   </Flex>

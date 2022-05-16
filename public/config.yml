@@ -47,6 +47,62 @@ collections:
             - label: Attribution
               name: attribution
               widget: string
+      - label: Calendar
+        name: calendar
+        file: content/pages/calendar.md
+        editor:
+          preview: false
+        fields:
+        - label: Events
+          name: events
+          widget: list
+          summary: '{{fields.title}}'
+          collapsed: true
+          add_to_top: false
+          fields:
+            - label: Title
+              widget: string
+              name: title
+              required: true
+            - label: Start
+              name: start
+              widget: datetime
+              date_format: "YYYY-MM-DD"
+              format: "YYYY-MM-DD"
+              time_format: false
+              required: true
+              default: ""
+            - label: End
+              name: end
+              widget: datetime
+              format: "YYYY-MM-DD"
+              date_format: "YYYY-MM-DD"
+              time_format: false
+              required: false
+              default: ""
+            - label: "Type"
+              name: "type"
+              widget: "select"
+              multiple: true
+              options: ["Open Meeting", "Regatta", "Navigation Race", "Travellers Series", "AGM", "EGM", "HTC Meeting", "Social"]
+            - label: Link
+              widget: string
+              name: link
+              required: false
+            - label: Description
+              name: description
+              required: false
+              widget: markdown
+              buttons:
+                - bold
+                - italic
+                - heading-four
+                - quote
+                - bulleted-list
+                - numbered-list
+              editor_components:
+                - image
+              sanitize_preview: true
   - name: boats
     label: Boats
     label_singular: Boat
