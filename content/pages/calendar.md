@@ -31,11 +31,22 @@ events:
     title: NPC Punt Open
     type:
       - Open Meeting
+  - start: 2022-08-06
+    end: 2022-08-07
+    title: Hickling Summer Regatta
+    type:
+      - Regatta
+    link: https://www.hicklingbroad.com/summer_regatta.html
   - start: 2022-08-20
     end: 2022-08-21
     title: Punt Championships
     type:
       - Open Meeting
+  - start: 2022-08-27
+    end: 2022-08-29
+    title: Barton Regatta
+    type:
+      - Regatta
   - start: 2022-10-08
     end: ""
     title: Athene Cup
