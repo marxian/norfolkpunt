@@ -53,4 +53,11 @@ events:
     type:
       - Navigation Race
       - Travellers Series
+  - start: 2022-10-23
+    end: ""
+    title: Tri-Icicle
+    type:
+      - Navigation Race
+      - Travellers Series
+    description: "**Date To Be Confirmed**"
 ---
