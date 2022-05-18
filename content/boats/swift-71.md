@@ -1,5 +1,5 @@
 ---
-name: Swift
+name: Swift (never built)
 sailNumber: 71
 coverImage: ""
 yearBuilt: 1980
