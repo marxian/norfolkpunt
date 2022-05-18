@@ -1,5 +1,5 @@
 ---
-name: Swift
+name: Swift (out of class)
 sailNumber: 84
 coverImage: /images/boats/swift-71.jpg
 yearBuilt: 1991
