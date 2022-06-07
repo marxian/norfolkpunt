@@ -8,7 +8,7 @@
     "@chakra-ui/react": "2.2.1",
     "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
-    "@fontsource/vollkorn": "4.5.9",
+    "@fontsource/vollkorn": "4.5.10",
     "@openlab/vercel-netlify-cms-github": "1.1.1",
     "@plaiceholder/next": "2.3.0",
     "chakra-ui-markdown-renderer": "4.0.0",
