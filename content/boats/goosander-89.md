@@ -1,7 +1,7 @@
 ---
 name: Goosander
 sailNumber: 89
-coverImage: /images/boats/goosander-89.jpg
+coverImage: /images/boats/1p1a9962.jpg
 yearBuilt: 1994
 loa: 20
 handicap: 926
