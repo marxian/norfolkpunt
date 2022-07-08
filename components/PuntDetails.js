@@ -168,7 +168,7 @@ function PuntDetails({ punt, image }) {
                         </Link>
                       ) : null}
                     </ListItem>
-                  )) || <ListItem>Hull measurement awaiting evidence</ListItem>}
+                  )) || <ListItem>Hull measurement is in the paper archive</ListItem>}
                   {punt.sailMeasurements?.map(({ date, area, forms }, i) => (
                     <ListItem key={`${date}${i}`}>
                       Sails measured {date} {area ? `at ${area}sqm` : null}{' '}
@@ -182,7 +182,7 @@ function PuntDetails({ punt, image }) {
                         </Link>
                       ) : null}
                     </ListItem>
-                  )) || <ListItem>Sail measurement awaiting evidence</ListItem>}
+                  )) || <ListItem>Sail measurement is in the paper archive</ListItem>}
                 </List>
               </Box>
             </SimpleGrid>
