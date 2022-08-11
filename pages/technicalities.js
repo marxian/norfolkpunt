@@ -100,7 +100,7 @@ function Committee() {
               <Icon as={StarIcon} />
             </Box>
             <VStack align={'start'}>
-              <Text fontWeight={600}>One-off Representatives</Text>
+              <Text fontWeight={600}>One-off Representative</Text>
               <Text color={'gray.600'}>Alastair Drew</Text>
             </VStack>
           </HStack>
