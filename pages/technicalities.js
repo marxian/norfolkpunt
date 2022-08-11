@@ -101,7 +101,6 @@ function Committee() {
             </Box>
             <VStack align={'start'}>
               <Text fontWeight={600}>One-off Representatives</Text>
-              <Text color={'gray.600'}>Colin Murray</Text>
               <Text color={'gray.600'}>Alastair Drew</Text>
             </VStack>
           </HStack>
