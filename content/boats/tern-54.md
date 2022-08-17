@@ -39,5 +39,7 @@ owners:
     owner: Dr and Mrs J A Eddy
 sailMeasurements:
   - date: 30/05/2021
+    area: 21.35
+  - date: 30/05/2021
     forms: /files/measurements/sail/tern-3rr-30-05-21.xlsx
 ---
