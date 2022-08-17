@@ -15,5 +15,7 @@ owners:
     owner: Jane Pye & John Parker
 sailMeasurements:
   - date: 15/05/2019
+    area: 21.84
+  - date: 15/05/2019
     forms: /files/measurements/sail/snow-goose-15-05-19.xlsx
 ---
