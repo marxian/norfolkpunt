@@ -1,7 +1,7 @@
 ---
 name: Goldeneye
 sailNumber: 25
-coverImage: /images/boats/goldeneye-25.jpg
+coverImage: /images/boats/goldeneye.jpg
 yearBuilt: 1928
 loa: 20
 handicap: 1023
