@@ -33,5 +33,7 @@ owners:
     owner: T E Harmer
 sailMeasurements:
   - date: 18/05/2019
+    area: 21.63
+  - date: 18/05/2019
     forms: /files/measurements/sail/kingfisher-18-05-19.xlsx
 ---
