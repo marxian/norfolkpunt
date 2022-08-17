@@ -1,25 +1,29 @@
 ---
-name: 'Prawn'
+name: Prawn
+sailNumber: 19
+coverImage: /images/boats/prawn-19.jpg
+yearBuilt: 1918
 loa: 20
 handicap: 1117
-builder: 'W G Woods of Potter Heigham'
-construction: 'Wood (Carvel)'
-design: 'Traditional'
-designer: 'Walter Woods'
+builder: W G Woods of Potter Heigham
+construction: Wood (Carvel)
+design: Traditional
+designer: Walter Woods
 owners:
   - from: 2007
     to: null
-    owner: 'Bill Glover'
+    owner: Bill Glover
   - from: 1952
     to: 2007
-    owner: 'P G Tusting'
+    owner: P G Tusting
   - from: 1936
     to: 1952
-    owner: 'Dr Mallam'
+    owner: Dr Mallam
   - from: 1918
     to: 1936
-    owner: 'H A Morris'
-sailNumber: 19
-yearBuilt: 1918
-coverImage: '/images/boats/prawn-19.jpg'
+    owner: H A Morris
+sailMeasurements:
+  - date: 02/05/2018
+    area: 16.27
+    forms: /files/measurements/sail/prawn-02-05-18-punt-sail-measuremment-spreadsheet-03.xlsx
 ---
