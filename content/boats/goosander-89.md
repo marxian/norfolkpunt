@@ -28,6 +28,9 @@ owners:
   - from: 1994
     to: 2000
     owner: Dr R A Bayles
+sailMeasurements:
+  - date: 26/06/2021
+    forms: /files/measurements/sail/goosander-26-06-21-sail-measuremment-spreadsheet-03.xlsx
 stories:
   - story: >-
       Goosander (89) was commissioned in 1994 to the same design as 85 Scoot.
