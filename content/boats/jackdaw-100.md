@@ -18,5 +18,7 @@ owners:
     owner: Mark Critchley
 sailMeasurements:
   - date: 13/06/2019
+    area: 21.77
+  - date: 13/06/2019
     forms: /files/measurements/sail/jackdaw-13-06-19-three.xlsx
 ---
