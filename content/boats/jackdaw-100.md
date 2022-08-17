@@ -1,7 +1,7 @@
 ---
 name: Jackdaw
 sailNumber: 100
-coverImage: '/images/boats/jackdaw-100.jpg'
+coverImage: /images/boats/jackdaw-100.jpg
 yearBuilt: 2004
 loa: 22
 handicap: 880
@@ -16,4 +16,7 @@ owners:
   - from: 2004
     to: 2013
     owner: Mark Critchley
+sailMeasurements:
+  - date: 13/06/2019
+    forms: /files/measurements/sail/jackdaw-13-06-19-three.xlsx
 ---
