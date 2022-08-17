@@ -44,6 +44,8 @@ owners:
     to: 1963
     owner: Dr D Vaughn
 sailMeasurements:
+  - date: 06/04/2021
+    forms: /files/measurements/sail/wild-duck-06-04-21-sail-measuremment-spreadsheet-03.xlsx
   - date: 20/09/2018
     area: 22
     forms: /files/measurements/sail/wild-duck-52-sail-measurement.xlsx
