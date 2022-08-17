@@ -30,6 +30,8 @@ owners:
     owner: Dr R A Bayles
 sailMeasurements:
   - date: 26/06/2021
+    area: 21.49
+  - date: 26/06/2021
     forms: /files/measurements/sail/goosander-26-06-21-sail-measuremment-spreadsheet-03.xlsx
 stories:
   - story: >-
