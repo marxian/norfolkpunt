@@ -29,5 +29,12 @@ owners:
   - from: 1985
     to: 1987
     owner: J Findlay
+hullMeasurements:
+  - date: 18/05/2021
+    weight: 271
+    forms: /files/measurements/hull/razorbill-18-05-21-hull-measurenet-form-01.xlsx
+sailMeasurements:
+  - date: 18/05/2021
+    forms: /files/measurements/sail/razorbill-18-05-21-punt-sail-measuremment-spreadsheet-03.xlsx
 previousNames: Reedham Nan (1985 - 1987)
 ---
