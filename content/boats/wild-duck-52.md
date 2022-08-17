@@ -46,6 +46,7 @@ owners:
 sailMeasurements:
   - date: 06/04/2021
     forms: /files/measurements/sail/wild-duck-06-04-21-sail-measuremment-spreadsheet-03.xlsx
+    area: 21.68
   - date: 20/09/2018
     area: 22
     forms: /files/measurements/sail/wild-duck-52-sail-measurement.xlsx
