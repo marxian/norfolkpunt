@@ -15,5 +15,7 @@ owners:
     owner: Richard Whitefoot
 sailMeasurements:
   - date: 26/05/2017
+    area: 22
+  - date: 26/05/2017
     forms: /files/measurements/sail/comet-26-05-17.xlsx
 ---
