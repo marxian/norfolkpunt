@@ -14,6 +14,8 @@ owners:
     to: null
     owner: John Parker
 sailMeasurements:
+  - area: 21.56
+    date: 15/05/2019
   - date: 15/05/19
     forms: /files/measurements/sail/wild-goose-2-15-05-19.xlsx
 ---
