@@ -12,7 +12,7 @@
     "@openlab/vercel-netlify-cms-github": "1.1.1",
     "@plaiceholder/next": "2.4.0",
     "chakra-ui-markdown-renderer": "4.1.0",
-    "date-fns": "2.28.0",
+    "date-fns": "2.29.2",
     "framer-motion": "7.1.0",
     "glob": "8.0.3",
     "gray-matter": "4.0.3",
