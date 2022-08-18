@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "author": "Rupert Redington <rupert@neontribe.co.uk>",
   "dependencies": {
-    "@chakra-ui/icons": "2.0.2",
-    "@chakra-ui/react": "2.2.1",
+    "@chakra-ui/icons": "2.0.8",
+    "@chakra-ui/react": "2.2.8",
     "@emotion/react": "11.10.0",
     "@emotion/styled": "11.10.0",
     "@fontsource/vollkorn": "4.5.11",
@@ -51,7 +51,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "eslint": "8.21.0",
+    "eslint": "8.22.0",
     "eslint-config-next": "12.2.5",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
