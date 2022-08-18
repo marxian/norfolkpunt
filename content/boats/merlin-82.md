@@ -21,6 +21,9 @@ hullMeasurements:
     weight: 253.5
     forms: /files/measurements/hull/merlin-hull-measurenet-form-draft-01.xlsx
 sailMeasurements:
+  - date: 18/08/2022
+    area: 21.7
+    forms: /files/measurements/sail/merlin-18-08-22-sail-measuremment-spreadsheet-03.xlsx
   - date: 24/05/2018
     area: 21.62
     forms: /files/measurements/sail/merlin-82-sail-measurement.xlsx
