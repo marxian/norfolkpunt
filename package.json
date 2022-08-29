@@ -10,7 +10,7 @@
     "@emotion/styled": "11.10.0",
     "@fontsource/vollkorn": "4.5.11",
     "@openlab/vercel-netlify-cms-github": "1.1.1",
-    "@plaiceholder/next": "2.4.0",
+    "@plaiceholder/next": "2.5.0",
     "chakra-ui-markdown-renderer": "4.1.0",
     "date-fns": "2.29.2",
     "framer-motion": "7.1.0",
