@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "author": "Rupert Redington <rupert@neontribe.co.uk>",
   "dependencies": {
-    "@chakra-ui/icons": "2.0.8",
-    "@chakra-ui/react": "2.2.8",
+    "@chakra-ui/icons": "2.0.9",
+    "@chakra-ui/react": "2.3.2",
     "@emotion/react": "11.10.0",
     "@emotion/styled": "11.10.0",
     "@fontsource/vollkorn": "4.5.11",
