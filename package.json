@@ -6,8 +6,8 @@
   "dependencies": {
     "@chakra-ui/icons": "2.0.9",
     "@chakra-ui/react": "2.3.2",
-    "@emotion/react": "11.10.0",
-    "@emotion/styled": "11.10.0",
+    "@emotion/react": "11.10.4",
+    "@emotion/styled": "11.10.4",
     "@fontsource/vollkorn": "4.5.12",
     "@openlab/vercel-netlify-cms-github": "1.1.1",
     "@plaiceholder/next": "2.5.0",
