@@ -77,7 +77,13 @@ function PuntDetails({ punt, image }) {
                   <StatLabel>Handicap</StatLabel>
                   <StatNumber>
                     {punt.handicap}
-                    {punt.provisionalHandicap && ' - provisional'}
+                    {punt.provisionalHandicap && (
+                      <>
+                        - provisional
+                        <br />
+                        (awaiting results)
+                      </>
+                    )}
                   </StatNumber>
                 </Stat>
                 <Stat>
@@ -168,7 +174,11 @@ function PuntDetails({ punt, image }) {
                         </Link>
                       ) : null}
                     </ListItem>
-                  )) || <ListItem>Hull measurement is in the paper archive</ListItem>}
+                  )) || (
+                    <ListItem>
+                      Hull measurement is in the paper archive
+                    </ListItem>
+                  )}
                   {punt.sailMeasurements?.map(({ date, area, forms }, i) => (
                     <ListItem key={`${date}${i}`}>
                       Sails measured {date} {area ? `at ${area}sqm` : null}{' '}
@@ -182,7 +192,11 @@ function PuntDetails({ punt, image }) {
                         </Link>
                       ) : null}
                     </ListItem>
-                  )) || <ListItem>Sail measurement is in the paper archive</ListItem>}
+                  )) || (
+                    <ListItem>
+                      Sail measurement is in the paper archive
+                    </ListItem>
+                  )}
                 </List>
               </Box>
             </SimpleGrid>

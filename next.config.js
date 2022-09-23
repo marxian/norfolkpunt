@@ -18,11 +18,6 @@ const securityHeaders = [
     key: 'Referrer-Policy',
     value: 'origin-when-cross-origin',
   },
-  {
-    key: 'Content-Security-Policy',
-    value:
-      "default-src 'self'; style-src 'unsafe-inline'; script-src 'self' 'unsafe-eval';",
-  },
 ]
 
 const plaiceholder = withPlaiceholder({
@@ -37,4 +32,4 @@ const plaiceholder = withPlaiceholder({
   },
 })
 
-module.exports = withPlausibleProxy(plaiceholder)
+module.exports = withPlausibleProxy()(plaiceholder)
