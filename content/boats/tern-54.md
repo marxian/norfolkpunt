@@ -4,7 +4,7 @@ sailNumber: 54
 coverImage: /images/boats/tern-54.jpg
 yearBuilt: 1963
 loa: 22
-handicap: 908
+handicap: 884
 builder: Eastwood and Whelpton of Upton
 construction: Plywood
 design: Hardchine
