@@ -4,7 +4,7 @@ sailNumber: 45
 coverImage: /images/boats/limelight-45.jpg
 yearBuilt: 1939
 loa: 22
-handicap: 984
+handicap: 958
 builder: Herbert Woods of Potter Heigham
 construction: Wood (Carvel)
 design: Traditional
