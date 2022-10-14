@@ -1,33 +1,33 @@
 ---
-name: 'Scoter'
+name: Scoter
+sailNumber: 47
+yearBuilt: 1953
 loa: 22
-handicap: 908
-builder: 'C.R. Wyche and D. Coppock of Trent'
-construction: 'Plywood'
-design: 'Hardchine'
-designer: 'Wyche and Coppock'
+handicap: 884
+builder: C.R. Wyche and D. Coppock of Trent
+construction: Plywood
+design: Hardchine
+designer: Wyche and Coppock
 owners:
   - from: 1987
     to: null
-    owner: 'Dr J S L Fowler'
+    owner: Dr J S L Fowler
   - from: 1968
     to: 1987
-    owner: 'Capt A J R Tyrrell'
+    owner: Capt A J R Tyrrell
   - from: 1965
     to: 1968
-    owner: 'R R Dowling'
+    owner: R R Dowling
   - from: 1965
     to: 1968
-    owner: 'H M Dowling'
+    owner: H M Dowling
   - from: 1963
     to: 1965
-    owner: 'A W Faulkner'
+    owner: A W Faulkner
   - from: 1954
     to: 1963
-    owner: 'Justin H Scott'
+    owner: Justin H Scott
   - from: 1953
     to: 1954
-    owner: 'Norfolk Punt Club'
-sailNumber: 47
-yearBuilt: 1953
+    owner: Norfolk Punt Club
 ---
