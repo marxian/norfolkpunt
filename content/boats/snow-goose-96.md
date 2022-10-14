@@ -4,7 +4,7 @@ sailNumber: 96
 coverImage: /images/boats/snow-goose-96.jpg
 yearBuilt: 2003
 loa: 22
-handicap: 908
+handicap: 884
 builder: Jeff Green
 construction: Carbon Foam Sandwich (Wooden Decks)
 design: Hardchine
