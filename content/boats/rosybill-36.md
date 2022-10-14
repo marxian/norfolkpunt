@@ -5,7 +5,7 @@ coverImage: /images/boats/rosybill-36.jpg
 yearBuilt: 1936
 loa: 22
 handicap: 996
-provisionalHandicap: false
+provisionalHandicap: true
 builder: W F Jermy of Brundall
 construction: Wood (Carvel)
 design: Traditional
