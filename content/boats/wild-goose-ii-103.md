@@ -4,7 +4,7 @@ sailNumber: 103
 coverImage: /images/boats/wild-goose-ii-103.jpg
 yearBuilt: 2016
 loa: 22
-handicap: 908
+handicap: 884
 builder: James Jarvey
 construction: Foam sandwich composite
 design: Hardchine
