@@ -4,7 +4,7 @@ sailNumber: 102
 coverImage: /images/boats/comet-102.jpg
 yearBuilt: 2008
 loa: 22
-handicap: 908
+handicap: 884
 builder: G Whitefoot and Sons
 construction: Foam sandwich composite
 design: Hardchine
