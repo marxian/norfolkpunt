@@ -4,7 +4,7 @@ sailNumber: 95
 coverImage: /images/boats/white-eagle-95.jpg
 yearBuilt: 2002
 loa: 22
-handicap: 880
+handicap: 856
 builder: Richard Parker
 construction: Foam sandwich composite
 design: Morrison
