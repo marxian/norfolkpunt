@@ -4,11 +4,12 @@ sailNumber: 71
 coverImage: ""
 yearBuilt: 1980
 loa: 22
-handicap: 880
-builder: N/A
+handicap: 856
+provisionalHandicap: true
 construction: N/A
 owners: []
 lost: true
+builder: N/A
 design: N/A
 designer: N/A
 stories:
