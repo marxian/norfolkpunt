@@ -4,7 +4,7 @@ sailNumber: 37
 coverImage: /images/boats/gamecock-37.jpg
 yearBuilt: 1936
 loa: 22
-handicap: 994
+handicap: 967
 builder: H T Percival of Horning
 construction: Wood (Clinker)
 design: Traditional
