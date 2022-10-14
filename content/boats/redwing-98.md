@@ -4,7 +4,7 @@ sailNumber: 98
 coverImage: /images/boats/redwing-98.jpg
 yearBuilt: 2004
 loa: 22
-handicap: 908
+handicap: 884
 builder: Jeff Green & Arthur Thaine
 construction: Foam sandwich composite
 design: Hardchine
