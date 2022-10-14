@@ -5,6 +5,7 @@ coverImage: /images/boats/didler-41.jpg
 yearBuilt: 1937
 loa: 22
 handicap: 1023
+provisionalHandicap: true
 builder: R D H Harmer
 construction: Wood (Carvel)
 design: Traditional
