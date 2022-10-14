@@ -4,7 +4,7 @@ sailNumber: 86
 coverImage: /images/boats/peregrine-86.jpg
 yearBuilt: 1993
 loa: 22
-handicap: 880
+handicap: 856
 builder: Richard Parker, Robert Snelling and T Hubbard
 construction: Cold-moulded Plywood
 design: Morrison
