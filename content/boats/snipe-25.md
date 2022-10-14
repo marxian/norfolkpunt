@@ -1,19 +1,20 @@
 ---
-name: 'Snipe'
+name: Snipe
+sailNumber: 25
+yearBuilt: 1930
 loa: 20
-handicap: null
-builder: 'C A Grimes'
-construction: 'Wood (Carvel)'
-design: 'Traditional'
-designer: 'Herbert Woods'
-lost: true
+handicap: 911
+provisionalHandicap: true
+builder: C A Grimes
+construction: Wood (Carvel)
+design: Traditional
+designer: Herbert Woods
 owners:
   - from: 1931
     to: 1967
-    owner: 'A J Grimes'
+    owner: A J Grimes
   - from: 1931
     to: 1967
-    owner: 'C A Grimes'
-sailNumber: 25
-yearBuilt: 1930
+    owner: C A Grimes
+lost: true
 ---
