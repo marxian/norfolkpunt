@@ -4,7 +4,7 @@ sailNumber: 33
 coverImage: /images/boats/sardine-33.jpg
 yearBuilt: 1934
 loa: 22
-handicap: 994
+handicap: 967
 builder: Herbert Woods of Potter Heigham
 construction: Wood (Carvel)
 design: Traditional
