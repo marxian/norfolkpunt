@@ -1,38 +1,38 @@
 ---
-name: 'Snark'
+name: Snark
+sailNumber: 49
+coverImage: /images/boats/snark-49.jpg
+yearBuilt: 1956
 loa: 22
-handicap: 908
-builder: 'E Landamore'
-construction: 'Plywood'
-design: 'Hardchine'
-designer: 'Wyche and Coppock'
+handicap: 884
+builder: E Landamore
+construction: Plywood
+design: Hardchine
+designer: Wyche and Coppock
 owners:
   - from: 2005
     to: null
-    owner: 'Mark Elson'
+    owner: Mark Elson
   - from: 1994
     to: 2005
-    owner: 'Rev Neville Khambatta'
+    owner: Rev Neville Khambatta
   - from: 1994
     to: 2005
-    owner: 'V Khambatta'
+    owner: V Khambatta
   - from: 1982
     to: 1994
-    owner: 'J Forster'
+    owner: J Forster
   - from: 1978
     to: 1982
-    owner: 'John Parker'
+    owner: John Parker
   - from: 1970
     to: 1978
-    owner: 'G E Daniels'
+    owner: G E Daniels
   - from: 1957
     to: 1966
-    owner: 'G K Snow'
+    owner: G K Snow
   - from: 1957
     to: 1970
-    owner: 'C B Arnold'
-sailNumber: 49
-yearBuilt: 1956
-previousNames: 'Teal (1978 - 1994)'
-coverImage: '/images/boats/snark-49.jpg'
+    owner: C B Arnold
+previousNames: Teal (1978 - 1994)
 ---
