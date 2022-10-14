@@ -4,7 +4,7 @@ sailNumber: 97
 coverImage: /images/boats/great-white-97.jpg
 yearBuilt: 2003
 loa: 22
-handicap: 880
+handicap: 856
 builder: Richard Parker
 construction: Cold-moulded Plywood
 design: Morrison
