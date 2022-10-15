@@ -13,6 +13,10 @@ owners:
   - from: 2009
     to: null
     owner: Richard Whitefoot
+hullMeasurements:
+  - forms: /files/measurements/hull/comet-hull.jpg
+    date: 01/06/2010
+    weight: 280
 sailMeasurements:
   - date: 26/05/2017
     area: 22
