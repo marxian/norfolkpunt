@@ -60,4 +60,20 @@ events:
       - Navigation Race
       - Travellers Series
     description: "**Date To Be Confirmed**"
+  - start: 2022-11-11
+    end: ""
+    title: AGM 2022
+    type:
+      - AGM
+    description: |-
+      ***11th*** November at 19.30.\
+      \
+      The Nancy Oldfield Trust.\
+      Irstead Road. Neatishead. Norwich NR12 8BJ\
+      Repair to the White Horse PH after the meeting.\
+      \
+      Further details and Agenda to follow.\
+      \
+      Please provide notification of any proposals or items for\
+      inclusion in the agenda within by the 25th of October
 ---
