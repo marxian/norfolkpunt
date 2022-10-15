@@ -128,7 +128,7 @@ export async function getStaticProps({ params }) {
       ...e,
       start: format(e.start, 'yyyy-MM-dd'),
       end: e.end ? format(e.end, 'yyyy-MM-dd') : null,
-    }))
+    })).reverse()
   const future = events
     .filter((e) => isFuture(e.start))
     .map((e) => ({
