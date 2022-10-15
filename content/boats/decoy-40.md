@@ -4,7 +4,7 @@ sailNumber: 40
 coverImage: /images/boats/decoy-40.jpg
 yearBuilt: 1937
 loa: 22
-handicap: 970
+handicap: 944
 builder: H T Percival of Horning
 construction: Wood (Carvel)
 design: Traditional

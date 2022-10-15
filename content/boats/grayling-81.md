@@ -1,22 +1,24 @@
 ---
-name: 'Grayling'
+name: Grayling
+sailNumber: 81
+coverImage: /images/boats/grayling-81.jpg
+yearBuilt: 1991
 loa: 22
-handicap: 908
-builder: 'Colin McDougall'
-construction: 'Fibreglass'
-design: 'Hardchine'
-designer: 'Wyche and Coppock'
+handicap: 884
+builder: Colin McDougall
+construction: Fibreglass
+design: Hardchine
+designer: Wyche and Coppock
 owners:
+  - from: 2021
+    owner: Edward Rudd & Giles Bryan
   - from: 2010
     to: null
-    owner: 'Alastair Drew & Charlotte Drew'
+    owner: Alastair Drew & Charlotte Drew
   - from: 2004
     to: 2010
-    owner: 'Paul Watson'
+    owner: Paul Watson
   - from: 1991
     to: 2004
-    owner: 'Colin McDougall'
-sailNumber: 81
-yearBuilt: 1991
-coverImage: '/images/boats/grayling-81.jpg'
+    owner: Colin McDougall
 ---

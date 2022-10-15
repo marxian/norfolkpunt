@@ -4,7 +4,7 @@ sailNumber: 76
 coverImage: /images/boats/kookaburra-76.jpg
 yearBuilt: 1989
 loa: 22
-handicap: 908
+handicap: 884
 builder: M Hardy
 construction: Fibreglass
 design: Hardchine

@@ -4,7 +4,8 @@ sailNumber: 39
 coverImage: /images/boats/widgeon-39.jpg
 yearBuilt: 1937
 loa: 22
-handicap: 1024
+handicap: 997
+provisionalHandicap: true
 builder: W F Jermy of Brundall
 construction: Wood (Carvel)
 design: Traditional

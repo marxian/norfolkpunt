@@ -1,22 +1,22 @@
 ---
-name: 'Whooper'
+name: Whooper
+sailNumber: 94
+coverImage: /images/boats/whooper-94.jpg
+yearBuilt: 2000
 loa: 22
-handicap: 880
-builder: 'Unknown'
-construction: 'Cold-moulded Plywood'
-design: 'One-off'
-designer: 'S Jones'
+handicap: 856
+builder: Unknown
+construction: Cold-moulded Plywood
+design: One-off
+designer: S Jones
 owners:
   - from: 2017
     to: null
-    owner: 'Colin Murray'
+    owner: Colin Murray
   - from: 2008
     to: 2017
-    owner: 'Harry Scott'
+    owner: Harry Scott
   - from: 2000
     to: 2008
-    owner: 'Peter Bainbridge'
-sailNumber: 94
-yearBuilt: 2000
-coverImage: '/images/boats/whooper-94.jpg'
+    owner: Peter Bainbridge
 ---

@@ -4,7 +4,8 @@ sailNumber: 84
 coverImage: /images/boats/swift-71.jpg
 yearBuilt: 1991
 loa: 20.5
-handicap: 880
+handicap: 856
+provisionalHandicap: true
 builder: Matthew Thwaites
 construction: Unknown
 design: One-off

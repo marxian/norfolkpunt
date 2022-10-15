@@ -4,7 +4,7 @@ sailNumber: 52
 coverImage: /images/boats/wild-duck-52.jpg
 yearBuilt: 1961
 loa: 22
-handicap: 908
+handicap: 884
 builder: Eastwood and Whelpton of Upton
 construction: Plywood
 design: Hardchine

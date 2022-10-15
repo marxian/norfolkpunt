@@ -1,25 +1,23 @@
 ---
-name: 'Trout'
+name: Trout
+sailNumber: 8
+coverImage: /images/boats/trout-8.jpg
+yearBuilt: 1926
 loa: 17
-handicap: null
-builder: 'W G Woods of Potter Heigham'
-construction: 'Wood (Carvel)'
-design: 'Traditional'
-designer: 'Herbert Woods'
+handicap: 911
+provisionalHandicap: true
+builder: W G Woods of Potter Heigham
+construction: Wood (Carvel)
+design: Traditional
+designer: Herbert Woods
 owners:
   - from: 1995
     to: null
-    owner: 'S Bracey'
+    owner: S Bracey
   - from: 1990
     to: 1995
-    owner: 'R P Groves'
+    owner: R P Groves
   - from: 1929
     to: null
-    owner: 'G E Morris'
-  - from: null
-    to: null
-    owner: 'Bishop'
-sailNumber: 8
-yearBuilt: 1926
-coverImage: '/images/boats/trout-8.jpg'
+    owner: G E Morris
 ---

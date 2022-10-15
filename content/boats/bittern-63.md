@@ -1,16 +1,16 @@
 ---
-name: 'Bittern'
+name: Bittern
+sailNumber: 63
+yearBuilt: 1976
 loa: 22
-handicap: null
-builder: 'J V de B Grey'
-construction: 'Plywood'
-design: 'Hardchine'
-designer: 'Wyche and Coppock'
-lost: true
+handicap: 884
+builder: J V de B Grey
+construction: Plywood
+design: Hardchine
+designer: Wyche and Coppock
 owners:
   - from: 1976
     to: null
-    owner: 'J V de B Grey'
-sailNumber: 63
-yearBuilt: 1976
+    owner: J V de B Grey
+lost: true
 ---

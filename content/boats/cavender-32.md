@@ -4,12 +4,14 @@ sailNumber: 32
 coverImage: /images/boats/cavender-32.jpg
 yearBuilt: 1933
 loa: 22
-handicap: 970
+handicap: 944
 builder: W Mollett
 construction: Wood (Clinker)
 design: Traditional
 designer: Herbert Woods
 owners:
+  - from: 2020
+    owner: Robbie Elliot & Humphrey Bedford-Payne
   - from: 2007
     to: null
     owner: Robin Slatter

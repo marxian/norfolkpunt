@@ -4,7 +4,7 @@ sailNumber: 89
 coverImage: /images/boats/1p1a9962.jpg
 yearBuilt: 1994
 loa: 20
-handicap: 950
+handicap: 925
 provisionalHandicap: false
 builder: Fabian Bush
 construction: Clinker Plywood

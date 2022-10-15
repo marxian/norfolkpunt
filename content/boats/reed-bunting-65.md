@@ -4,7 +4,7 @@ sailNumber: 65
 coverImage: /images/boats/reed-bunting-65.jpg
 yearBuilt: 1978
 loa: 22
-handicap: 908
+handicap: 884
 builder: S F Read
 construction: Plywood
 design: Hardchine

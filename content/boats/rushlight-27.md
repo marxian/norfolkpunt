@@ -4,7 +4,7 @@ sailNumber: 27
 coverImage: /images/boats/rushlight-27.jpg
 yearBuilt: 1930
 loa: 22
-handicap: 1003
+handicap: 976
 builder: Herbert Woods of Potter Heigham
 construction: Wood (Carvel)
 design: Traditional

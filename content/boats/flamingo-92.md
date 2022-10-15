@@ -4,7 +4,8 @@ sailNumber: 92
 coverImage: /images/boats/flamingo-92.jpg
 yearBuilt: 1999
 loa: 19
-handicap: 885
+handicap: 861
+provisionalHandicap: true
 builder: David Horne
 construction: Cold-moulded Plywood
 design: Horne

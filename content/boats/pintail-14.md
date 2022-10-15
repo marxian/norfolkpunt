@@ -1,35 +1,36 @@
 ---
-name: 'Pintail'
+name: Pintail
+sailNumber: 14
+coverImage: /images/boats/pintail-14.jpg
+yearBuilt: 1929
 loa: 20
-handicap: null
-builder: 'W F Jermy of Brundall'
-construction: 'Wood (Carvel)'
-design: 'Traditional'
-designer: 'Herbert Woods'
-lost: true
+handicap: 911
+provisionalHandicap: true
+construction: Wood (Carvel)
 owners:
   - from: 1989
     to: null
-    owner: 'Martin Scurr'
+    owner: Martin Scurr
   - from: 1948
     to: 1989
-    owner: 'W P E Lake'
+    owner: W P E Lake
   - from: 1947
     to: 1948
-    owner: 'E P Whelpton'
+    owner: E P Whelpton
   - from: 1938
     to: 1947
-    owner: 'P Andrews'
+    owner: P Andrews
   - from: 1938
     to: 1947
-    owner: 'J O M Wedderburn'
+    owner: J O M Wedderburn
   - from: 1936
     to: 1938
-    owner: 'Dr and Mrs B M Tracey'
+    owner: Dr and Mrs B M Tracey
   - from: 1929
     to: 1936
-    owner: 'W F Jermy'
-sailNumber: 14
-yearBuilt: 1929
-coverImage: '/images/boats/pintail-14.jpg'
+    owner: W F Jermy
+lost: true
+builder: W F Jermy of Brundall
+design: Traditional
+designer: Herbert Woods
 ---

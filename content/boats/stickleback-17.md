@@ -4,7 +4,8 @@ sailNumber: 17
 coverImage: /images/boats/stickleback-17.jpg
 yearBuilt: 1929
 loa: 20
-handicap: 1059
+handicap: 1031
+provisionalHandicap: true
 builder: Peter Arnold
 construction: Wood (Carvel)
 design: Traditional

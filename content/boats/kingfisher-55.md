@@ -4,7 +4,7 @@ sailNumber: 55
 coverImage: /images/boats/kingfisher-55.jpg
 yearBuilt: 1963
 loa: 22
-handicap: 908
+handicap: 884
 builder: T E Harmer
 construction: Plywood
 design: Hardchine

@@ -4,7 +4,7 @@ sailNumber: 100
 coverImage: /images/boats/jackdaw-100.jpg
 yearBuilt: 2004
 loa: 22
-handicap: 880
+handicap: 856
 builder: Mark Critchley
 construction: Unknown
 design: Morrison

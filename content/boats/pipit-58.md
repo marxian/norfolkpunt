@@ -4,7 +4,7 @@ sailNumber: 58
 coverImage: /images/boats/pipit-58.jpg
 yearBuilt: 1972
 loa: 22
-handicap: 908
+handicap: 884
 builder: T E Ward
 construction: Plywood
 design: Hardchine

@@ -3,7 +3,7 @@ name: Swallowtail
 sailNumber: 67
 yearBuilt: 1977
 loa: 22
-handicap: 908
+handicap: 884
 builder: Colin McDougall
 construction: Fibreglass
 design: Hardchine
