@@ -22,6 +22,10 @@ owners:
   - from: 1993
     to: 1997
     owner: Richard Parker & Robert Snelling
+hullMeasurements:
+  - date: 26/07/1993
+    weight: 250
+    forms: /files/measurements/hull/peregrine_hull.jpg
 sailMeasurements:
   - area: 21.19
     date: 10/10/2017
