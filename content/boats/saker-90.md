@@ -13,4 +13,7 @@ owners:
   - from: 1995
     to: null
     owner: Mike Virden & Thomas Virden
+hullMeasurements:
+  - date: 08/08/1995
+    forms: /files/measurements/hull/saker_hull.jpg
 ---
