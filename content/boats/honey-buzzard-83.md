@@ -21,4 +21,8 @@ owners:
   - from: 1991
     to: 1999
     owner: T Hubbard
+hullMeasurements:
+  - date: 22/08/1992
+    weight: 230
+    forms: /files/measurements/hull/honey_buzzard_hull.jpg
 ---
