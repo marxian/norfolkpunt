@@ -27,4 +27,8 @@ owners:
   - from: 2003
     to: 2009
     owner: Richard Parker
+hullMeasurements:
+  - date: 11/08/2003
+    weight: 275
+    forms: /files/measurements/hull/great_white_hull.jpg
 ---
