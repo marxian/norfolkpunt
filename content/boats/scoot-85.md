@@ -14,4 +14,8 @@ owners:
   - from: 1991
     to: null
     owner: Dr and Mrs J S L Fowler
+hullMeasurements:
+  - date: 18/05/1991
+    weight: 350
+    forms: /files/measurements/hull/scoot_hull.jpg
 ---
