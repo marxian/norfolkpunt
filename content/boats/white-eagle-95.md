@@ -13,6 +13,10 @@ owners:
   - from: 2002
     to: null
     owner: D H Adler
+hullMeasurements:
+  - date: 29/07/2002
+    weight: 238
+    forms: /files/measurements/hull/white_eagle_hull.jpg
 sailMeasurements:
   - date: 21/08/2018
     area: 22
