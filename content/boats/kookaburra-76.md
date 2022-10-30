@@ -22,6 +22,10 @@ owners:
   - from: 1989
     to: 1995
     owner: M Hardy
+hullMeasurements:
+  - date: 08/05/1990
+    weight: 260
+    forms: /files/measurements/hull/kookaburra_hull.jpg
 sailMeasurements:
   - date: 14/03/2017
     area: 21.34
