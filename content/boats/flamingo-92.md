@@ -22,6 +22,10 @@ owners:
   - from: 1999
     to: 2012
     owner: Alex Tibbenham
+hullMeasurements:
+  - date: 01/08/1999
+    weight: 264
+    forms: /files/measurements/hull/flamingo_hull.jpg
 sailMeasurements:
   - date: 10/10/2017
     area: 18.93
