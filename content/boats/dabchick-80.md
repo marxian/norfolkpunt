@@ -18,4 +18,8 @@ owners:
   - from: 1991
     to: 2001
     owner: W L Rhodes
+hullMeasurements:
+  - weight: 350
+    date: 03/08/1991
+    forms: /files/measurements/hull/dabchick_hull.jpg
 ---
