@@ -36,6 +36,11 @@ sailMeasurements:
   - area: 14.56
     date: 10/05/2019
     forms: /files/measurements/sail/goldeneye-10-05-19.xlsx
+  - date: 07/07/2008
+    area: 10.63
+    forms: /files/measurements/sail/goldeneye_sail.jpg
+  - date: 11/07/2006
+    forms: /files/measurements/sail/goldeneye_sail_2.jpg
 previousNames: Scoter
 stories:
   - story: >-
