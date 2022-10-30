@@ -20,6 +20,7 @@ async function buildRegister() {
       Name: p.name,
       Owner: p.owners[0].owner,
       Handicap: p.handicap,
+      'Provisional Handicap': p.provisionalHandicap ? 'yes' : 'no',
       Length: p.loa + 'ft',
     }))
   await fs.writeFile(
