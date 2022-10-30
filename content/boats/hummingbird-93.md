@@ -13,4 +13,8 @@ owners:
   - from: 2000
     to: null
     owner: Daren Pike
+hullMeasurements:
+  - date: 26/06/2000
+    weight: 255
+    forms: /files/measurements/hull/hummingbird_hull.jpg
 ---
