@@ -49,5 +49,9 @@ owners:
   - from: 1972
     to: 1975
     owner: J V de B Grey
+hullMeasurements:
+  - date: 08/05/1999
+    weight: 300
+    forms: /files/measurements/hull/firefly_hull.jpg
 previousNames: Flounder (1972 - 1987)
 ---
