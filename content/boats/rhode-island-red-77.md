@@ -32,4 +32,8 @@ owners:
   - from: 1989
     to: 1992
     owner: M Thwaites
+hullMeasurements:
+  - date: 19/07/1990
+    weight: 255
+    forms: /files/measurements/hull/rhode_island_red_hull.jpg
 ---
