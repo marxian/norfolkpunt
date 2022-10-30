@@ -22,6 +22,10 @@ owners:
   - from: 1988
     to: 1997
     owner: P J K Sadler
+hullMeasurements:
+  - forms: /files/measurements/hull/blackbird_hull.jpg
+    weight: 250
+    date: 17/07/1989
 sailMeasurements:
   - date: 30/05/2019
     area: 21.93
