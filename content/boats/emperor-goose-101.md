@@ -16,4 +16,8 @@ owners:
   - from: 2004
     to: 2014
     owner: John Parker
+hullMeasurements:
+  - date: 22/12/2004
+    weight: 256
+    forms: /files/measurements/hull/emporer_goose_hull.jpg
 ---
