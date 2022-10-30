@@ -19,4 +19,7 @@ owners:
   - from: 1993
     to: 2003
     owner: M Morrison
+hullMeasurements:
+  - date: 20/05/1995
+    forms: /files/measurements/hull/cormorant_hull.jpg
 ---
