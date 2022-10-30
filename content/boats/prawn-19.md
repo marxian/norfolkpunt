@@ -22,6 +22,10 @@ owners:
   - from: 1918
     to: 1936
     owner: H A Morris
+hullMeasurements:
+  - date: 04/08/2009
+    weight: 292
+    forms: /files/measurements/hull/prawn_hull.jpg
 sailMeasurements:
   - date: 02/05/2018
     area: 16.27
