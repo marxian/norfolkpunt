@@ -16,4 +16,8 @@ owners:
   - from: 1995
     to: 2002
     owner: Peter Bainbridge
+hullMeasurements:
+  - date: 08/08/1995
+    weight: 295
+    forms: /files/measurements/hull/cuckoo_hull.jpg
 ---
