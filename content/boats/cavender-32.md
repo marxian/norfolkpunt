@@ -42,6 +42,10 @@ owners:
   - from: 1933
     to: 1935
     owner: S G Wheeler (Eng Capt RN Retd)
+hullMeasurements:
+  - date: 30/06/2007
+    weight: 303
+    forms: /files/measurements/hull/cavendar_hull.jpg
 sailMeasurements:
   - date: 06/10/20
     forms: /files/measurements/sail/cavendar-06-10-20-punt-sail-measuremment-spreadsheet-03.xlsx
