@@ -21,4 +21,7 @@ owners:
   - from: 1991
     to: 2004
     owner: Colin McDougall
+hullMeasurements:
+  - date: 15/08/1993
+    forms: /files/measurements/hull/grayling_hull.jpg
 ---
