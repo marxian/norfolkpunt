@@ -13,6 +13,10 @@ owners:
   - from: 2003
     to: null
     owner: Jane Pye & John Parker
+hullMeasurements:
+  - date: 04/08/2003
+    weight: 252
+    forms: /files/measurements/hull/snow_goose_hull.jpg
 sailMeasurements:
   - date: 15/05/2019
     area: 21.84
