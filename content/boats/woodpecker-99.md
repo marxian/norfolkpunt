@@ -16,6 +16,10 @@ owners:
   - from: 2004
     to: 2012
     owner: Chris Wood
+hullMeasurements:
+  - date: 30/04/2004
+    weight: 280
+    forms: /files/measurements/hull/woodpecker_hull.jpg
 sailMeasurements:
   - area: 21.59
     date: 25/06/2018
