@@ -28,4 +28,8 @@ owners:
   - from: 1990
     to: 1992
     owner: C Cator
+hullMeasurements:
+  - weight: 235
+    date: 19/07/1990
+    forms: /files/measurements/hull/hushwing_hull.jpg
 ---
