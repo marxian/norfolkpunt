@@ -13,4 +13,8 @@ owners:
   - from: 1993
     to: null
     owner: James Gill
+hullMeasurements:
+  - date: 13/03/1993
+    weight: 300
+    forms: /files/measurements/hull/shag_hull.jpg
 ---
