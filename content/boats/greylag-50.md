@@ -37,5 +37,9 @@ owners:
   - from: 1958
     to: 1959
     owner: K H Flatman
+hullMeasurements:
+  - forms: /files/measurements/hull/greylag_hull.jpg
+    date: 31/05/2012
+    weight: 265
 previousNames: Flamer (1958 - 1967)
 ---
