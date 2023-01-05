@@ -76,4 +76,11 @@ events:
       \
       Please provide notification of any proposals or items for\
       inclusion in the agenda within by the 25th of October
+  - start: 2023-06-03
+    end: 2023-06-04
+    title: Three Rivers Race
+    type:
+      - Navigation Race
+      - Travellers Series
+    link: https://3rr.uk
 ---
