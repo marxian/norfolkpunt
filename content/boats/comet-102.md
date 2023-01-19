@@ -18,6 +18,9 @@ hullMeasurements:
     date: 01/06/2010
     weight: 280
 sailMeasurements:
+  - date: 19/01/2023
+    area: 21.88
+    forms: /files/measurements/sail/copy-of-comet-15-12-22.xlsx
   - date: 26/05/2017
     area: 22
   - date: 26/05/2017
