@@ -83,4 +83,10 @@ events:
       - Navigation Race
       - Travellers Series
     link: https://3rr.uk
+  - start: 2023-06-24
+    end: 2023-06-25
+    title: NPC Punt Open
+    type:
+      - Open Meeting
+    link: https://www.puntclub.co.uk/punt-open-2023/
 ---
