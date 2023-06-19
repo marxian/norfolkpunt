@@ -107,4 +107,5 @@ events:
     link: https://www.puntclub.co.uk/events-2/
     type:
       - Open Meeting
+      - Travellers Series
 ---
