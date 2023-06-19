@@ -89,4 +89,22 @@ events:
     type:
       - Open Meeting
     link: https://www.puntclub.co.uk/punt-open-2023/
+  - start: 2023-08-19
+    end: 2023-08-20
+    title: Norfolk Punt Championships
+    link: https://www.puntclub.co.uk/events-2/
+    type:
+      - Open Meeting
+  - start: 2023-08-26
+    end: 2023-08-28
+    title: Barton Regatta
+    link: https://www.puntclub.co.uk/events-2/
+    type:
+      - Regatta
+  - start: 2023-10-07
+    end: ""
+    title: Athene Cup
+    link: https://www.puntclub.co.uk/events-2/
+    type:
+      - Open Meeting
 ---
