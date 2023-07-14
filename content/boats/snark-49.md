@@ -34,5 +34,9 @@ owners:
   - from: 1957
     to: 1970
     owner: C B Arnold
+sailMeasurements:
+  - date: .3/.7/2023
+    area: 21.84
+    forms: /files/measurements/sail/snark-03-07-23.xlsx
 previousNames: Teal (1978 - 1994)
 ---
