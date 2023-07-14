@@ -34,6 +34,9 @@ hullMeasurements:
     weight: 271
     forms: /files/measurements/hull/razorbill-18-05-21-hull-measurenet-form-01.xlsx
 sailMeasurements:
+  - date: 03/07/2023
+    area: 21.86
+    forms: /files/measurements/sail/razorbill-03-07-23.xlsx
   - area: 21.63
     date: 18/05/2021
   - date: 18/05/2021
