@@ -9,11 +9,13 @@ construction: Fibreglass
 design: Hardchine
 designer: Wyche and Coppock
 owners:
+  - from: 2019
+    owner: Jamie Manners
   - from: 2001
-    to: null
+    to: 2019
     owner: J Richards
   - from: 2001
-    to: null
+    to: 2019
     owner: F Trappes Lomax
   - from: 1991
     to: 2001
