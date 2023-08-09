@@ -111,7 +111,17 @@ function Committee() {
             </Box>
             <VStack align={'start'}>
               <Text fontWeight={600}>Hickling Representative</Text>
-              <Text color={'gray.600'}>John Parker</Text>
+              <Text color={'gray.600'}>Richard Parker</Text>
+            </VStack>
+          </HStack>
+
+          <HStack align={'top'}>
+            <Box color={'green.400'} px={2}>
+              <Icon as={StarIcon} />
+            </Box>
+            <VStack align={'start'}>
+              <Text fontWeight={600}>Morrison Representative</Text>
+              <Text color={'gray.600'}>Max Dixey</Text>
             </VStack>
           </HStack>
         </SimpleGrid>
