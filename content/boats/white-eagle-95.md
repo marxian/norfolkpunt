@@ -10,8 +10,10 @@ construction: Foam sandwich composite
 design: Morrison
 designer: Phil Morrison
 owners:
+  - from: 2023
+    owner: Gavin Smith
   - from: 2002
-    to: null
+    to: 2023
     owner: D H Adler
 hullMeasurements:
   - date: 29/07/2002
