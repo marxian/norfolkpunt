@@ -1,6 +1,7 @@
 ---
 name: Dabchick
 sailNumber: 80
+coverImage: /images/boats/dabchick.jpeg
 yearBuilt: 1991
 loa: 22
 handicap: 884
