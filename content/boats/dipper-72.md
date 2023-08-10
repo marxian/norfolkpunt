@@ -9,8 +9,10 @@ construction: Fibreglass
 design: Hardchine
 designer: Wyche and Coppock
 owners:
+  - from: 2023
+    owner: Harrison Horner & Norman Warren
   - from: 2019
-    to: null
+    to: 2023
     owner: Richard Parker & Robert Snelling
   - from: 2018
     to: 2019
