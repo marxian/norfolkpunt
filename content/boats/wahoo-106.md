@@ -7,7 +7,7 @@ loa: 20
 handicap: 856
 provisionalHandicap: true
 builder: John Friend
-construction: Moulded Ply
+construction: Strip plank cedar with a carbon and glass sandwich
 design: One Off
 designer: Andrew Friend
 owners:
