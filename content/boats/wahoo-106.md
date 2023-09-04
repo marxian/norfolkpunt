@@ -17,4 +17,8 @@ hullMeasurements:
   - date: 13/04/2023
     forms: /files/measurements/hull/wahoo-norfolk-punt-hull-measurement-form-3.xlsx
     weight: 214
+sailMeasurements:
+  - date: 13/04/2023
+    area: 18.81
+    forms: /files/measurements/sail/wahoo-punt-sail-measuremment-spreadsheet-04.xlsx
 ---
