@@ -13,4 +13,8 @@ designer: Andrew Friend
 owners:
   - from: 2023
     owner: John Friend
+hullMeasurements:
+  - date: 13/04/2023
+    forms: /files/measurements/hull/wahoo-norfolk-punt-hull-measurement-form-3.xlsx
+    weight: 214
 ---
