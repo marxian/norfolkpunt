@@ -25,7 +25,7 @@
     "react-markdown": "8.0.3",
     "remark": "14.0.2",
     "remark-html": "15.0.1",
-    "sharp": "0.31.1"
+    "sharp": "0.32.6"
   },
   "keywords": [
     "Norfolk Punt"
