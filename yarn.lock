@@ -1076,10 +1076,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.53.0.tgz#bea56f2ed2b5baea164348ff4d5a879f6f81f20d"
   integrity sha512-Kn7K8dx/5U6+cT1yEhpX1w4PCSg0M+XyRILPgvwcEBjerFWCwQj5sbr3/VmxqV0JGHCBCzyd6LxypEuehypY1w==
 
-"@fontsource/vollkorn@4.5.12":
-  version "4.5.12"
-  resolved "https://registry.yarnpkg.com/@fontsource/vollkorn/-/vollkorn-4.5.12.tgz#4e2bb7590ab0fd0b5cfdb323544fa3a56b9013d9"
-  integrity sha512-6JDTj+rjsmhmTnUzval24bbYjpZb2zG/peja5qXCtU7+59vWXD4nynC7+UXpvGo6ybzOKUm7g92NBRLKf6bVFg==
+"@fontsource/vollkorn@4.5.14":
+  version "4.5.14"
+  resolved "https://registry.yarnpkg.com/@fontsource/vollkorn/-/vollkorn-4.5.14.tgz#a7d097fda43b1423d732ed23e9ad9a3600cbaeab"
+  integrity sha512-pzHiWJx0Pki6k9O4C707KRcrptqGwAzumArvk9ku8a5H5Z4aecDdshcalNLCou2A81hyCjSiAyFUH4MUpacAvA==
 
 "@hapi/address@^4.0.1":
   version "4.1.0"
