@@ -110,7 +110,7 @@ function Committee() {
               <Icon as={StarIcon} />
             </Box>
             <VStack align={'start'}>
-              <Text fontWeight={600}>Hickling Representative</Text>
+              <Text fontWeight={600}>Wroxham Representative</Text>
               <Text color={'gray.600'}>Richard Parker</Text>
             </VStack>
           </HStack>
@@ -122,6 +122,16 @@ function Committee() {
             <VStack align={'start'}>
               <Text fontWeight={600}>Morrison Representative</Text>
               <Text color={'gray.600'}>Max Dixey</Text>
+            </VStack>
+          </HStack>
+
+          <HStack align={'top'}>
+            <Box color={'green.400'} px={2}>
+              <Icon as={StarIcon} />
+            </Box>
+            <VStack align={'start'}>
+              <Text fontWeight={600}>Youth Representative</Text>
+              <Text color={'gray.600'}>Edward Clifford</Text>
             </VStack>
           </HStack>
         </SimpleGrid>
@@ -173,12 +183,12 @@ function Rules() {
               <VStack align={'start'}>
                 <LinkOverlay
                   target="_blank"
-                  href="/norfolk-punt-rules-0.3.2.pdf"
+                  href="/norfolk-punt-rules-0.3.3.pdf"
                 >
                   <Text fontWeight={600}>Norfolk Punt Rules</Text>
                 </LinkOverlay>
                 <Text color={'gray.600'}>
-                  Full Norfolk Punt Class Rules, v0.3.2
+                  Full Norfolk Punt Class Rules, v0.3.3
                 </Text>
               </VStack>
             </HStack>
