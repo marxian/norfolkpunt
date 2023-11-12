@@ -13,7 +13,7 @@
     "@plaiceholder/next": "2.5.0",
     "chakra-ui-markdown-renderer": "4.1.0",
     "date-fns": "2.30.0",
-    "framer-motion": "7.6.5",
+    "framer-motion": "7.10.3",
     "glob": "8.1.0",
     "gray-matter": "4.0.3",
     "next": "12.3.2",
