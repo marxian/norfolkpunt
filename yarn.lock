@@ -1070,10 +1070,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.53.0.tgz#bea56f2ed2b5baea164348ff4d5a879f6f81f20d"
   integrity sha512-Kn7K8dx/5U6+cT1yEhpX1w4PCSg0M+XyRILPgvwcEBjerFWCwQj5sbr3/VmxqV0JGHCBCzyd6LxypEuehypY1w==
 
-"@fontsource/vollkorn@4.5.14":
-  version "4.5.14"
-  resolved "https://registry.yarnpkg.com/@fontsource/vollkorn/-/vollkorn-4.5.14.tgz#a7d097fda43b1423d732ed23e9ad9a3600cbaeab"
-  integrity sha512-pzHiWJx0Pki6k9O4C707KRcrptqGwAzumArvk9ku8a5H5Z4aecDdshcalNLCou2A81hyCjSiAyFUH4MUpacAvA==
+"@fontsource/vollkorn@5.0.17":
+  version "5.0.17"
+  resolved "https://registry.yarnpkg.com/@fontsource/vollkorn/-/vollkorn-5.0.17.tgz#ddd7b9b660d9a4327573ed602db00503de88e77b"
+  integrity sha512-Tp36OZXEgYR/tbvcXR1/2vtS3aXVJbDuu/OBkEendKRsiRvNw06nNwr4AQUfHmOqscDKFjthTYT64yURzN/Tzw==
 
 "@hapi/address@^4.0.1":
   version "4.1.0"
@@ -4881,14 +4881,7 @@ semver@^6.3.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.3.5, semver@^7.3.7:
-  version "7.5.4"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
-  integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
-  dependencies:
-    lru-cache "^6.0.0"
-
-semver@^7.5.4:
+semver@^7.3.5, semver@^7.3.7, semver@^7.5.4:
   version "7.5.4"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
   integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
