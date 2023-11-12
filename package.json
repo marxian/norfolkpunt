@@ -6,8 +6,8 @@
   "dependencies": {
     "@chakra-ui/icons": "2.1.1",
     "@chakra-ui/react": "2.8.2",
-    "@emotion/react": "11.10.5",
-    "@emotion/styled": "11.10.5",
+    "@emotion/react": "11.11.1",
+    "@emotion/styled": "11.11.0",
     "@fontsource/vollkorn": "4.5.14",
     "@openlab/vercel-netlify-cms-github": "1.1.1",
     "@plaiceholder/next": "2.5.0",
@@ -24,7 +24,7 @@
     "react-image-lightbox": "5.1.4",
     "react-markdown": "8.0.7",
     "remark": "14.0.3",
-    "remark-html": "15.0.1",
+    "remark-html": "15.0.2",
     "sharp": "0.32.6"
   },
   "keywords": [
