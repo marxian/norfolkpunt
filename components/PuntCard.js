@@ -31,9 +31,9 @@ const PuntCard = ({ punt, slug, image }) => {
           color={'gray.800'}
           fontWeight="bold"
         >
-          <Link href={`/boats/${slug}`} passHref>
-            <LinkOverlay>{punt.name}</LinkOverlay>
-          </Link>
+          <LinkOverlay as={Link} href={`/boats/${slug}`}>
+            {punt.name}
+          </LinkOverlay>
         </Heading>
         <span fontSize="sm" color={'gray.700'}>
           {punt.sailNumber}
