@@ -12,28 +12,28 @@ import {
 } from '@chakra-ui/react'
 
 const NavLink = ({ href, children }) => (
-  <ChakraLink
-    as={Link}
-    href={href}
-    px={2}
-    py={1}
-    rounded={'md'}
-    _hover={{
-      textDecoration: 'none',
-      bg: 'white',
-      color: 'black',
-    }}
-    color={'white'}
-    fontSize={'xl'}
-  >
-    {children}
-  </ChakraLink>
+  <Link href={href} passHref>
+    <ChakraLink
+      px={2}
+      py={1}
+      rounded={'md'}
+      _hover={{
+        textDecoration: 'none',
+        bg: 'white',
+        color: 'black',
+      }}
+      color={'white'}
+      fontSize={'xl'}
+    >
+      {children}
+    </ChakraLink>
+  </Link>
 )
 
 const Nav = () => (
   <Flex p="1.5rem" bg={'black'}>
-    <LinkBox>
-      <LinkOverlay as={Link} href="/">
+    <Link href="/" passHref>
+      <LinkOverlay>
         <Heading color={'white'} as="h1">
           Norfolk Punt{' '}
           <Text as="span" color={'gray.400'} fontSize={'2xl'}>
@@ -41,7 +41,7 @@ const Nav = () => (
           </Text>
         </Heading>
       </LinkOverlay>
-    </LinkBox>
+    </Link>
     <Spacer />
     <Stack direction={['column', 'row']}>
       <NavLink href="/boats">Boats</NavLink>
