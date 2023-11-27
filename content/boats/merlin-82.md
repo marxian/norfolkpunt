@@ -5,6 +5,7 @@ coverImage: /images/boats/merlin-82.jpg
 yearBuilt: 1991
 loa: 22
 handicap: 856
+suffixLetter: C
 builder: Richard Parker
 construction: Foam/Carbon/Kevlar with Plywood deck
 design: Morrison

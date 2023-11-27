@@ -4,6 +4,7 @@ sailNumber: 10
 yearBuilt: 1928
 loa: 20
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: Unknown
 construction: Wood (Carvel)

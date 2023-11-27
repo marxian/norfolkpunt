@@ -5,6 +5,7 @@ coverImage: /images/boats/gamecock-37.jpg
 yearBuilt: 1936
 loa: 22
 handicap: 967
+suffixLetter: N
 builder: H T Percival of Horning
 construction: Wood (Clinker)
 design: Traditional

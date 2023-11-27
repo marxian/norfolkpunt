@@ -5,6 +5,7 @@ coverImage: /images/boats/pipit-58.jpg
 yearBuilt: 1972
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: T E Ward
 construction: Plywood
 design: Hardchine

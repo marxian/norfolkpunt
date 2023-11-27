@@ -4,6 +4,7 @@ sailNumber: 20
 yearBuilt: 1930
 loa: 16
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: Uffa Fox at Cowes
 construction: Wood (Carvel)

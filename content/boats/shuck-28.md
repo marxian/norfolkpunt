@@ -5,6 +5,7 @@ coverImage: /images/boats/shuck-28.jpg
 yearBuilt: 1931
 loa: 20
 handicap: 996
+suffixLetter: Q
 provisionalHandicap: true
 builder: W Mollett
 construction: Wood (Clinker)

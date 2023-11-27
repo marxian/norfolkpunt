@@ -4,6 +4,7 @@ sailNumber: 38
 yearBuilt: 1936
 loa: 22
 handicap: 986
+suffixLetter: P
 provisionalHandicap: true
 builder: J S Neal
 construction: Wood (Carvel)

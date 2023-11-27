@@ -5,6 +5,7 @@ coverImage: /images/boats/spotlight-26.jpg
 yearBuilt: 1931
 loa: 22
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: Herbert Woods of Potter Heigham
 construction: Wood (Carvel)

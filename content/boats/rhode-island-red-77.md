@@ -5,6 +5,7 @@ coverImage: /images/boats/rhode-island-red-77.jpg
 yearBuilt: 1989
 loa: 22
 handicap: 856
+suffixLetter: C
 provisionalHandicap: true
 builder: Matthew Thwaites
 construction: Foam sandwich composite

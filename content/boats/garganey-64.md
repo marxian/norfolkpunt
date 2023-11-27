@@ -4,6 +4,7 @@ sailNumber: 64
 yearBuilt: 1977
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: Colin McDougall
 construction: Fibreglass
 design: Hardchine

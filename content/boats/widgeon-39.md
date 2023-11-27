@@ -5,6 +5,7 @@ coverImage: /images/boats/widgeon-39.jpg
 yearBuilt: 1937
 loa: 22
 handicap: 997
+suffixLetter: Q
 provisionalHandicap: true
 builder: W F Jermy of Brundall
 construction: Wood (Carvel)

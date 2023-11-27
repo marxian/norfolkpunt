@@ -4,6 +4,7 @@ sailNumber: 62
 yearBuilt: 1976
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: R McDonald Cobb
 construction: Plywood
 design: Hardchine

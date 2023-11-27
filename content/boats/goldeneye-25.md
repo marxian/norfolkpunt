@@ -5,6 +5,7 @@ coverImage: /images/boats/goldeneye.jpg
 yearBuilt: 1928
 loa: 20
 handicap: 996
+suffixLetter: Q
 provisionalHandicap: false
 builder: C J Broom of Brundall
 construction: Wood (Clinker)

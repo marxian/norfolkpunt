@@ -5,6 +5,7 @@ coverImage: /images/boats/snow-goose-96.jpg
 yearBuilt: 2003
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: Jeff Green
 construction: Carbon Foam Sandwich (Wooden Decks)
 design: Hardchine

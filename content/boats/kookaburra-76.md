@@ -5,6 +5,7 @@ coverImage: /images/boats/kookaburra-76.jpg
 yearBuilt: 1989
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: M Hardy
 construction: Fibreglass
 design: Hardchine

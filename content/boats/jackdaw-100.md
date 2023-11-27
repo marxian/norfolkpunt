@@ -5,6 +5,7 @@ coverImage: /images/boats/jackdaw-100.jpg
 yearBuilt: 2004
 loa: 22
 handicap: 856
+suffixLetter: C
 builder: Mark Critchley
 construction: Unknown
 design: Morrison

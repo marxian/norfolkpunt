@@ -5,6 +5,7 @@ coverImage: /images/boats/curlew-43.jpg
 yearBuilt: 1939
 loa: 22
 handicap: 958
+suffixLetter: M
 provisionalHandicap: true
 builder: Herbert Woods of Potter Heigham
 construction: Wood (Carvel)

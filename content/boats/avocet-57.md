@@ -4,6 +4,7 @@ sailNumber: 57
 yearBuilt: 1970
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: J H Scott
 construction: Plywood
 design: Hardchine

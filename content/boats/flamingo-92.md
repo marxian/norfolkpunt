@@ -5,6 +5,7 @@ coverImage: /images/boats/flamingo-92.jpg
 yearBuilt: 1999
 loa: 19
 handicap: 861
+suffixLetter: D
 provisionalHandicap: true
 builder: David Horne
 construction: Cold-moulded Plywood

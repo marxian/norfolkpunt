@@ -5,6 +5,7 @@ coverImage: /images/boats/grebe-66.jpg
 yearBuilt: 1978
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: Colin McDougall
 construction: Fibreglass
 design: Hardchine

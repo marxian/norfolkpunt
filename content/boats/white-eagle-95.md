@@ -5,6 +5,7 @@ coverImage: /images/boats/white-eagle-95.jpg
 yearBuilt: 2002
 loa: 22
 handicap: 856
+suffixLetter: C
 builder: Richard Parker
 construction: Foam sandwich composite
 design: Morrison

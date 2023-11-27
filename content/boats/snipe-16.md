@@ -4,6 +4,7 @@ sailNumber: 16
 yearBuilt: 1929
 loa: 19
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: H C Banham
 construction: Wood (Carvel)

@@ -5,6 +5,7 @@ coverImage: /images/boats/trout-8.jpg
 yearBuilt: 1926
 loa: 17
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: W G Woods of Potter Heigham
 construction: Wood (Carvel)

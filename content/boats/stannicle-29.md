@@ -4,6 +4,7 @@ sailNumber: 29
 yearBuilt: 1933
 loa: 22
 handicap: 986
+suffixLetter: P
 provisionalHandicap: true
 builder: E Chamberlain
 construction: Wood (Carvel)

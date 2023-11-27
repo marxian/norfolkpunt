@@ -5,6 +5,7 @@ coverImage: /images/boats/jenny-spinner-2.jpg
 yearBuilt: 1927
 loa: 19
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 construction: Wood (Carvel)
 owners:

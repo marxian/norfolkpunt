@@ -5,6 +5,7 @@ coverImage: /images/boats/barnacle-goose-70.jpg
 yearBuilt: 1980
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: Colin McDougall
 construction: Composite
 design: Hardchine

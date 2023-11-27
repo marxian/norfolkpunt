@@ -4,6 +4,7 @@ sailNumber: 42
 yearBuilt: 1938
 loa: 22
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: Frank Beeching of Gt Yarmouth
 construction: Wood (Carvel)

@@ -4,6 +4,7 @@ sailNumber: 23
 yearBuilt: 1930
 loa: 20
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: Dr Boreham Trent
 construction: Wood (Carvel)

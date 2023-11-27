@@ -4,6 +4,7 @@ sailNumber: 60
 yearBuilt: 1972
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: J E Mockett
 construction: Plywood
 design: Hardchine

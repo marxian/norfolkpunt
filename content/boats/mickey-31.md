@@ -4,6 +4,7 @@ sailNumber: 31
 yearBuilt: 1933
 loa: 22
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: Herbert Woods of Potter Heigham
 construction: Wood (Carvel)

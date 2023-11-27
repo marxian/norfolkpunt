@@ -5,6 +5,7 @@ coverImage: /images/boats/pintail-14.jpg
 yearBuilt: 1929
 loa: 20
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 construction: Wood (Carvel)
 owners:

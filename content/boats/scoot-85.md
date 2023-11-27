@@ -5,6 +5,7 @@ coverImage: /images/boats/scoot-85.jpg
 yearBuilt: 1991
 loa: 20
 handicap: 958
+suffixLetter: M
 provisionalHandicap: true
 builder: Fabian Bush
 construction: Clinker Plywood

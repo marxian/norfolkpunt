@@ -5,6 +5,7 @@ coverImage: /images/boats/greylag-50.jpg
 yearBuilt: 1958
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: T E Harmer
 construction: Plywood
 design: Hardchine
