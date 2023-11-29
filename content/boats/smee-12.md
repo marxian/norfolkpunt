@@ -4,6 +4,7 @@ sailNumber: 12
 yearBuilt: 1929
 loa: 19
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: Unknown
 construction: Wood (Carvel)

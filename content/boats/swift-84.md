@@ -5,6 +5,7 @@ coverImage: /images/boats/swift-71.jpg
 yearBuilt: 1991
 loa: 20.5
 handicap: 856
+suffixLetter: C
 provisionalHandicap: true
 builder: Matthew Thwaites
 construction: Unknown

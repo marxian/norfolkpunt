@@ -5,6 +5,7 @@ coverImage: /images/boats/wild-duck-52.jpg
 yearBuilt: 1961
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: Eastwood and Whelpton of Upton
 construction: Plywood
 design: Hardchine

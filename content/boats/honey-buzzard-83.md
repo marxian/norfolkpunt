@@ -4,6 +4,7 @@ sailNumber: 83
 yearBuilt: 1991
 loa: 22
 handicap: 856
+suffixLetter: C
 builder: T Hubbard
 construction: Composite
 design: Morrison

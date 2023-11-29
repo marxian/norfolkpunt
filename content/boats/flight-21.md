@@ -5,6 +5,7 @@ coverImage: /images/boats/flight-21.jpg
 yearBuilt: 1929
 loa: 20
 handicap: 1059
+suffixLetter: W
 provisionalHandicap: true
 builder: Herbert Woods of Potter Heigham
 construction: Wood (Carvel)

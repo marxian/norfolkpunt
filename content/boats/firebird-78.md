@@ -4,6 +4,7 @@ sailNumber: 78
 yearBuilt: 1990
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: Richard Parker
 construction: Unknown
 design: Hardchine

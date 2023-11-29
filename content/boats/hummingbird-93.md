@@ -4,6 +4,7 @@ sailNumber: 93
 yearBuilt: 2000
 loa: 22
 handicap: 861
+suffixLetter: D
 provisionalHandicap: true
 builder: David Horne
 construction: Cold-moulded Plywood

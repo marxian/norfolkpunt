@@ -5,6 +5,7 @@ coverImage: /images/boats/prawn-19.jpg
 yearBuilt: 1918
 loa: 20
 handicap: 1117
+suffixLetter: Y
 builder: W G Woods of Potter Heigham
 construction: Wood (Carvel)
 design: Traditional

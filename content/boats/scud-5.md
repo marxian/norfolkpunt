@@ -5,6 +5,7 @@ coverImage: /images/boats/scud-5.jpg
 yearBuilt: 1927
 loa: 18
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 construction: Wood (Carvel)
 owners:

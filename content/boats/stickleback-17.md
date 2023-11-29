@@ -5,6 +5,7 @@ coverImage: /images/boats/stickleback-17.jpg
 yearBuilt: 1929
 loa: 20
 handicap: 1031
+suffixLetter: U
 provisionalHandicap: true
 builder: Peter Arnold
 construction: Wood (Carvel)

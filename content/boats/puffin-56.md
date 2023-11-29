@@ -4,6 +4,7 @@ sailNumber: 56
 yearBuilt: 1966
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: T E Carter
 construction: Plywood
 design: Hardchine

@@ -5,6 +5,7 @@ coverImage: /images/boats/rainbow-trout-75.jpg
 yearBuilt: 1989
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: Matthew Thwaites
 construction: Fibreglass
 design: Hardchine

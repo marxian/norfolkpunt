@@ -4,6 +4,7 @@ sailNumber: 7
 yearBuilt: 1909
 loa: 22
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: Earnest Woods of Cantley
 construction: Wood (Carvel)

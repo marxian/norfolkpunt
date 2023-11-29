@@ -5,6 +5,7 @@ coverImage: /images/boats/razorbill-73.jpg
 yearBuilt: 1985
 loa: 22
 handicap: 870
+suffixLetter: E
 provisionalHandicap: true
 builder: D Saunders
 construction: Plywood

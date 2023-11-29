@@ -5,6 +5,7 @@ coverImage: /images/boats/hicky-11.jpg
 yearBuilt: 1930
 loa: 20
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: Unknown
 construction: Wood (Carvel)

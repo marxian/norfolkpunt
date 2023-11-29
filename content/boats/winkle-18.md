@@ -4,6 +4,7 @@ sailNumber: 18
 yearBuilt: 1929
 loa: 20
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: R Southgate of Horning
 construction: Wood (Carvel)

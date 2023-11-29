@@ -4,6 +4,7 @@ sailNumber: 34
 yearBuilt: 1934
 loa: 22
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: W Mollett
 construction: Wood (Carvel)

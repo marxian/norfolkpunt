@@ -5,6 +5,7 @@ coverImage: /images/boats/kingfisher-55.jpg
 yearBuilt: 1963
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: T E Harmer
 construction: Plywood
 design: Hardchine

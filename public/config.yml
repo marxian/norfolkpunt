@@ -149,6 +149,10 @@ collections:
         name: provisionalHandicap
         widget: boolean
         required: false
+      - label: Handicap Suffix Letter
+        name: suffixLetter
+        widget: string
+        pattern: ["^[A-Z]$", "Must be a single capital letter"]
       - label: Builder
         name: builder
         widget: string

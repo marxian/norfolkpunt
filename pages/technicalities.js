@@ -235,12 +235,31 @@ function Rules() {
               <VStack align={'start'}>
                 <LinkOverlay
                   target="_blank"
+                  href="/norfolk-punt-sail-insignia-suffix.xlsx"
+                >
+                  <Text fontWeight={600}>Sail Insignia Suffixes</Text>
+                </LinkOverlay>
+                <Text color={'gray.600'}>
+                  Sail insignia suffixes to indicate handicaps in massed
+                  handicap fleet events
+                </Text>
+              </VStack>
+            </HStack>
+          </LinkBox>
+          <LinkBox>
+            <HStack align={'top'}>
+              <Box color={'green.400'} px={2}>
+                <Icon as={DownloadIcon} />
+              </Box>
+              <VStack align={'start'}>
+                <LinkOverlay
+                  target="_blank"
                   href="/norfolk-punt-sail-measurement-form.xlsx"
                 >
                   <Text fontWeight={600}>Sail Measurement Form</Text>
                 </LinkOverlay>
                 <Text color={'gray.600'}>
-                  Excel Spreadssheet for sail measurements
+                  Excel Spreadsheet for sail measurements
                 </Text>
               </VStack>
             </HStack>

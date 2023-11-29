@@ -5,6 +5,7 @@ coverImage: /images/boats/limelight-45.jpg
 yearBuilt: 1939
 loa: 22
 handicap: 958
+suffixLetter: M
 builder: Herbert Woods of Potter Heigham
 construction: Wood (Carvel)
 design: Traditional

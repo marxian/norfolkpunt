@@ -5,6 +5,7 @@ coverImage: /images/boats/shrimp-1.jpg
 yearBuilt: 1916
 loa: 17
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: W G Woods of Potter Heigham
 construction: Wood (Carvel)

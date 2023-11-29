@@ -5,6 +5,7 @@ coverImage: /images/boats/snark-49.jpg
 yearBuilt: 1956
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: E Landamore
 construction: Plywood
 design: Hardchine

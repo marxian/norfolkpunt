@@ -5,6 +5,7 @@ coverImage: ""
 yearBuilt: 1980
 loa: 22
 handicap: 856
+suffixLetter: C
 provisionalHandicap: true
 construction: N/A
 owners: []

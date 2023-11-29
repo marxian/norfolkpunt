@@ -5,6 +5,7 @@ coverImage: /images/boats/martin-46.jpg
 yearBuilt: 1947
 loa: 22
 handicap: 1023
+suffixLetter: T
 builder: Martham Boatbuilding Co.
 construction: Wood (Carvel)
 design: Traditional

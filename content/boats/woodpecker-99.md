@@ -5,6 +5,7 @@ coverImage: /images/boats/woodpecker-99.jpg
 yearBuilt: 2004
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: Jeff Green
 construction: Foam sandwich composite
 design: Hardchine

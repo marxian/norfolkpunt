@@ -4,6 +4,7 @@ sailNumber: 22
 yearBuilt: 1922
 loa: 20
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: C J Broom of Brundall
 construction: Wood (Carvel)

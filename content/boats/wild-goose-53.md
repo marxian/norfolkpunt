@@ -5,6 +5,7 @@ coverImage: /images/boats/wild-goose-53.jpg
 yearBuilt: 1962
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: Eastwood and Whelpton of Upton
 construction: Plywood
 design: Hardchine

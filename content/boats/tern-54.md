@@ -5,6 +5,7 @@ coverImage: /images/boats/tern-54.jpg
 yearBuilt: 1963
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: Eastwood and Whelpton of Upton
 construction: Plywood
 design: Hardchine

@@ -4,6 +4,7 @@ sailNumber: 13
 yearBuilt: 1928
 loa: 20
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: W G Woods of Potter Heigham
 construction: Wood (Carvel)

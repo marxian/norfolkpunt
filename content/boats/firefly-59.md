@@ -5,6 +5,7 @@ coverImage: /images/boats/firefly-59.jpg
 yearBuilt: 1972
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: J V de B Grey
 construction: Plywood
 design: Hardchine

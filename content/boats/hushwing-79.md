@@ -5,6 +5,7 @@ coverImage: /images/boats/hushwing-79.jpg
 yearBuilt: 1990
 loa: 22
 handicap: 856
+suffixLetter: C
 builder: Matthew Thwaites
 construction: GRP / Foam sandwich
 design: Morrison

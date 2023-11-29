@@ -5,6 +5,7 @@ coverImage: /images/boats/saker-90.jpg
 yearBuilt: 1995
 loa: 22
 handicap: 856
+suffixLetter: C
 builder: Mike and Thomas Virden
 construction: Cold-moulded Plywood
 design: Morrison

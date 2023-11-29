@@ -5,6 +5,7 @@ coverImage: /images/boats/marsh-harrier-69.jpg
 yearBuilt: 1978
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: Colin McDougall
 construction: Fibreglass
 design: Hardchine

@@ -5,6 +5,7 @@ coverImage: /images/boats/grayling-81.jpg
 yearBuilt: 1991
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: Colin McDougall
 construction: Fibreglass
 design: Hardchine

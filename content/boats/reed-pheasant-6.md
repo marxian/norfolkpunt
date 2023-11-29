@@ -5,6 +5,7 @@ coverImage: /images/boats/reed-pheasant-6.jpg
 yearBuilt: 1926
 loa: 20
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 construction: Wood (Carvel)
 owners:

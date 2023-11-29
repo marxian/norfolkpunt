@@ -5,6 +5,7 @@ coverImage: /images/boats/kipper-44.jpg
 yearBuilt: 1939
 loa: 22
 handicap: 986
+suffixLetter: P
 provisionalHandicap: true
 builder: Herbert Woods of Potter Heigham
 construction: Wood (Carvel)

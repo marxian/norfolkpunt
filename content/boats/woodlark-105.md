@@ -5,6 +5,7 @@ coverImage: /images/boats/woodlark-105.jpg
 yearBuilt: 2019
 loa: 18
 handicap: 1003
+suffixLetter: R
 provisionalHandicap: true
 builder: Chris Wood
 construction: Clinker ply

@@ -4,6 +4,7 @@ sailNumber: 91
 yearBuilt: 1995
 loa: 20
 handicap: 884
+suffixLetter: F
 provisionalHandicap: true
 builder: Fabian Bush
 construction: Clinker Plywood

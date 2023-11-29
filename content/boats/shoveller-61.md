@@ -5,6 +5,7 @@ coverImage: /images/boats/shoveller-61.jpg
 yearBuilt: 1975
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: Derek Gibbs
 construction: Plywood
 design: Hardchine

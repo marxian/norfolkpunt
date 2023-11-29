@@ -4,6 +4,7 @@ sailNumber: 3
 yearBuilt: 1929
 loa: 20
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: A E Pegg of Wroxham
 construction: Wood (Carvel)

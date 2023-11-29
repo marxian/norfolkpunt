@@ -4,6 +4,7 @@ sailNumber: 48
 yearBuilt: 1954
 loa: 22
 handicap: 884
+suffixLetter: F
 builder: C.R. Wyche and D. Coppock of Trent
 construction: Plywood
 design: Hardchine

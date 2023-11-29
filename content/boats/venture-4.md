@@ -4,6 +4,7 @@ sailNumber: 4
 yearBuilt: 1925
 loa: 22
 handicap: 911
+suffixLetter: H
 provisionalHandicap: true
 builder: W F Jermy of Brundall
 construction: Wood (Carvel)
