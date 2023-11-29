@@ -32,16 +32,18 @@ const NavLink = ({ href, children }) => (
 
 const Nav = () => (
   <Flex p="1.5rem" bg={'black'}>
-    <Link href="/" passHref>
-      <LinkOverlay>
-        <Heading color={'white'} as="h1">
-          Norfolk Punt{' '}
-          <Text as="span" color={'gray.400'} fontSize={'2xl'}>
-            Owners Association
-          </Text>
-        </Heading>
-      </LinkOverlay>
-    </Link>
+    <LinkBox>
+      <Link href="/" passHref>
+        <LinkOverlay>
+          <Heading color={'white'} as="h1">
+            Norfolk Punt{' '}
+            <Text as="span" color={'gray.400'} fontSize={'2xl'}>
+              Owners Association
+            </Text>
+          </Heading>
+        </LinkOverlay>
+      </Link>
+    </LinkBox>
     <Spacer />
     <Stack direction={['column', 'row']}>
       <NavLink href="/boats">Boats</NavLink>
