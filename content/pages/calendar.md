@@ -43,4 +43,11 @@ events:
     type:
       - Navigation Race
       - Travellers Series
+  - start: 2024-10-12
+    end: ""
+    title: Triple B
+    link: http://www.coldhamhallsailingclub.co.uk/raceprogramme/raceprogramme.html
+    type:
+      - Navigation Race
+      - Travellers Series
 ---
