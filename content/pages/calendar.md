@@ -27,17 +27,17 @@ events:
     type:
       - Regatta
     link: https://www.hicklingbroad.com/summer_regatta.html
-  - start: 2022-08-20
-    end: 2022-08-21
+  - start: 2024-08-17
+    end: 2024-08-18
     title: Punt Championships
     type:
       - Open Meeting
-  - start: 2022-08-27
-    end: 2022-08-29
+  - start: 2024-08-24
+    end: 2024-08-26
     title: Barton Regatta
     type:
       - Regatta
-  - start: 2022-10-08
+  - start: 2024-10-05
     end: ""
     title: Athene Cup
     type:
