@@ -1,13 +1,5 @@
 ---
 events:
-  - start: 2024-06-01
-    end: 2024-06-02
-    title: The Three Rivers Race
-    travelersSeries: true
-    type:
-      - Travellers Series
-      - Navigation Race
-    link: https://www.3rr.uk/
   - start: 2024-05-27
     end: ""
     title: The Cock of the Broads
@@ -16,18 +8,21 @@ events:
       - Navigation Race
       - Travellers Series
     link: https://www.ea-cc.org/index.php/our-activities-and-events2/events-reports-results?view=article&id=93:tmor-2023&catid=21:events
-  - start: 2022-06-12
-    end: ""
-    title: Hickling Punt Open
+  - start: 2024-06-01
+    end: 2024-06-02
+    title: The Three Rivers Race
+    travelersSeries: true
     type:
-      - Open Meeting
-  - start: 2022-06-25
-    end: 2022-06-26
+      - Travellers Series
+      - Navigation Race
+    link: https://www.3rr.uk/
+  - start: 2024-06-22
+    end: 2024-06-23
     title: NPC Punt Open
     type:
       - Open Meeting
-  - start: 2022-08-06
-    end: 2022-08-07
+  - start: 2024-08-03
+    end: 2024-08-04
     title: Hickling Summer Regatta
     type:
       - Regatta
