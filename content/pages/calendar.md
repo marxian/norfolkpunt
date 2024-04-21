@@ -8,14 +8,14 @@ events:
       - Travellers Series
       - Navigation Race
     link: https://www.3rr.uk/
-  - start: 2022-06-05
+  - start: 2024-05-27
     end: ""
     title: The Cock of the Broads
     travelersSeries: true
     type:
       - Navigation Race
       - Travellers Series
-    link: https://www.ea-cc.org/index.php/sailing-events/tmor
+    link: https://www.ea-cc.org/index.php/our-activities-and-events2/events-reports-results?view=article&id=93:tmor-2023&catid=21:events
   - start: 2022-06-12
     end: ""
     title: Hickling Punt Open
