@@ -3,14 +3,18 @@ name: Pintail
 sailNumber: 14
 coverImage: /images/boats/pintail-14.jpg
 yearBuilt: 1929
-loa: 20
+loa: 19
 handicap: 911
-suffixLetter: H
 provisionalHandicap: true
+suffixLetter: H
+builder: W F Jermy of Brundall
 construction: Wood (Carvel)
+design: Traditional
 owners:
+  - from: 2024
+    owner: John Friend
   - from: 1989
-    to: null
+    to: 2024
     owner: Martin Scurr
   - from: 1948
     to: 1989
@@ -31,7 +35,5 @@ owners:
     to: 1936
     owner: W F Jermy
 lost: true
-builder: W F Jermy of Brundall
-design: Traditional
 designer: Herbert Woods
 ---
