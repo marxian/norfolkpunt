@@ -11,8 +11,11 @@ construction: Fibreglass
 design: Hardchine
 designer: Wyche and Coppock
 owners:
+  - from: 2023
+    owner: Ben Simpson
   - from: 2019
     owner: Jamie Manners
+    to: 2023
   - from: 2001
     to: 2019
     owner: J Richards
