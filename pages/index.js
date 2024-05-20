@@ -67,21 +67,21 @@ const Home = () => (
         </Heading>
       </Center>
       <Text>
-        Subscribe to recieve occasional emails containing relevant news and
+        Subscribe to receive occasional emails containing relevant news and
         announcements.
       </Text>
       <form
-        action="https://tinyletter.com/norfolkpuntownersassociation"
+        action="https://buttondown.email/api/emails/embed-subscribe/norfolk_punt"
         method="post"
-        target="_blank"
+        target="popupwindow"
         rel="noopener noreferrer"
+        onsubmit="window.open('https://buttondown.email/norfolk_punt', 'popupwindow')"
       >
         <Flex mt="5">
           <FormControl variant="floating">
-            <Input id="email" name="email" type="email" placeholder="  " />
+            <Input id="bd-email" name="email" type="email" placeholder="  " />
             <FormLabel htmlFor="email">Email address</FormLabel>
           </FormControl>
-          <input type="hidden" value="1" name="embed" />
           <Button type="submit">Subscribe</Button>
         </Flex>
       </form>
@@ -90,7 +90,7 @@ const Home = () => (
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            href="https://tinyletter.com/norfolkpuntownersassociation/archive"
+            href="https://buttondown.email/norfolk_punt/archive"
           >
             view previous editions
           </Link>
