@@ -3,7 +3,7 @@ name: Honey Buzzard
 sailNumber: 83
 yearBuilt: 1991
 loa: 22
-handicap: 856
+handicap: 847
 suffixLetter: C
 builder: T Hubbard
 construction: Composite
