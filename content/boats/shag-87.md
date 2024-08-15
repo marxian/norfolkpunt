@@ -4,7 +4,7 @@ sailNumber: 87
 coverImage: /images/boats/shag-87.jpg
 yearBuilt: 1993
 loa: 22
-handicap: 856
+handicap: 847
 suffixLetter: C
 builder: Tony O'Connor, South River Marine, St Olaves
 construction: Cold-moulded Plywood
