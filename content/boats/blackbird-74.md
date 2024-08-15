@@ -4,7 +4,7 @@ sailNumber: 74
 coverImage: /images/boats/blackbird-74.jpg
 yearBuilt: 1989
 loa: 22
-handicap: 856
+handicap: 847
 suffixLetter: C
 builder: S. Read
 construction: Cold-moulded Plywood
