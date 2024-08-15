@@ -23,4 +23,8 @@ owners:
 hullMeasurements:
   - date: 20/05/1995
     forms: /files/measurements/hull/cormorant_hull.jpg
+sailMeasurements:
+  - date: 07/08/2024
+    area: 21.39
+    forms: /files/measurements/sail/cormorant-07-08-24-punt-sail-measuremment-spreadsheet-04.xlsx
 ---
