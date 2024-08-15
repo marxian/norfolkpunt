@@ -4,7 +4,7 @@ sailNumber: 35
 coverImage: /images/boats/swallow-ii-35.jpg
 yearBuilt: 1936
 loa: 22
-handicap: 911
+handicap: 902
 suffixLetter: H
 builder: Herbert Woods of Potter Heigham
 construction: Wood (Carvel)
