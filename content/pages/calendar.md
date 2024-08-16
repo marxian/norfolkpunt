@@ -50,4 +50,12 @@ events:
     type:
       - Navigation Race
       - Travellers Series
+  - start: 2024-09-14
+    end: 2024-09-15
+    title: NBYC Punt Open
+    type:
+      - Open Meeting
+    description: |-
+      4﻿ races Saturday, first start 10:30\
+      2﻿ races Sunday morning
 ---
