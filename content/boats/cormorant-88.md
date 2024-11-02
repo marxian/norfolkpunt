@@ -4,7 +4,7 @@ sailNumber: 88
 coverImage: /images/boats/cormorant-88.jpg
 yearBuilt: 1993
 loa: 22
-handicap: 856
+handicap: 847
 suffixLetter: C
 builder: M Morrison
 construction: Cold-moulded Plywood
@@ -23,4 +23,8 @@ owners:
 hullMeasurements:
   - date: 20/05/1995
     forms: /files/measurements/hull/cormorant_hull.jpg
+sailMeasurements:
+  - date: 07/08/2024
+    area: 21.39
+    forms: /files/measurements/sail/cormorant-07-08-24-punt-sail-measuremment-spreadsheet-04.xlsx
 ---

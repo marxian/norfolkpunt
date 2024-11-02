@@ -4,9 +4,9 @@ sailNumber: 92
 coverImage: /images/boats/flamingo-92.jpg
 yearBuilt: 1999
 loa: 19
-handicap: 861
+handicap: 884
+provisionalHandicap: false
 suffixLetter: D
-provisionalHandicap: true
 builder: David Horne
 construction: Cold-moulded Plywood
 design: Horne
@@ -28,6 +28,9 @@ hullMeasurements:
     weight: 264
     forms: /files/measurements/hull/flamingo_hull.jpg
 sailMeasurements:
+  - date: 07/08/2024
+    area: 20.11
+    forms: /files/measurements/sail/flamingo-07-08-24-punt-sail-measuremment-spreadsheet-04.xlsx
   - date: 10/10/2017
     area: 18.93
     forms: /files/measurements/sail/flamingo-92-sail-measurement.xlsx

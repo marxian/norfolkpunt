@@ -37,6 +37,14 @@ events:
     title: Barton Regatta
     type:
       - Regatta
+  - start: 2024-09-14
+    end: 2024-09-15
+    title: NBYC Punt Open
+    type:
+      - Open Meeting
+    description: |-
+      4﻿ races Saturday, first start 10:30\
+      2﻿ races Sunday morning
   - start: 2024-10-05
     end: ""
     title: Athene Cup

@@ -4,9 +4,9 @@ sailNumber: 73
 coverImage: /images/boats/razorbill-73.jpg
 yearBuilt: 1985
 loa: 22
-handicap: 870
+handicap: 879
+provisionalHandicap: false
 suffixLetter: E
-provisionalHandicap: true
 builder: D Saunders
 construction: Plywood
 design: Double-chine
@@ -35,6 +35,9 @@ hullMeasurements:
     weight: 271
     forms: /files/measurements/hull/razorbill-18-05-21-hull-measurenet-form-01.xlsx
 sailMeasurements:
+  - date: 07/08/2024
+    area: 21.3
+    forms: /files/measurements/sail/razorbill-07-08-24-punt-sail-measuremment-spreadsheet-04.xlsx
   - date: 03/07/2023
     area: 21.86
     forms: /files/measurements/sail/razorbill-03-07-23.xlsx

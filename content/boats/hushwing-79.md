@@ -4,7 +4,7 @@ sailNumber: 79
 coverImage: /images/boats/hushwing-79.jpg
 yearBuilt: 1990
 loa: 22
-handicap: 856
+handicap: 847
 suffixLetter: C
 builder: Matthew Thwaites
 construction: GRP / Foam sandwich

@@ -42,5 +42,9 @@ hullMeasurements:
   - forms: /files/measurements/hull/greylag_hull.jpg
     date: 31/05/2012
     weight: 265
+sailMeasurements:
+  - date: 07/08/2024
+    area: 21.77
+    forms: /files/measurements/sail/copy-of-greylagc-07-08-24-punt-sail-measuremment-spreadsheet-04.xlsx
 previousNames: Flamer (1958 - 1967)
 ---

@@ -75,7 +75,7 @@ const Home = () => (
         method="post"
         target="popupwindow"
         rel="noopener noreferrer"
-        onsubmit="window.open('https://buttondown.email/norfolk_punt', 'popupwindow')"
+        onSubmit="window.open('https://buttondown.email/norfolk_punt', 'popupwindow')"
       >
         <Flex mt="5">
           <FormControl variant="floating">
