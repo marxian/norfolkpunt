@@ -25,7 +25,7 @@ function Committee() {
         <Heading fontSize={'3xl'}>Committee</Heading>
         <Text color={'gray.600'} fontSize={'xl'}>
           <em>
-            The Committee is elected anually at the Owners&apos; Association
+            The Committee is elected annually at the Owners&apos; Association
             AGM. It consists of a Chair, Secretary, the class Measurers and
             representatives of the Hardchine, One-off, and Traditional fleets,
             along with representation from Hickling Broad Sailing Club.
@@ -304,6 +304,66 @@ function Rules() {
   )
 }
 
+function Travellers() {
+  return (
+    <Box p={4} mt="10">
+      <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'left'}>
+        <Heading fontSize={'3xl'} textAlign={'center'}>
+          Travellers Series
+        </Heading>
+        <Text color={'gray.600'} fontSize={'xl'}>
+          <em>
+            The Flight Trophy is awarded annually at the AGM in accordance with
+            the Travellers Series rules in force for that year.
+          </em>
+        </Text>
+        <Text color={'gray.600'} fontSize={'l'}>
+          Entries should be submitted to the Association Secretary no later than
+          48 hours before the AGM
+        </Text>
+
+        <Text color={'gray.600'} fontSize={'l'}>
+          An entry consists of three events which meet the following conditions:
+        </Text>
+        <OrderedList color={'gray.600'}>
+          <ListItem>
+            The events must be considered &quot;Open&quot; events
+          </ListItem>
+          <ListItem>
+            The event must have been raced by two or more punts
+          </ListItem>
+          <ListItem>
+            The boat and helm must be consistent across the three events
+          </ListItem>
+          <ListItem>
+            No two events submitted may be hosted by the same organisation
+          </ListItem>
+          <ListItem>
+            It must be possible for the Secretary to verify the results to their
+            satisfaction
+          </ListItem>
+        </OrderedList>
+        <Text color={'gray.600'} fontSize={'l'}>
+          The points value of each event submitted will be the position of the
+          boat within the ranking of Norfolk Punts competing in the event.
+        </Text>
+        <Text color={'gray.600'} fontSize={'l'}>
+          The HTC may refuse to accept an event as eligible at their discretion,
+          but must give helms affected by such a decision an explanation, and
+          time and opportunity to submit another qualifying event. The
+          Travellers Series is intended to encourage boats to travel and race at
+          alternative venues. This objective will guide the HTC when questions
+          arise.
+        </Text>
+        <Text color={'gray.600'} fontSize={'l'}>
+          A tie on points will be resolved in favor of the boat whose combined
+          entries have the highest number of total competing Norfolk Punts.
+        </Text>
+      </Stack>
+    </Box>
+  )
+}
+
 function PuntClub() {
   return (
     <Box p={4} mt="10">
@@ -438,6 +498,10 @@ const Technicalities = () => (
       <Divider />
     </Container>
     <Rules />
+    <Container maxW={'6xl'}>
+      <Divider />
+    </Container>
+    <Travellers />
     <Container maxW={'6xl'}>
       <Divider />
     </Container>
