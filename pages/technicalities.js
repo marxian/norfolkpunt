@@ -91,7 +91,7 @@ function Committee() {
             </Box>
             <VStack align={'start'}>
               <Text fontWeight={600}>Hardchine Representative</Text>
-              <Text color={'gray.600'}>Mark Elson</Text>
+              <Text color={'gray.600'}>(vacant)</Text>
             </VStack>
           </HStack>
 
