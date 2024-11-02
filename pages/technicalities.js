@@ -16,7 +16,7 @@ import {
   LinkBox,
   LinkOverlay,
 } from '@chakra-ui/react'
-import { StarIcon, DownloadIcon } from '@chakra-ui/icons'
+import { StarIcon, DownloadIcon, TimeIcon } from '@chakra-ui/icons'
 
 function Committee() {
   return (
@@ -169,7 +169,10 @@ function Rules() {
       <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
         <Heading fontSize={'3xl'}>Rules and Register</Heading>
         <Text color={'gray.600'} fontSize={'xl'}>
-          <em>Downloadable class register, rules, procedures, and forms</em>
+          <em>
+            Downloadable class register, rules, procedures, yardstick
+            calculation data and forms
+          </em>
         </Text>
       </Stack>
 
@@ -295,6 +298,25 @@ function Rules() {
                   <Text fontWeight={600}>Procedures</Text>
                 </LinkOverlay>
                 <Text color={'gray.600'}>The procedures of the NPOA</Text>
+              </VStack>
+            </HStack>
+          </LinkBox>
+          <LinkBox>
+            <HStack align={'top'}>
+              <Box color={'green.400'} px={2}>
+                <Icon as={DownloadIcon} />
+              </Box>
+              <VStack align={'start'}>
+                <LinkOverlay
+                  target="_blank"
+                  href="https://docs.google.com/spreadsheets/d/1vUTNFke4zYw-E_bC1H4f_BRcaVaqJnhZfp0bq98r-Zk/edit?usp=sharing"
+                >
+                  <Text fontWeight={600}>Yardstick Data</Text>
+                </LinkOverlay>
+                <Text color={'gray.600'}>
+                  A spreadsheet of results data used to inform yardstick
+                  decisions
+                </Text>
               </VStack>
             </HStack>
           </LinkBox>
