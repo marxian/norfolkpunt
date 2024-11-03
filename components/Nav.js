@@ -48,6 +48,7 @@ const Nav = () => (
     <Stack direction={['column', 'row']}>
       <NavLink href="/boats">Boats</NavLink>
       <NavLink href="/gallery">Gallery</NavLink>
+      <NavLink href="/honours">Honours</NavLink>
       <NavLink href="/calendar">Calendar</NavLink>
       <NavLink href="/technicalities">Technicalities</NavLink>
     </Stack>
