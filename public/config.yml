@@ -120,7 +120,21 @@ collections:
               widget: select
               name: name
               required: true
-              options: ['Athene Cup', 'Punt Championships', 'Forbes Cup', 'Sundog Trophy', 'Hardchine Trophy', 'Flight Cup (Travellers Series)', 'Three Rivers Race', 'Triple B']
+              options: [
+                'Athene Cup',
+                'Blackbird Trophy',
+                'Ardea Trophy',
+                'Punt Championships',
+                'Progress Cup',
+                'Hardchine Trophy',
+                'Broadshaven Cup',
+                'Cuckoo Cup',
+                'Forbes Cup',
+                'Sundog Trophy',
+                'Flight Cup (Travellers Series)',
+                'Three Rivers Race',
+                'Triple B'
+              ]
             - label: Year
               name: year
               widget: string
