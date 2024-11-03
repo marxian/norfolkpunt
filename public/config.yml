@@ -103,6 +103,38 @@ collections:
               editor_components:
                 - image
               sanitize_preview: true
+      - label: Honours
+        name: honours
+        file: content/pages/honours.md
+        editor:
+          preview: false
+        fields:
+        - label: Events
+          name: events
+          widget: list
+          summary: '{{fields.year}} {{fields.name}} {{fields.winner}}'
+          collapsed: true
+          add_to_top: true
+          fields:
+            - label: Name
+              widget: select
+              name: name
+              required: true
+              options: ['Athene Cup', 'Punt Championships', 'Forbes Cup', 'Sundog Trophy', 'Hardchine Trophy', 'Flight Cup (Travellers Series)', 'Three Rivers Race', 'Triple B']
+            - label: Year
+              name: year
+              widget: string
+              required: true
+              default: ""
+            - label: Winner
+              name: winner
+              required: true
+              widget: relation
+              collection: "boats"
+              search_fields: ["name", "sailNumber"]
+              value_field: "{{slug}}"
+              display_fields: ["{{name}} - {{sailNumber}}"]
+
   - name: boats
     label: Boats
     label_singular: Boat
