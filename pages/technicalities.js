@@ -379,7 +379,8 @@ function Travellers() {
         </Text>
         <Text color={'gray.600'} fontSize={'l'}>
           A tie on points will be resolved in favor of the boat whose combined
-          entries have the highest number of total competing Norfolk Punts.
+          entries have the highest total mileage from the boat&apos;s home club
+          (judged by the Secretary - using an online directions system).
         </Text>
       </Stack>
     </Box>
