@@ -1,5 +1,47 @@
 ---
 events:
+  - year: "2023"
+    name: Sundog Trophy
+    winner: snow-goose-96
+  - year: "2023"
+    name: Forbes Cup
+    winner: wild-goose-53
+  - year: "2023"
+    name: Blackbird Trophy
+    winner: comet-102
+  - year: "2023"
+    name: Athene Cup
+    winner: comet-102
+  - year: "2024"
+    name: Sundog Trophy
+    winner: razorbill-73
+  - year: "2024"
+    name: Forbes Cup
+    winner: swallow-ii-35
+  - year: "2024"
+    name: Cuckoo Cup
+    winner: greylag-50
+  - year: "2024"
+    name: Broadshaven Cup
+    winner: decoy-40
+  - year: "2024"
+    name: Progress Cup
+    winner: blackbird-74
+  - year: "2024"
+    name: Hardchine Trophy
+    winner: snow-goose-96
+  - year: "2024"
+    name: Punt Championships
+    winner: decoy-40
+  - year: "2024"
+    name: Blackbird Trophy
+    winner: wild-goose-53
+  - year: "2024"
+    name: Athene Cup
+    winner: decoy-40
+  - year: "2024"
+    name: Ardea Trophy
+    winner: decoy-40
   - year: "2019"
     name: Three Rivers Race
     winner: comet-102
