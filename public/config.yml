@@ -123,8 +123,8 @@ collections:
               options: [
                 'Athene Cup',
                 'Blackbird Trophy',
-                'Ardea Trophy',
-                'Punt Championships',
+                'Ardea Cup',
+                'Punt Championship Cup',
                 'Progress Cup',
                 'Hardchine Trophy',
                 'Broadshaven Cup',
@@ -148,6 +148,14 @@ collections:
               search_fields: ["name", "sailNumber"]
               value_field: "{{slug}}"
               display_fields: ["{{name}} - {{sailNumber}}"]
+            - label: Helm
+              name: helm
+              required: false
+              widget: string
+            - label: Crew
+              name: crew
+              required: false
+              widget: string
 
   - name: boats
     label: Boats

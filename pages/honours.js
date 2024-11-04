@@ -9,9 +9,11 @@ const Honours = ({ seasons }) => {
         <Container as="section" key={year}>
           <Heading as="h3">{year}</Heading>
           <List>
-            {events.map(({ name, boat }) => (
+            {events.map(({ name, boat, helm, crew }) => (
               <ListItem key={`${name}${year}`}>
-                {`${name} - ${boat.name} ${boat.sailNumber}`}
+                {`${name} - ${boat.name} (${boat.sailNumber}) - ${helm}${
+                  crew ? ' & ' : ''
+                }${crew || ''}`}
               </ListItem>
             ))}
           </List>
