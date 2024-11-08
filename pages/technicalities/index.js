@@ -309,7 +309,7 @@ function Rules() {
               <VStack align={'start'}>
                 <LinkOverlay
                   target="_blank"
-                  href="https://docs.google.com/spreadsheets/d/1vUTNFke4zYw-E_bC1H4f_BRcaVaqJnhZfp0bq98r-Zk/edit?usp=sharing"
+                  href="https://docs.google.com/spreadsheets/d/1GAvJTokeq9d7FXovKvyOxeb6qsr7CXUL/edit?usp=sharing&ouid=106774313990553660303&rtpof=true&sd=true"
                 >
                   <Text fontWeight={600}>Yardstick Data</Text>
                 </LinkOverlay>
