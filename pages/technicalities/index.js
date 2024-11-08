@@ -1,4 +1,4 @@
-import Layout from '../components/Layout'
+import Layout from '../../components/Layout'
 
 import {
   Box,
@@ -16,7 +16,7 @@ import {
   LinkBox,
   LinkOverlay,
 } from '@chakra-ui/react'
-import { StarIcon, DownloadIcon, TimeIcon } from '@chakra-ui/icons'
+import { StarIcon, DownloadIcon, LinkIcon } from '@chakra-ui/icons'
 
 function Committee() {
   return (
@@ -309,13 +309,28 @@ function Rules() {
               <VStack align={'start'}>
                 <LinkOverlay
                   target="_blank"
-                  href="https://docs.google.com/spreadsheets/d/1vUTNFke4zYw-E_bC1H4f_BRcaVaqJnhZfp0bq98r-Zk/edit?usp=sharing"
+                  href="https://docs.google.com/spreadsheets/d/1GAvJTokeq9d7FXovKvyOxeb6qsr7CXUL/edit?usp=sharing&ouid=106774313990553660303&rtpof=true&sd=true"
                 >
                   <Text fontWeight={600}>Yardstick Data</Text>
                 </LinkOverlay>
                 <Text color={'gray.600'}>
                   A spreadsheet of results data used to inform yardstick
                   decisions
+                </Text>
+              </VStack>
+            </HStack>
+          </LinkBox>
+          <LinkBox>
+            <HStack align={'top'}>
+              <Box color={'green.400'} px={2}>
+                <Icon as={LinkIcon} />
+              </Box>
+              <VStack align={'start'}>
+                <LinkOverlay href="/technicalities/yardstick-change-log">
+                  <Text fontWeight={600}>Yardstick Change Log</Text>
+                </LinkOverlay>
+                <Text color={'gray.600'}>
+                  A log of recent yardstick changes
                 </Text>
               </VStack>
             </HStack>

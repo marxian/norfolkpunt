@@ -1,25 +1,50 @@
 import Layout from '../components/Layout'
 import { getBoatBySlug, getPage } from '../content/fetchers'
-import { Box, Container, Heading, List, ListItem } from '@chakra-ui/react'
+import {
+  Box,
+  Container,
+  Heading,
+  List,
+  ListItem,
+  Stack,
+  Text,
+} from '@chakra-ui/react'
 
 const Honours = ({ seasons }) => {
   return (
-    <Box p={4} mt="10" mb="10">
-      {seasons.map(([year, events]) => (
-        <Container as="section" key={year}>
-          <Heading as="h3">{year}</Heading>
-          <List>
-            {events.map(({ name, boat, helm, crew }) => (
-              <ListItem key={`${name}${year}`}>
-                {`${name} - ${boat.name} (${boat.sailNumber}) - ${helm}${
-                  crew ? ' & ' : ''
-                }${crew || ''}`}
-              </ListItem>
-            ))}
-          </List>
-        </Container>
-      ))}
-    </Box>
+    <>
+      <Stack
+        marginTop={10}
+        spacing={4}
+        as={Container}
+        maxW={'3xl'}
+        textAlign={'center'}
+      >
+        <Heading fontSize={'3xl'}>Honours List</Heading>
+        <Text color={'gray.600'} fontSize={'xl'}>
+          <em>
+            The best records we can find for Broadland open races in which Punts
+            commonly compete
+          </em>
+        </Text>
+      </Stack>
+      <Box p={4} mt="10" mb="10">
+        {seasons.map(([year, events]) => (
+          <Container as="section" key={year}>
+            <Heading as="h3">{year}</Heading>
+            <List>
+              {events.map(({ name, boat, helm, crew }) => (
+                <ListItem key={`${name}${year}`}>
+                  {`${name} - ${boat.name} (${boat.sailNumber}) - ${helm}${
+                    crew ? ' & ' : ''
+                  }${crew || ''}`}
+                </ListItem>
+              ))}
+            </List>
+          </Container>
+        ))}
+      </Box>
+    </>
   )
 }
 
