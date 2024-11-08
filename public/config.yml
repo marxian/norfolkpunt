@@ -156,7 +156,55 @@ collections:
               name: crew
               required: false
               widget: string
-
+      - label: Yardstick Change Log
+        name: yardstick-change-log
+        file: content/pages/yardstick-change-log.md
+        editor:
+          preview: false
+        fields:
+          - label: Decisions
+            name: decisions
+            widget: list
+            summary: '{{fields.decision.date}}'
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Decision
+                name: decision
+                widget: object
+                fields:
+                  - label: Date
+                    name: date
+                    widget: datetime
+                    default: '{{now}}'
+                    date_format: "DD-MM-YYYY"
+                  - label: Rationale
+                    name: rationale
+                    widget: text
+                    required: false
+                  - label: Boats Affected
+                    name: boatsAffected
+                    widget: list
+                    collapsed: true
+                    add_to_top: true
+                    summary: '{{fields.slug}} {{fields.from}} -> {{fields.to}}'
+                    fields:
+                      - label: Boat
+                        name: slug
+                        required: true
+                        widget: relation
+                        collection: "boats"
+                        search_fields: ["name", "sailNumber", "handicap"]
+                        value_field: "{{slug}}"
+                        display_fields: ["{{name}} ({{sailNumber}}) - ${{handicap}}"]
+                      - label: From
+                        name: from
+                        widget: string
+                        required: true
+                      - label: To
+                        name: to
+                        widget: string
+                        required: true
   - name: boats
     label: Boats
     label_singular: Boat
