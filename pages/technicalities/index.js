@@ -91,7 +91,7 @@ function Committee() {
             </Box>
             <VStack align={'start'}>
               <Text fontWeight={600}>Hardchine Representative</Text>
-              <Text color={'gray.600'}>(vacant)</Text>
+              <Text color={'gray.600'}>Edward Clifford</Text>
             </VStack>
           </HStack>
 
@@ -131,7 +131,7 @@ function Committee() {
             </Box>
             <VStack align={'start'}>
               <Text fontWeight={600}>Youth Representative</Text>
-              <Text color={'gray.600'}>Edward Clifford</Text>
+              <Text color={'gray.600'}>Johnny Rudd</Text>
             </VStack>
           </HStack>
         </SimpleGrid>
