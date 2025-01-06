@@ -21,10 +21,21 @@ export function getBoatBySlug(slug) {
   const fullPath = join(boatsDirectory, `${slug}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
+  const honours = getHonours(slug)
   return {
-    data,
+    data: {
+      ...data,
+      honours,
+    },
     content,
   }
+}
+
+function getHonours(slug) {
+  const { data, content } = getPage('honours')
+  return data.events
+    .filter((e) => e.winner === slug)
+    .sort((a, b) => parseInt(b.year) - parseInt(a.year))
 }
 
 export function getBoats() {

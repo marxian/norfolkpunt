@@ -130,6 +130,28 @@ function PuntDetails({ punt, image }) {
                 </List>
               </Box>
             )}
+            {punt?.honours?.length && (
+              <Box>
+                <Text
+                  fontSize={{ base: '16px', lg: '18px' }}
+                  color={'yellow.500'}
+                  fontWeight={'500'}
+                  textTransform={'uppercase'}
+                  mb={'4'}
+                >
+                  Honours
+                </Text>
+
+                <List spacing={2}>
+                  {punt.honours.map((h, i) => (
+                    <ListItem key={`${h.year}${h.event}`}>
+                      {h.year} <strong>{h.name}</strong> {h.helm}{' '}
+                      {h.crew ? ` & ${h.crew}` : ''}
+                    </ListItem>
+                  ))}
+                </List>
+              </Box>
+            )}
             <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
               <Box>
                 <Text
