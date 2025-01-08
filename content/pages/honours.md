@@ -891,7 +891,7 @@ events:
     helm: Drew, Daniels, Elson
   - year: "1932"
     name: Broadshaven Cup
-    winner: swallow-6
+    winner: swallow-ii-35
     helm: A Chittock
   - year: "1933"
     name: Broadshaven Cup
