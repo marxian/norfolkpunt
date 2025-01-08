@@ -891,7 +891,7 @@ events:
     helm: Drew, Daniels, Elson
   - year: "1932"
     name: Broadshaven Cup
-    winner: swallow-ii-35
+    winner: swallow-6
     helm: A Chittock
   - year: "1933"
     name: Broadshaven Cup
@@ -912,7 +912,8 @@ events:
   - year: "2007"
     name: Broadshaven Cup
     winner: rushlight-27
-    helm: E Lewis
+    helm: Emma Lewis
+    crew: Bill Glover
   - year: "2008"
     name: Broadshaven Cup
     winner: swallow-ii-35
@@ -953,6 +954,7 @@ events:
     name: Broadshaven Cup
     winner: swallow-ii-35
     helm: Emma Daniels
+    crew: Will Daniels
   - year: "2018"
     name: Broadshaven Cup
     winner: decoy-40
@@ -972,6 +974,7 @@ events:
     name: Broadshaven Cup
     winner: swallow-ii-35
     helm: Will Daniels
+    crew: Rob Daniels
   - year: "2023"
     name: Broadshaven Cup
     winner: decoy-40
@@ -1033,10 +1036,12 @@ events:
     name: Ardea Cup
     winner: swallow-ii-35
     helm: S Lomas-Clark
+    crew: Rob Daniels
   - year: "2016"
     name: Ardea Cup
     winner: swallow-ii-35
     helm: S Lomas-Clark
+    crew: Rob Daniels
   - year: "2017"
     name: Ardea Cup
     winner: comet-102
@@ -1095,8 +1100,8 @@ events:
   - year: "2024"
     name: Forbes Cup
     winner: swallow-ii-35
-    helm: Emma Daniels
-    crew: Will Daniels
+    helm: Will Daniels
+    crew: Rob Daniels
   - year: "2024"
     name: Cuckoo Cup
     winner: greylag-50
