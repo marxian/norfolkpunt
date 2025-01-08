@@ -547,10 +547,12 @@ events:
     name: Progress Cup
     winner: blackbird-74
     helm: Andrew Friend
+    crew: Robert Friend
   - year: "2023"
     name: Progress Cup
     winner: blackbird-74
     helm: Andrew Friend
+    crew: Robert Friend
   - year: "1969"
     name: Punt Championship Cup
     winner: tern-54
@@ -797,10 +799,12 @@ events:
     name: Punt Championship Cup
     winner: blackbird-74
     helm: Andrew Friend
+    crew: Robert Friend
   - year: "2023"
     name: Punt Championship Cup
     winner: blackbird-74
     helm: Andrew Friend
+    crew: Robert Friend
   - year: "2002"
     name: Cuckoo Cup
     winner: whooper-94
@@ -1107,7 +1111,7 @@ events:
     name: Progress Cup
     winner: blackbird-74
     helm: Andrew Friend
-    crew: ""
+    crew: Robert Friend
   - year: "2024"
     name: Hardchine Trophy
     winner: snow-goose-96
