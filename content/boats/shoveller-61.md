@@ -1,7 +1,7 @@
 ---
 name: Shoveller
 sailNumber: 61
-coverImage: /images/boats/shoveller-61.jpg
+coverImage: /images/boats/1413ff42-6bd9-4f37-b757-e83c55096bd3.jpg
 yearBuilt: 1975
 loa: 22
 handicap: 884
@@ -11,8 +11,10 @@ construction: Plywood
 design: Hardchine
 designer: Wyche and Coppock
 owners:
+  - from: 2024
+    owner: Wilum Johnston
   - from: 2009
-    to: null
+    to: 2024
     owner: Brian Wilkins
   - from: 1999
     to: 2009
