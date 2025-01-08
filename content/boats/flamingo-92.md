@@ -1,7 +1,7 @@
 ---
 name: Flamingo
 sailNumber: 92
-coverImage: /images/boats/flamingo-92.jpg
+coverImage: /images/boats/d77ebddd-170a-4629-92fc-3383f9e4a681-1-.jpeg
 yearBuilt: 1999
 loa: 19
 handicap: 884
@@ -12,8 +12,11 @@ construction: Cold-moulded Plywood
 design: Horne
 designer: David Horne
 owners:
+  - from: 2024
+    owner: Johnnie Rudd
   - from: 2021
     owner: Leanne Murray
+    to: 2024
   - from: 2018
     to: 2021
     owner: Colin Murray & Oliver Murray
