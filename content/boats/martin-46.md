@@ -11,6 +11,8 @@ construction: Wood (Carvel)
 design: Traditional
 designer: Herbert Woods
 owners:
+  - from: 2024
+    owner: Richard Parker & Robert Snelling
   - from: 2022
     owner: Kevin Thomas
   - from: 2018
