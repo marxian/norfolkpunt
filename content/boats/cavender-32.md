@@ -4,7 +4,7 @@ sailNumber: 32
 coverImage: /images/boats/cavender-32.jpg
 yearBuilt: 1933
 loa: 22
-handicap: 935
+handicap: 926
 suffixLetter: K
 builder: W Mollett
 construction: Wood (Clinker)
