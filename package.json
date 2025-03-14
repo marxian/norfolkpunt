@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "author": "Rupert Redington <rupert@pirateutopia.org>",
   "dependencies": {
-    "@chakra-ui/icons": "2.1.1",
-    "@chakra-ui/react": "2.8.2",
+    "@chakra-ui/icons": "2.2.4",
+    "@chakra-ui/react": "2.10.7",
     "@emotion/react": "11.11.1",
     "@emotion/styled": "11.11.0",
     "@fontsource/vollkorn": "5.0.20",
