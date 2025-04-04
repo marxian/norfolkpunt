@@ -28,6 +28,9 @@ hullMeasurements:
     weight: 250
     forms: /files/measurements/hull/peregrine_hull.jpg
 sailMeasurements:
+  - date: 27/03/2025
+    area: 21.63
+    forms: /files/measurements/sail/peregrine-27-03-25-punt-sail-measuremment-spreadsheet-04.xlsx
   - area: 21.19
     date: 10/10/2017
     forms: /files/measurements/sail/peregrine-86-sail-measurement.xlsx
