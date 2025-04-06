@@ -2,7 +2,7 @@
 name: Hummingbird
 sailNumber: 93
 yearBuilt: 2000
-loa: 22
+loa: 19
 handicap: 884
 provisionalHandicap: true
 suffixLetter: D
