@@ -29,6 +29,6 @@ stories:
   - story: In 2014 we took Redwing to Germany for a multi-day downriver race on the
       Rhine. We had a great time, but the wake from massive coal barges was
       challenging and craning the boat up sheer 40 foot embankments in a sling
-      was nerve-wracking.
+      was nerve-wracking
     author: Rupert Redington
 ---
