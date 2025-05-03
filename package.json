@@ -40,9 +40,9 @@
     ]
   },
   "scripts": {
-    "dev": "next",
+    "dev": "next dev --turbopack",
     "prebuild": "node ./content/buildRegister.js",
-    "build": "yarn prebuild & next build",
+    "build": "yarn prebuild & next build --turbopack",
     "start": "next start",
     "format": "prettier --write .",
     "lint": "next lint",
