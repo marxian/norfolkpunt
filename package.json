@@ -58,7 +58,7 @@
     "lint-staged": "13.3.0",
     "papaparse": "5.5.2",
     "prettier": "3.5.3",
-    "vercel": "41.7.0"
+    "vercel": "41.7.2"
   },
   "engines": {
     "node": "22.x"
