@@ -1,6 +1,18 @@
 ---
 decisions:
   - decision:
+      date: 14-02-2025
+      boatsAffected:
+        - slug: cavender-32
+          from: "935"
+          to: "926"
+        - slug: sardine-33
+          from: "935"
+          to: "926"
+        - slug: decoy-40
+          from: "935"
+          to: "926"
+  - decision:
       date: 13-08-2024
       boatsAffected:
         - slug: whooper-94
