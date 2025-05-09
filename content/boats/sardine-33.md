@@ -6,7 +6,7 @@ yearBuilt: 1934
 loa: 22
 handicap: 926
 provisionalHandicap: false
-suffixLetter: N
+suffixLetter: I
 builder: Herbert Woods of Potter Heigham
 construction: Wood (Carvel)
 design: Traditional
