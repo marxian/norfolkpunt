@@ -13,11 +13,12 @@ import {
 } from '@chakra-ui/react'
 import Layout from '../components/Layout'
 import Image from '../components/Image'
+import { getNotices } from '../content/fetchers'
 
 import header from '../public/images/site/line.jpg'
 import twos from '../public/images/site/twos.jpg'
 
-const Home = () => (
+const Home = ({ notices }) => (
   <>
     <Image
       alt="The start of a race at the Punt Championships"
@@ -40,7 +41,7 @@ const Home = () => (
     <Container>
       <Image
         alt="Two hardchine punts in close racing"
-        placholder="blur"
+        placeholder="blur"
         className="db"
         src={twos}
       />
@@ -52,6 +53,36 @@ const Home = () => (
       humble beginnings that one of the country&apos;s most exciting and
       powerful racing dinghy classes was born.
     </Container>
+
+    {notices.length &&
+      notices.map((notice) => {
+        return (
+          <Container key={notice.title} marginTop={'2em'}>
+            <Center>
+              <Heading
+                w="50%"
+                fontSize={['1xl', '2xl', '4xl']}
+                fontWeight="bold"
+                HeadingAlign="center"
+              >
+                {notice.title}
+              </Heading>
+            </Center>
+            <Flex display={'block'}>
+              <Image
+                rounded={'md'}
+                {...notice.image.img}
+                placeholder="blur"
+                blurDataURL={notice.image.base64}
+                alt={'fixme'}
+                layout="responsive"
+                align={'center'}
+              />
+            </Flex>
+            {notice.html}
+          </Container>
+        )
+      })}
 
     <Container
       mt="2em"
@@ -102,6 +133,16 @@ const Home = () => (
 
 Home.getLayout = function getLayout(page) {
   return <Layout>{page}</Layout>
+}
+
+export async function getStaticProps({ params }) {
+  const notices = await getNotices()
+  return {
+    props: {
+      notices,
+    },
+    revalidate: 43200,
+  }
 }
 
 export default Home

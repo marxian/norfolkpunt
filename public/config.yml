@@ -18,6 +18,39 @@ logo_url: 'https://www.norfolkpunt.org/logo.png'
 media_folder: /public/images
 public_folder: /images
 collections:
+  - name: notices
+    label: Notices
+    label_singular: Notice
+    folder: content/notices
+    editor:
+      preview: false
+    preview_path: '/'
+    create: true
+    slug: '{{title}}'
+    summary: '{{title}}'
+    sortable_fields:
+      - name
+    extension: md
+    identifier_field: title
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Image
+        name: image
+        widget: image
+        required: true
+        media_folder: '/public/images/notices'
+        public_folder: '/images/notices'
+        tagname: ''
+      - label: Alt
+        name: alt
+        widget: string
+        required: true
+      - label: Body
+        name: body
+        widget: markdown
+        required: true
   - name: pages
     label: Pages
     files:

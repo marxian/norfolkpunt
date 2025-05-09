@@ -5,6 +5,8 @@ import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
 
+import { getPlaiceholder } from 'plaiceholder'
+
 export async function markdownToHtml(markdown) {
   const result = await remark().use(html).process(markdown)
   return result.toString()
@@ -29,6 +31,24 @@ export function getBoatBySlug(slug) {
     },
     content,
   }
+}
+
+export async function getNotices() {
+  const noticesDirectory = join(process.cwd(), 'content', 'notices')
+  const files = fs.readdirSync(noticesDirectory)
+  const notices = []
+
+  for (const file of files) {
+    const fullPath = join(noticesDirectory, file)
+    const fileContents = fs.readFileSync(fullPath, 'utf8')
+
+    const { data } = matter(fileContents)
+    const html = await markdownToHtml(data.body)
+    const image = await getPlaiceholder(data.image)
+    notices.push({ title: data.title, image, html })
+  }
+
+  return notices
 }
 
 function getHonours(slug) {
