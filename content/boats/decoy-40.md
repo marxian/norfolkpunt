@@ -5,7 +5,7 @@ coverImage: /images/boats/decoy-40.jpg
 yearBuilt: 1937
 loa: 22
 handicap: 926
-suffixLetter: K
+suffixLetter: I
 builder: H T Percival of Horning
 construction: Wood (Carvel)
 design: Traditional
