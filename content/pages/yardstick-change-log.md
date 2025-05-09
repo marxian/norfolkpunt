@@ -3,6 +3,9 @@ decisions:
   - decision:
       date: 14-02-2025
       boatsAffected:
+        - slug: swallow-ii-35
+          from: "902"
+          to: "893"
         - slug: cavender-32
           from: "935"
           to: "926"
