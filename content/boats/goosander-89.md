@@ -5,8 +5,8 @@ coverImage: /images/boats/1p1a9962.jpg
 yearBuilt: 1994
 loa: 20
 handicap: 925
-suffixLetter: I
 provisionalHandicap: false
+suffixLetter: I
 builder: Fabian Bush
 construction: Clinker Plywood
 design: Bush
@@ -30,6 +30,8 @@ owners:
     to: 2000
     owner: Dr R A Bayles
 sailMeasurements:
+  - date: 8/05/2025
+    forms: /files/measurements/sail/goosander-07-05-25-sail-measuremment-spreadsheet-03.xlsx
   - date: 26/06/2021
     area: 21.49
   - date: 26/06/2021
