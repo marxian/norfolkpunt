@@ -5,7 +5,7 @@ coverImage: /images/boats/swallow-ii-35.jpg
 yearBuilt: 1936
 loa: 22
 handicap: 893
-suffixLetter: H
+suffixLetter: G
 builder: Herbert Woods of Potter Heigham
 construction: Wood (Carvel)
 design: Traditional
