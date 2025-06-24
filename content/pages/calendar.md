@@ -37,14 +37,12 @@ events:
     title: Barton Regatta
     type:
       - Regatta
-  - start: 2025-09-13
-    end: 2025-09-14
-    title: NBYC Punt Open (TBC)
+  - start: 2025-06-28
+    end: 2025-09-29
+    title: NBYC Punt Open
     type:
       - Open Meeting
-    description: |-
-      4﻿ races Saturday, first start 10:30\
-      2﻿ races Sunday morning
+    description: ""
   - start: 2025-10-11
     end: ""
     title: Athene Cup
@@ -58,4 +56,9 @@ events:
     type:
       - Navigation Race
       - Travellers Series
+  - start: 2025-08-30
+    end: 2025-08-31
+    title: NBYC Punt Open
+    type:
+      - Open Meeting
 ---
