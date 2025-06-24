@@ -11,8 +11,10 @@ construction: Plywood
 design: Hardchine
 designer: Wyche and Coppock
 owners:
+  - from: 2023
+    owner: Edward Clifford & Alex Standley
   - from: 2019
-    to: null
+    to: 2023
     owner: Toby Tracey
   - from: 2005
     to: 2005
