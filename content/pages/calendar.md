@@ -38,7 +38,7 @@ events:
     type:
       - Regatta
   - start: 2025-06-28
-    end: 2025-09-29
+    end: 2025-06-29
     title: NBYC Punt Open
     type:
       - Open Meeting
