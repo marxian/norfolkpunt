@@ -4,7 +4,7 @@ sailNumber: 92
 coverImage: /images/boats/d77ebddd-170a-4629-92fc-3383f9e4a681-1-.jpeg
 yearBuilt: 1999
 loa: 19
-handicap: 884
+handicap: 925
 provisionalHandicap: false
 suffixLetter: D
 builder: David Horne
