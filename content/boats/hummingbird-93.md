@@ -3,7 +3,7 @@ name: Hummingbird
 sailNumber: 93
 yearBuilt: 2000
 loa: 19
-handicap: 884
+handicap: 925
 provisionalHandicap: true
 suffixLetter: D
 builder: David Horne
