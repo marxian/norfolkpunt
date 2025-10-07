@@ -4,9 +4,9 @@ sailNumber: 106
 coverImage: /images/boats/ecae5a04-6645-4cd2-83b3-95f9aad35553.jpg
 yearBuilt: 2023
 loa: 20
-handicap: 856
+handicap: 879
+provisionalHandicap: false
 suffixLetter: C
-provisionalHandicap: true
 builder: John Friend
 construction: Strip plank cedar with a carbon and glass sandwich
 design: One Off
