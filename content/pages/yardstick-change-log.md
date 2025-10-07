@@ -1,6 +1,18 @@
 ---
 decisions:
   - decision:
+      date: 01-10-2025
+      boatsAffected:
+        - slug: wahoo-106
+          from: 856p
+          to: "879"
+        - slug: hummingbird-93
+          from: "884"
+          to: 925p
+        - slug: flamingo-92
+          from: "884"
+          to: "925"
+  - decision:
       date: 14-02-2025
       boatsAffected:
         - slug: swallow-ii-35
