@@ -11,8 +11,10 @@ construction: Carbon Foam Sandwich (Wooden Decks)
 design: Hardchine
 designer: Wyche and Coppock
 owners:
+  - from: 2025
+    owner: Charlie Stewart
   - from: 2003
-    to: null
+    to: 2025
     owner: Jane Pye & John Parker
 hullMeasurements:
   - date: 04/08/2003
