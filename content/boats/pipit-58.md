@@ -11,8 +11,10 @@ construction: Plywood
 design: Hardchine
 designer: Wyche and Coppock
 owners:
+  - from: 2024
+    owner: Jack Drew
   - from: 2014
-    to: null
+    to: 2024
     owner: Mike Griffin
   - from: 2001
     to: 2014
