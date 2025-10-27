@@ -5,15 +5,18 @@ coverImage: /images/boats/woodlark-105.jpg
 yearBuilt: 2019
 loa: 18
 handicap: 1003
-suffixLetter: R
 provisionalHandicap: true
+suffixLetter: R
 builder: Chris Wood
 construction: Clinker ply
 design: Singlehander
 designer: Chris Wood
 owners:
+  - from: 2025
+    owner: Matthew Stephenson
   - from: 2021
     owner: Jim Rosser
+    to: 2025
   - from: 2019
     to: 2021
     owner: Chris Wood
