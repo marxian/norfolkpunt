@@ -10,8 +10,13 @@ construction: Fibreglass
 design: Hardchine
 designer: Wyche and Coppock
 owners:
+  - from: 2025
+    owner: Martyn Francis
+  - from: 2025
+    owner: Emily Francis
   - from: 2022
     owner: Gavin Smith
+    to: 2025
   - from: 2018
     to: 2022
     owner: John Parker
