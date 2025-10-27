@@ -11,6 +11,8 @@ construction: Foam sandwich composite
 design: Hardchine
 designer: Wyche and Coppock
 owners:
+  - from: 2025
+    owner: Oliver Franzen
   - from: 2014
     to: null
     owner: David Long
