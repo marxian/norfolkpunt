@@ -17,7 +17,7 @@ owners:
     to: 2025
     owner: David Baulcombe
   - from: 2004
-    to: 2028
+    to: 2014
     owner: R Conway
   - from: 2001
     to: 2004
