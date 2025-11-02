@@ -11,11 +11,13 @@ construction: Plywood
 design: Hardchine
 designer: Wyche and Coppock
 owners:
+  - from: 2021
+    owner: Eliza Bolton
   - from: 2001
-    to: null
+    to: 2025
     owner: David Baulcombe
   - from: 2004
-    to: null
+    to: 2028
     owner: R Conway
   - from: 2001
     to: 2004
