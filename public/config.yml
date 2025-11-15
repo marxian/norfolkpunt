@@ -36,17 +36,18 @@ collections:
       - label: Title
         name: title
         widget: string
+        required: false
       - label: Image
         name: image
         widget: image
-        required: true
+        required: false
         media_folder: '/public/images/notices'
         public_folder: '/images/notices'
         tagname: ''
       - label: Alt
         name: alt
         widget: string
-        required: true
+        required: false
       - label: Body
         name: body
         widget: markdown
