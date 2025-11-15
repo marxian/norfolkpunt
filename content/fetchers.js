@@ -43,9 +43,10 @@ export async function getNotices() {
     const fileContents = fs.readFileSync(fullPath, 'utf8')
 
     const { data } = matter(fileContents)
+    console.log(data)
     const html = await markdownToHtml(data.body)
-    const image = await getPlaiceholder(data.image)
-    notices.push({ title: data.title, image, html })
+    const image = data.image ? await getPlaiceholder(data.image) : null
+    notices.push({ title: data.title, image, html, alt: data.alt || null })
   }
 
   return notices

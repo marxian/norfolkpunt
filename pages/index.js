@@ -75,7 +75,7 @@ const Home = ({ notices }) => (
                   {...notice.image.img}
                   placeholder="blur"
                   blurDataURL={notice.image.base64}
-                  alt={'fixme'}
+                  alt={notice.alt}
                   layout="responsive"
                   align={'center'}
                 />
