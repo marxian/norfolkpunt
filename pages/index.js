@@ -68,17 +68,19 @@ const Home = ({ notices }) => (
                 {notice.title}
               </Heading>
             </Center>
-            <Flex display={'block'}>
-              <Image
-                rounded={'md'}
-                {...notice.image.img}
-                placeholder="blur"
-                blurDataURL={notice.image.base64}
-                alt={'fixme'}
-                layout="responsive"
-                align={'center'}
-              />
-            </Flex>
+            {notice.image && notice.alt && (
+              <Flex display={'block'}>
+                <Image
+                  rounded={'md'}
+                  {...notice.image.img}
+                  placeholder="blur"
+                  blurDataURL={notice.image.base64}
+                  alt={'fixme'}
+                  layout="responsive"
+                  align={'center'}
+                />
+              </Flex>
+            )}
             {notice.html}
           </Container>
         )
