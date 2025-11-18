@@ -14,7 +14,7 @@
     "chakra-ui-markdown-renderer": "4.1.0",
     "date-fns": "2.30.0",
     "framer-motion": "10.18.0",
-    "glob": "10.4.5",
+    "glob": "11.1.0",
     "gray-matter": "4.0.3",
     "next": "15.3.1",
     "next-plausible": "3.12.4",
