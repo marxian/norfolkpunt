@@ -1,5 +1,9 @@
 ---
 events:
+  - year: "2024"
+    name: Flight Cup (Travellers Series)
+    winner: redwing-98
+    helm: Rupert Redington
   - year: "1929"
     name: Athene Cup
     winner: prawn-19
@@ -1260,7 +1264,7 @@ events:
   - year: "2005"
     name: Flight Cup (Travellers Series)
     winner: wild-goose-53
-    helm: "John Parker"
+    helm: John Parker
     crew: ""
   - year: "2024"
     name: Triple B
@@ -1280,22 +1284,22 @@ events:
   - year: "2017"
     name: Triple B
     winner: wild-goose-ii-103
-    helm: "John Parker"
-    crew: "James Savage"
+    helm: John Parker
+    crew: James Savage
   - year: "2013"
     name: Triple B
     winner: wild-goose-53
-    helm: "John Parker"
+    helm: John Parker
     crew: ""
   - year: "2012"
     name: Triple B
     winner: comet-102
-    helm: "Richard Whitefoot"
+    helm: Richard Whitefoot
     crew: ""
   - year: "2011"
     name: Triple B
     winner: comet-102
-    helm: "Richard Whitefoot"
+    helm: Richard Whitefoot
     crew: ""
   - year: "1996"
     name: Triple B
