@@ -13,7 +13,7 @@ const MyApp = (props) => {
   return (
     <PlausibleProvider domain="norfolkpunt.org">
       <Head>
-        <title>{`Norfolk Punt Owners Association`}</title>
+        <title>{`Norfolk Punt Sailors Association`}</title>
         <meta
           name="Description"
           content="The Norfolk Punt is a performance racing dinghy with a long and fascinating history."

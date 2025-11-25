@@ -25,10 +25,11 @@ function Committee() {
         <Heading fontSize={'3xl'}>Committee</Heading>
         <Text color={'gray.600'} fontSize={'xl'}>
           <em>
-            The Committee is elected annually at the Owners&apos; Association
+            The Committee is elected annually at the Sailors&apos; Association
             AGM. It consists of a Chair, Secretary, the class Measurers and
             representatives of the Hardchine, One-off, and Traditional fleets,
-            along with representation from Hickling Broad Sailing Club.
+            along with a Youth representative and representation from clubs
+            aside from the Norfolk Punt Club.
           </em>
         </Text>
       </Stack>
@@ -51,7 +52,7 @@ function Committee() {
             </Box>
             <VStack align={'start'}>
               <Text fontWeight={600}>Secretary</Text>
-              <Text color={'gray.600'}>Bill Glover</Text>
+              <Text color={'gray.600'}>Richard Parker</Text>
             </VStack>
           </HStack>
 
@@ -111,7 +112,7 @@ function Committee() {
             </Box>
             <VStack align={'start'}>
               <Text fontWeight={600}>Wroxham Representative</Text>
-              <Text color={'gray.600'}>Richard Parker</Text>
+              <Text color={'gray.600'}>Wilum Johnston</Text>
             </VStack>
           </HStack>
 
@@ -293,11 +294,11 @@ function Rules() {
               <VStack align={'start'}>
                 <LinkOverlay
                   target="_blank"
-                  href="/norfolk-punt-owners-association-rules-procedures.pdf"
+                  href="/norfolk-punt-sailors-association-rules-procedures.pdf"
                 >
                   <Text fontWeight={600}>Procedures</Text>
                 </LinkOverlay>
-                <Text color={'gray.600'}>The procedures of the NPOA</Text>
+                <Text color={'gray.600'}>The procedures of the NPSA</Text>
               </VStack>
             </HStack>
           </LinkBox>
@@ -411,7 +412,7 @@ function PuntClub() {
         </Heading>
         <Text color={'gray.600'} fontSize={'xl'}>
           <em>
-            The <strong>Norfolk Punt Owners Association</strong> and the{' '}
+            The <strong>Norfolk Punt Sailors Association</strong> and the{' '}
             <strong>Norfolk Punt Club</strong> are closely related. Portions of
             the <strong>Norfolk Punt Club</strong> constitution which refer to
             the association are set out below.
@@ -421,57 +422,60 @@ function PuntClub() {
 
       <Container maxW={'3xl'} mt={10} bg={'gray.100'} p={5} rounded={'md'}>
         <Heading fontSize={'2xl'}>
-          SECTION 9 - PUNT OWNER&apos;S ASSOCIATION
+          SECTION 9 - PUNT SAILORS&apos;S ASSOCIATION
         </Heading>
         <OrderedList start="65">
           <ListItem>
             <Heading fontSize={'xl'}>
-              Punt Owners&apos; Association Committee
+              Norfolk Punt Sailors&apos; Association Committee
             </Heading>
             <p>
-              a)The Punt Owners&apos; Association Committee (POA) shall be
-              deemed to be a sub committee of the Club and its purpose shall be
-              to encourage and control the building, sailing, racing and
-              development of the Norfolk Punt in close cooperation with the Club
-              and to represent Punt Owners whether or not they are members of
-              the Club.
+              a)The Norfolk Punt Sailors&apos; Association Committee (NPSA)
+              shall be deemed to be a sub committee of the Club and its purpose
+              shall be to encourage and control the building, sailing, racing
+              and development of the Norfolk Punt in close cooperation with the
+              Club and to represent Punt Owners whether or not they are members
+              of the Club.
             </p>
             <p>
-              b)The Punt Owners&apos; Association (POA) shall have its own Rules
-              and Procedures (POA Rules) so far as these do not conflict with
-              the Rules or constitution of the Club. A copy of any such NPOA
-              Rules must be provided to the Honorary Secretary of the Club who
-              shall be notified forthwith of any change in the NPOA Rules.
-              (included as Annex A below)
+              b)The Norfolk Punt Sailors&apos; Association (NPSA) shall have its
+              own Rules and Procedures (NPSA Rules) so far as these do not
+              conflict with the Rules or constitution of the Club. A copy of any
+              such NPSA Rules must be provided to the Honorary Secretary of the
+              Club who shall be notified forthwith of any change in the NPSA
+              Rules. (included as Annex A below)
             </p>
           </ListItem>
           <ListItem>
-            <Heading fontSize={'xl'}>Punt Owner</Heading>
+            <Heading fontSize={'xl'}>Punt Sailor</Heading>
             <p>
               A Punt Owner is defined as any person owning or part owning a
               Norfolk Punt (hereinafter called a Punt) recognised to be a boat
-              within the class of Norfolk Punts as defined by the POA Rules
+              within the class of Norfolk Punts as defined by the NPSA Rules. A
+              Punt Sailor is defined as any person who has raced in a Norfolk
+              Punt in more than one event within the current and previous
+              season.
             </p>
           </ListItem>
           <ListItem>
-            <Heading fontSize={'xl'}>POA Committee</Heading>
+            <Heading fontSize={'xl'}>NPSA Committee</Heading>
             <p>
-              The POA committee shall consist of the POA Chair, the POA
+              The NPSA committee shall consist of the NPSA Chair, the NPSA
               Secretary (who during the period of tenure shall be an ex officio
               member of the Club Committee) and a Member of the NPC Committee
               (who shall be a Punt Owner) nominated by the NPC Committee. These
-              persons together shall be known as the POA Committee and shall
+              persons together shall be known as the NPSA Committee and shall
               take office from 1st January next following for one year.
             </p>
           </ListItem>
           <ListItem>
             <Heading fontSize={'xl'}>Membership</Heading>
             <p>
-              Any members of the POA Committee or any sub committee thereto who
+              Any members of the NPSA Committee or any sub committee thereto who
               are not Full Members or adult Family Members of the Club shall for
-              so long as they shall serve on the POA Committee become Temporary
+              so long as they shall serve on the NPSA Committee become Temporary
               Members of the Club. The granting of Temporary Membership to any
-              member of the POA Committee shall not oblige such member to pay
+              member of the NPSA Committee shall not oblige such member to pay
               any Entrance fee or annual subscription but such Temporary members
               shall not be entitled to exercise any of the rights and privileges
               of Club membership and for the avoidance of doubt they shall have
@@ -481,23 +485,23 @@ function PuntClub() {
           <ListItem>
             <Heading fontSize={'xl'}>Meetings.</Heading>
             <p>
-              The Punt Owners Association Secretary, or, if none, the NPC
-              Honorary Secretary, shall convene Meetings of Punt Owners (POA
-              meetings) by giving not less than fourteen days notice to each
-              Punt Owner on the Owners&apos; register, and shall convene a POA
-              Annual General Meeting and any Special General POA Meetings in the
-              same manner as provided by Section 6 of the Club Constitution
-              relating to the Annual General Meeting or any Special General
-              Meetings of the Club, (so far as relevant) except that a
+              The Norfolk Punt Sailors Association Secretary, or, if none, the
+              NPC Honorary Secretary, shall convene Meetings of Punt Sailors
+              (NPSA meetings) by giving not less than fourteen days notice to
+              Punt Owners and Sailors via appropriate means, and shall convene a
+              NPSA Annual General Meeting and any Special General NPSA Meetings
+              in the same manner as provided by Section 6 of the Club
+              Constitution relating to the Annual General Meeting or any Special
+              General Meetings of the Club, (so far as relevant) except that a
               requisition need be made and signed by five Punt Owners only. All
-              Punts Owners whether or not Club Members shall be entitled to
-              attend the POA Annual General Meeting and any Special General POA
-              Meetings. The election, retirement and continuation of membership
-              of the POA Committee shall be in accordance with provisions of
-              Section 4 of the Club Constitution (so far as relevant) and the
-              voting and procedures to be followed at such meetings shall be in
-              accordance with the Club provisions therein save that at POA
-              meetings ten owners shall form a quorum.
+              Punts Sailors whether or not Club Members shall be entitled to
+              attend the NPSA Annual General Meeting and any Special General
+              NPSA Meetings. The election, retirement and continuation of
+              membership of the NPSA Committee shall be in accordance with
+              provisions of Section 4 of the Club Constitution (so far as
+              relevant) and the voting and procedures to be followed at such
+              meetings shall be in accordance with the Club provisions therein
+              save that at NPSA meetings ten owners shall form a quorum.
             </p>
           </ListItem>
           <ListItem>
@@ -506,15 +510,15 @@ function PuntClub() {
             </Heading>
             <p>
               a)A Handicap and Technical Sub Committee (HTC) shall be formed at
-              the direction of the POA Committee to examine Punt handicaps,
+              the direction of the NPSA Committee to examine Punt handicaps,
               changes to boat or sail measurements and any technical issues that
               might affect the Punt Class. This shall be a sub committee of the
-              POA and shall meet in accordance with the Rules of the POA and
-              shall report back to the POA Committee.
+              NPSA and shall meet in accordance with the Rules of the NPSA and
+              shall report back to the NPSA Committee.
             </p>
             <p>
               b)The Punt Owners&apos; Association Secretary shall report to the
-              Club Committee on any matters resolved by the POA and any
+              Club Committee on any matters resolved by the NPSA and any
               subcommittees thereto.
             </p>
             <p>
