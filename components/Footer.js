@@ -10,7 +10,8 @@ const Footer = () => (
       Log In
     </Link>
     <Text>
-      &copy;{new Date().getFullYear()} Norfolk&nbsp;Punt Owners&nbsp;Association
+      &copy;{new Date().getFullYear()} Norfolk&nbsp;Punt
+      Sailors&nbsp;Association
     </Text>
     <Text>
       Most photographs by kind permission &copy;&nbsp;

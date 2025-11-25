@@ -38,7 +38,7 @@ const Nav = () => (
           <Heading color={'white'} as="h1">
             Norfolk Punt{' '}
             <Text as="span" color={'gray.400'} fontSize={'2xl'}>
-              Owners Association
+              Sailors Association
             </Text>
           </Heading>
         </LinkOverlay>
