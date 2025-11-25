@@ -1,6 +1,11 @@
 ---
 events:
   - year: "2025"
+    name: Flight Cup (Travellers Series)
+    winner: shoveller-61
+    helm: Wilum Johnston
+    crew: Kate Davies
+  - year: "2025"
     name: Blackbird Trophy
     winner: razorbill-73
     helm: Richard Parker
