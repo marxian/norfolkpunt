@@ -1,5 +1,15 @@
 ---
 events:
+  - year: "2025"
+    name: Blackbird Trophy
+    winner: razorbill-73
+    helm: Richard Parker
+    crew: Robert Snelling
+  - year: "2025"
+    name: Athene Cup
+    winner: razorbill-73
+    helm: Richard Parker
+    crew: Robert Snelling
   - year: "2024"
     name: Flight Cup (Travellers Series)
     winner: redwing-98
