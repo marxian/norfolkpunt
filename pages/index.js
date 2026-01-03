@@ -143,7 +143,6 @@ export async function getStaticProps({ params }) {
     props: {
       notices,
     },
-    revalidate: 43200,
   }
 }
 
