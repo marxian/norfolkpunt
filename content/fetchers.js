@@ -66,6 +66,12 @@ export function getBoats() {
   }))
 }
 
+export function getBoatsForSale() {
+  return getBoats()
+    .filter((boat) => boat.data.forSale === true)
+    .sort((a, b) => b.data.sailNumber - a.data.sailNumber)
+}
+
 const pagesDirectory = join(process.cwd(), 'content', 'pages')
 
 export function getPage(name) {

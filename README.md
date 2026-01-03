@@ -13,6 +13,7 @@ The official website for the Norfolk Punt Sailors Association, dedicated to the 
   - Measurement records
   - Race honours and wins
   - User-submitted stories
+  - **Boats for sale**: Mark boats as for sale with pricing and seller information
 
 - **Event Calendar**: Upcoming races, meetings, and social events
 - **Photo Gallery**: Curated images of boats and racing with lightbox viewing
@@ -147,6 +148,21 @@ Each boat includes:
 - Race honours (computed from honours.md)
 - User-submitted stories with attribution
 - Previous names tracking
+- **For sale information** (optional):
+  - For sale flag
+  - Price
+  - Condition notes
+  - Items included in sale
+  - Seller contact information
+
+### Boats For Sale Feature
+
+Boats can be marked as for sale in the CMS with optional sale details. When marked for sale:
+- A red "FOR SALE" badge appears on boat cards (homepage and boats index)
+- An alert banner displays at the top of the boat's detail page
+- Sale information (price, condition, items, seller) is shown in a dedicated section
+- The boat appears in the "Boats For Sale" section on the homepage
+- All sale fields are optional to allow flexibility
 
 ## Architecture
 
