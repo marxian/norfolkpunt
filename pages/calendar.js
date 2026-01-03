@@ -128,7 +128,8 @@ export async function getStaticProps({ params }) {
       ...e,
       start: format(e.start, 'yyyy-MM-dd'),
       end: e.end ? format(e.end, 'yyyy-MM-dd') : null,
-    })).reverse()
+    }))
+    .reverse()
   const future = events
     .filter((e) => isFuture(e.start))
     .map((e) => ({
@@ -137,12 +138,17 @@ export async function getStaticProps({ params }) {
       end: e.end ? format(e.end, 'yyyy-MM-dd') : null,
     }))
 
+  // IMPORTANT: Keep revalidate enabled for calendar page
+  // The page uses isPast()/isFuture() to classify events at build time.
+  // Without revalidation, events would only move from "future" to "past"
+  // sections when the site is deployed. 12-hour revalidation ensures
+  // events transition automatically.
   return {
     props: {
       past,
       future,
     },
-    revalidate: 43200,
+    revalidate: 43200, // 12 hours - needed for automatic event transitions
   }
 }
 

@@ -77,7 +77,6 @@ export async function getStaticProps({ params }) {
     props: {
       decisions,
     },
-    revalidate: 43200,
   }
 }
 

@@ -173,7 +173,6 @@ export async function getStaticProps({ params }) {
       notices,
       boatsForSale,
     },
-    revalidate: 43200,
   }
 }
 
