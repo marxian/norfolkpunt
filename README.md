@@ -195,6 +195,32 @@ yarn build
 - Security headers configured
 - Privacy-focused analytics
 
+## Development Workflow
+
+### Node Version Management
+Always run `nvm use` when opening a new shell to ensure you're using the correct Node version (24.x). The project uses Husky pre-commit hooks that require the correct Node version.
+
+```bash
+nvm use
+```
+
+### Feature Branch Workflow
+For any new feature or change:
+1. **Create a feature branch first** - Don't work directly on main
+2. Make your changes and commit
+3. Push the branch and open a PR using GitHub CLI
+4. Example:
+```bash
+git checkout -b feature-name
+# make changes
+git add .
+git commit -m "Description"
+git push -u origin feature-name
+gh pr create --base main
+```
+
+The site automatically rebuilds and deploys on commits to main, so all changes should go through pull requests.
+
 ## Contributing
 
 Content contributions can be made through the CMS interface. For code contributions, please follow the existing code style and run linting before submitting.
