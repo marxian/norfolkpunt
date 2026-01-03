@@ -13,6 +13,11 @@ import {
   StatLabel,
   StatNumber,
   Link,
+  Alert,
+  AlertIcon,
+  AlertTitle,
+  AlertDescription,
+  VStack,
 } from '@chakra-ui/react'
 
 import Story from '../components/Story'
@@ -21,6 +26,25 @@ import Image from '../components/Image'
 function PuntDetails({ punt, image }) {
   return (
     <Container maxW={'7xl'}>
+      {punt.forSale && (
+        <Alert
+          status="warning"
+          variant="solid"
+          borderRadius="md"
+          mt={6}
+          mb={0}
+          py={4}
+        >
+          <AlertIcon boxSize={6} />
+          <VStack align="start" spacing={1}>
+            <AlertTitle fontSize="xl">This boat is for sale</AlertTitle>
+            <AlertDescription>
+              Contact the Norfolk Punt Sailors Association secretary for
+              inquiries.
+            </AlertDescription>
+          </VStack>
+        </Alert>
+      )}
       <SimpleGrid
         columns={{ base: 1, lg: 2 }}
         spacing={{ base: 8, md: 10 }}
@@ -109,6 +133,58 @@ function PuntDetails({ punt, image }) {
                 </Stat>
               </SimpleGrid>
             </Box>
+            {punt.forSale && punt.saleInfo && (
+              <Box>
+                <Text
+                  fontSize={{ base: '16px', lg: '18px' }}
+                  color={'yellow.500'}
+                  fontWeight={'500'}
+                  textTransform={'uppercase'}
+                  mb={'4'}
+                >
+                  Sale Information
+                </Text>
+
+                <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+                  {punt.saleInfo.price && (
+                    <Stat>
+                      <StatLabel>Asking Price</StatLabel>
+                      <StatNumber>{punt.saleInfo.price}</StatNumber>
+                    </Stat>
+                  )}
+                  {punt.saleInfo.conditionNotes && (
+                    <Box>
+                      <Text fontWeight="bold" mb={2}>
+                        Condition
+                      </Text>
+                      <Text whiteSpace="pre-wrap">
+                        {punt.saleInfo.conditionNotes}
+                      </Text>
+                    </Box>
+                  )}
+                  {punt.saleInfo.itemsIncluded && (
+                    <Box>
+                      <Text fontWeight="bold" mb={2}>
+                        Items Included
+                      </Text>
+                      <Text whiteSpace="pre-wrap">
+                        {punt.saleInfo.itemsIncluded}
+                      </Text>
+                    </Box>
+                  )}
+                  {punt.saleInfo.contactNotes && (
+                    <Box gridColumn={{ md: '1 / -1' }}>
+                      <Text fontWeight="bold" mb={2}>
+                        Seller
+                      </Text>
+                      <Text whiteSpace="pre-wrap">
+                        {punt.saleInfo.contactNotes}
+                      </Text>
+                    </Box>
+                  )}
+                </SimpleGrid>
+              </Box>
+            )}
             {punt?.stories?.length && (
               <Box>
                 <Text

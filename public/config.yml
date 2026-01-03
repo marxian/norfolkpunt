@@ -318,6 +318,39 @@ collections:
           - label: Owner
             name: owner
             widget: string
+      - label: For Sale
+        name: forSale
+        widget: boolean
+        required: false
+        default: false
+        hint: Mark this boat as currently for sale
+      - label: Sale Information
+        name: saleInfo
+        widget: object
+        required: false
+        collapsed: true
+        hint: Additional details about the sale (all fields optional)
+        fields:
+          - label: Price
+            name: price
+            widget: string
+            required: false
+            hint: e.g., "£5,000" or "Offers invited"
+          - label: Condition Notes
+            name: conditionNotes
+            widget: text
+            required: false
+            hint: Brief description of boat's current condition
+          - label: Items Included
+            name: itemsIncluded
+            widget: text
+            required: false
+            hint: What's included in the sale (trailer, sails, etc.)
+          - label: Seller
+            name: contactNotes
+            widget: text
+            required: false
+            hint: Seller contact information
       - label: Hull Measurements
         name: hullMeasurements
         widget: list

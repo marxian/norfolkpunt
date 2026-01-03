@@ -10,15 +10,18 @@ import {
   Flex,
   Heading,
   Link,
+  SimpleGrid,
 } from '@chakra-ui/react'
 import Layout from '../components/Layout'
 import Image from '../components/Image'
-import { getNotices } from '../content/fetchers'
+import PuntCard from '../components/PuntCard'
+import { getNotices, getBoatsForSale } from '../content/fetchers'
+import { getPlaiceholder } from 'plaiceholder'
 
 import header from '../public/images/site/line.jpg'
 import twos from '../public/images/site/twos.jpg'
 
-const Home = ({ notices }) => (
+const Home = ({ notices, boatsForSale }) => (
   <>
     <Image
       alt="The start of a race at the Punt Championships"
@@ -86,6 +89,21 @@ const Home = ({ notices }) => (
         )
       })}
 
+    {boatsForSale.length > 0 && (
+      <Container mt="3em" mb="2em">
+        <Center>
+          <Heading fontSize={['2xl', '3xl', '4xl']} fontWeight="bold" mb={6}>
+            Boats For Sale
+          </Heading>
+        </Center>
+        <SimpleGrid columns={[1, 2, 3]} spacing="4">
+          {boatsForSale.map(({ data, slug, image }) => (
+            <PuntCard key={slug} punt={data} slug={slug} image={image} />
+          ))}
+        </SimpleGrid>
+      </Container>
+    )}
+
     <Container
       mt="2em"
       mb="2em"
@@ -139,9 +157,21 @@ Home.getLayout = function getLayout(page) {
 
 export async function getStaticProps({ params }) {
   const notices = await getNotices()
+
+  // Get boats for sale
+  const boatsForSaleData = getBoatsForSale()
+  const boatsForSale = []
+  for (const punt of boatsForSaleData) {
+    let image = await getPlaiceholder(
+      punt.data.coverImage || '/images/site/photograph-wanted.png'
+    )
+    boatsForSale.push({ ...punt, image })
+  }
+
   return {
     props: {
       notices,
+      boatsForSale,
     },
     revalidate: 43200,
   }
