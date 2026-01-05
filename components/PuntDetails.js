@@ -154,6 +154,16 @@ function PuntDetails({ punt, image }) {
                       <StatNumber>{punt.saleInfo.price}</StatNumber>
                     </Stat>
                   )}
+                  {punt.saleInfo.contactNotes && (
+                    <Box>
+                      <Text fontWeight="bold" mb={2}>
+                        Seller
+                      </Text>
+                      <Text whiteSpace="pre-wrap">
+                        {punt.saleInfo.contactNotes}
+                      </Text>
+                    </Box>
+                  )}
                   {punt.saleInfo.conditionNotes && (
                     <Box>
                       <Text fontWeight="bold" mb={2}>
@@ -172,16 +182,6 @@ function PuntDetails({ punt, image }) {
                       <ReactMarkdown components={ChakraUIRenderer()} skipHtml>
                         {punt.saleInfo.itemsIncluded}
                       </ReactMarkdown>
-                    </Box>
-                  )}
-                  {punt.saleInfo.contactNotes && (
-                    <Box gridColumn={{ md: '1 / -1' }}>
-                      <Text fontWeight="bold" mb={2}>
-                        Seller
-                      </Text>
-                      <Text whiteSpace="pre-wrap">
-                        {punt.saleInfo.contactNotes}
-                      </Text>
                     </Box>
                   )}
                 </SimpleGrid>
