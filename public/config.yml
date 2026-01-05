@@ -338,14 +338,28 @@ collections:
             hint: e.g., "£5,000" or "Offers invited"
           - label: Condition Notes
             name: conditionNotes
-            widget: text
+            widget: markdown
             required: false
             hint: Brief description of boat's current condition
+            buttons:
+              - bold
+              - italic
+              - link
+              - bulleted-list
+              - numbered-list
+            sanitize_preview: true
           - label: Items Included
             name: itemsIncluded
-            widget: text
+            widget: markdown
             required: false
             hint: What's included in the sale (trailer, sails, etc.)
+            buttons:
+              - bold
+              - italic
+              - link
+              - bulleted-list
+              - numbered-list
+            sanitize_preview: true
           - label: Seller
             name: contactNotes
             widget: text

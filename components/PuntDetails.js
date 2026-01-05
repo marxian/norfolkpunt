@@ -22,6 +22,8 @@ import {
 
 import Story from '../components/Story'
 import Image from '../components/Image'
+import ChakraUIRenderer from 'chakra-ui-markdown-renderer'
+import ReactMarkdown from 'react-markdown'
 
 function PuntDetails({ punt, image }) {
   return (
@@ -157,9 +159,9 @@ function PuntDetails({ punt, image }) {
                       <Text fontWeight="bold" mb={2}>
                         Condition
                       </Text>
-                      <Text whiteSpace="pre-wrap">
+                      <ReactMarkdown components={ChakraUIRenderer()} skipHtml>
                         {punt.saleInfo.conditionNotes}
-                      </Text>
+                      </ReactMarkdown>
                     </Box>
                   )}
                   {punt.saleInfo.itemsIncluded && (
@@ -167,9 +169,9 @@ function PuntDetails({ punt, image }) {
                       <Text fontWeight="bold" mb={2}>
                         Items Included
                       </Text>
-                      <Text whiteSpace="pre-wrap">
+                      <ReactMarkdown components={ChakraUIRenderer()} skipHtml>
                         {punt.saleInfo.itemsIncluded}
-                      </Text>
+                      </ReactMarkdown>
                     </Box>
                   )}
                   {punt.saleInfo.contactNotes && (
