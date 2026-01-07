@@ -1,7 +1,7 @@
 ---
 name: Martin
 sailNumber: 46
-coverImage: /images/boats/martin-46.jpg
+coverImage: /images/boats/whatsapp-image-2026-01-06-at-21.25.29.jpeg
 yearBuilt: 1947
 loa: 22
 handicap: 1023
@@ -42,4 +42,13 @@ owners:
   - from: 1947
     to: 1955
     owner: Dr and Mrs B M Tracey
+forSale: true
+saleInfo:
+  price: £2500
+  conditionNotes: Ready to sail
+  itemsIncluded: |-
+    \* New Cover
+
+    \* Combi-Trailer
+  contactNotes: Richard Parker
 ---
