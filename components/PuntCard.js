@@ -3,11 +3,11 @@ import { Box, Heading, LinkBox, LinkOverlay, Badge } from '@chakra-ui/react'
 import Image from '../components/Image'
 import Link from 'next/link'
 
-const PuntCard = ({ punt, slug, image }) => {
+const PuntCard = ({ punt, slug, image, compact = false }) => {
   return (
     <LinkBox>
       <Box
-        w="xs"
+        w={compact ? 'full' : 'xs'}
         bg="white"
         shadow="lg"
         rounded="lg"

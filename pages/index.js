@@ -96,9 +96,15 @@ const Home = ({ notices, boatsForSale }) => (
             Boats For Sale
           </Heading>
         </Center>
-        <SimpleGrid columns={[1, 2, 3]} spacing="4">
+        <SimpleGrid columns={[1, 2, 3]} spacing="6">
           {boatsForSale.map(({ data, slug, image }) => (
-            <PuntCard key={slug} punt={data} slug={slug} image={image} />
+            <PuntCard
+              key={slug}
+              punt={data}
+              slug={slug}
+              image={image}
+              compact
+            />
           ))}
         </SimpleGrid>
       </Container>
