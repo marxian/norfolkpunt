@@ -13,7 +13,7 @@ designer: Herbert Woods
 owners:
   - from: 2015
     to: null
-    owner: Ruth Owen ,James Owen, Rev Neville Khambatta and Val Khambatta
+    owner: Ruth Owen, James Owen, Rev Neville Khambatta and Val Khambatta
   - from: 1989
     to: null
     owner: Rev Neville Khambatta & Val Khambatta
