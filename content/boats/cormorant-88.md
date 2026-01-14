@@ -11,8 +11,10 @@ construction: Cold-moulded Plywood
 design: Morrison
 designer: Phil Morrison
 owners:
+  - from: 2020
+    owner: Bart Sawyer
   - from: 2018
-    to: null
+    to: 2020
     owner: Tim Edmunds & Bart Sawyer
   - from: 2003
     to: 2018
