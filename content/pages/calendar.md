@@ -16,8 +16,8 @@ events:
       - Travellers Series
       - Navigation Race
     link: https://www.3rr.uk/
-  - start: 2025-05-10
-    end: 2025-05-11
+  - start: 2026-05-09
+    end: 2026-05-10
     title: NPC Punt Open
     type:
       - Open Meeting
