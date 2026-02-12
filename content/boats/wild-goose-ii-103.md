@@ -11,8 +11,10 @@ construction: Foam sandwich composite
 design: Hardchine
 designer: Wyche and Coppock
 owners:
+  - from: 2025
+    owner: Jane Pye
   - from: 2016
-    to: null
+    to: 2025
     owner: John Parker
 sailMeasurements:
   - area: 21.56
