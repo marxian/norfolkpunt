@@ -19,4 +19,7 @@ owners:
   - from: 1976
     to: 2010
     owner: R McDonald Cobb
+sailMeasurements:
+  - forms: /files/measurements/sail/razorbill-07-08-24-punt-sail-measuremment-spreadsheet-04.xlsx
+    date: 07/08/2024
 ---
