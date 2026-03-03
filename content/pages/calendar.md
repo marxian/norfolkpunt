@@ -56,8 +56,13 @@ events:
     type:
       - Navigation Race
       - Travellers Series
-  - start: 2025-08-30
-    end: 2025-08-31
+  - start: 2026-06-06
+    end: 2026-06-07
+    title: NBYC Punt Open
+    type:
+      - Open Meeting
+  - start: 2026-09-12
+    end: 2026-09-13
     title: NBYC Punt Open
     type:
       - Open Meeting
