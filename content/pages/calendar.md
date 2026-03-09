@@ -49,7 +49,7 @@ events:
     type:
       - Navigation Race
       - Travellers Series
-  - start: 2025-07-19
+  - start: 2026-07-11
     end: ""
     title: Triple B
     link: http://www.coldhamhallsailingclub.co.uk/raceprogramme/raceprogramme.html
