@@ -29,4 +29,9 @@ owners:
   - from: 1980
     to: 2001
     owner: D H Adler
+forSale: true
+saleInfo:
+  price: £6,000
+  itemsIncluded: Carbon Mast, lightly used Batt Sails, combi-trailer, new cover.
+  contactNotes: Peter Cullum & Eddie Evans
 ---
