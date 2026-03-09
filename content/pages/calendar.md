@@ -21,12 +21,6 @@ events:
     title: NPC Punt Open
     type:
       - Open Meeting
-  - start: 2025-08-02
-    end: 2025-08-03
-    title: Hickling Summer Regatta (TBC)
-    type:
-      - Regatta
-    link: https://www.hicklingbroad.com/summer_regatta.html
   - start: 2026-08-22
     end: 2026-08-23
     title: Punt Championships
@@ -37,12 +31,6 @@ events:
     title: Barton Regatta
     type:
       - Regatta
-  - start: 2025-06-28
-    end: 2025-06-29
-    title: NBYC Punt Open
-    type:
-      - Open Meeting
-    description: ""
   - start: 2026-10-03
     end: ""
     title: Athene Cup
