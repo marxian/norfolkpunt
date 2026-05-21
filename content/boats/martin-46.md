@@ -11,7 +11,11 @@ construction: Wood (Carvel)
 design: Traditional
 designer: Herbert Woods
 owners:
+  - from: 2026
+    to: null
+    owner: Sophie Harmer, Kathy Gill & Simon Learmount
   - from: 2024
+    to: 2026
     owner: Richard Parker & Robert Snelling
   - from: 2022
     owner: Kevin Thomas
@@ -42,13 +46,5 @@ owners:
   - from: 1947
     to: 1955
     owner: Dr and Mrs B M Tracey
-forSale: true
-saleInfo:
-  price: £2500
-  conditionNotes: Ready to sail
-  itemsIncluded: |-
-    \* New Cover
-
-    \* Combi-Trailer
-  contactNotes: Richard Parker
+forSale: false
 ---
