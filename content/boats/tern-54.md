@@ -11,8 +11,11 @@ construction: Plywood
 design: Hardchine
 designer: Wyche and Coppock
 owners:
+  - from: 2026
+  - to: null
+  - owner: Rob Jakob
   - from: 2017
-    to: null
+    to: 2026
     owner: Hugh Marston
   - from: 2005
     to: 2017
@@ -38,27 +41,7 @@ owners:
   - from: 1963
     to: 1977
     owner: Dr and Mrs J A Eddy
-forSale: true
-saleInfo:
-  price: £7,250
-  conditionNotes: >-
-    Tern is one of the four Punts built by Eastwood Whelpton, all four Punts
-    have won the Punt Championships. Tern has a very good racing history, and
-    has won the Championships and Hardchine Trophy.
-
-
-    Tern has recently had 2/3rds of the bottom replaced, the hull repainted, and is ready to sail for the coming season.
-  itemsIncluded: |-
-    * Selden Carbon Mast
-    * Superspars Carbon Boom
-    * Spinnaker Pole
-    * Batt Mainsail and Genoa
-    * Batt Asymmetric
-    * Batt Spinnaker
-    * Overboom Cover
-    * Combi Trailer Unit
-    * JJ Foils (Centreboard & Rudder)
-  contactNotes: John Parker
+forSale: false
 sailMeasurements:
   - date: 30/05/2021
     area: 21.35
