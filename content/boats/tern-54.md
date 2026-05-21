@@ -12,8 +12,8 @@ design: Hardchine
 designer: Wyche and Coppock
 owners:
   - from: 2026
-  - to: null
-  - owner: Rob Jakob
+    to: null
+    owner: Rob Jakob
   - from: 2017
     to: 2026
     owner: Hugh Marston
