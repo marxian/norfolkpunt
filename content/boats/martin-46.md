@@ -13,7 +13,7 @@ designer: Herbert Woods
 owners:
   - from: 2026
     to: null
-    owner: Sophie Harmer, Kathy Gill & Simon Learmount
+    owner: Sophie Hammer, Kathy Gill & Simon Learmount
   - from: 2024
     to: 2026
     owner: Richard Parker & Robert Snelling
