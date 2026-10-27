@@ -2,7 +2,7 @@ cms_manual_init: false
 load_config_file: false
 backend:
   name: turbo-github
-  turbo-site-id: 22fb0fae-a73d-41ce-a08e-4113e1dacbff
+  turbo_site_id: 22fb0fae-a73d-41ce-a08e-4113e1dacbff
   repo: marxian/norfolkpunt
   commit_messages:
     create: 'feat: add {{collection}} {{slug}}'
