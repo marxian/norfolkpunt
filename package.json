@@ -9,7 +9,6 @@
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
     "@fontsource/vollkorn": "5.2.10",
-    "@openlab/vercel-netlify-cms-github": "1.1.1",
     "@plaiceholder/next": "2.5.0",
     "chakra-ui-markdown-renderer": "4.1.0",
     "date-fns": "2.30.0",
@@ -47,11 +46,9 @@
     "format": "prettier --write .",
     "lint": "next lint",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "localcms": "decap-server",
     "prepare": "husky install"
   },
   "devDependencies": {
-    "decap-server": "3.4.0",
     "eslint": "8.57.1",
     "eslint-config-next": "15.5.9",
     "husky": "8.0.3",
